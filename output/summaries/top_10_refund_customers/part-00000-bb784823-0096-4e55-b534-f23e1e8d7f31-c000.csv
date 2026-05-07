@@ -1,0 +1,11 @@
+customer_id,email,country,customer_tier,total_refund_amount
+C00407,raymond43@example.org,Egypt,silver,13509.57
+C00306,kchavez@example.com,South Africa,bronze,11760.85
+C00296,uparrish@example.org,Egypt,platinum,11314.7
+,,,,10334.120000000003
+C00492,nancy04@example.net,Ghana,bronze,10062.65
+C00127,wsmith@example.com,Kenya,bronze,9709.55
+C00350,elizabethcalderon@example.net,Tanzania,bronze,9667.4
+C00298,ericolson@example.org,Ethiopia,silver,9545.01
+C00254,michelleramsey@example.com,Ghana,platinum,9210.740000000002
+C00081,rodriguezsierra@example.net,Senegal,platinum,8989.53

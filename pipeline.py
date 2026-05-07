@@ -471,6 +471,35 @@ top_10_refund_customers_df = (
     .limit(10)
 )
 
+# 6 output and partition
+
+# Write rejected records
+rejected_orders_df.write.mode("overwrite").option("header", True).csv("output/rejected/orders")
+rejected_customers_df.write.mode("overwrite").option("header", True).csv("output/rejected/customers")
+rejected_order_items_df.write.mode("overwrite").option("header", True).csv("output/rejected/order_items")
+rejected_returns_df.write.mode("overwrite").option("header", True).csv("output/rejected/returns")
+
+# Write orphaned order items to a separate output file
+orphaned_order_items_df.write.mode("overwrite").option("header", True).csv("output/orphaned_order_items")
+
+# Write final enriched dataset to Parquet partitioned by order year and order month
+enriched_orders_with_month_df.write.mode("overwrite").partitionBy(
+    "order_year",
+    "order_month"
+).parquet("output/enriched_orders")
+
+# Write aggregated summary tables to CSV
+customers_ranked_df.write.mode("overwrite").option("header", True).csv("output/summaries/customers_ranked")
+rolling_order_count_df.write.mode("overwrite").option("header", True).csv("output/summaries/rolling_7_day_order_count")
+category_revenue_share_df.write.mode("overwrite").option("header", True).csv("output/summaries/category_revenue_share")
+returns_enriched_df.write.mode("overwrite").option("header", True).csv("output/summaries/returns_enriched")
+return_rate_by_category_df.write.mode("overwrite").option("header", True).csv("output/summaries/return_rate_by_category")
+return_rate_by_tier_df.write.mode("overwrite").option("header", True).csv("output/summaries/return_rate_by_tier")
+top_10_refund_customers_df.write.mode("overwrite").option("header", True).csv("output/summaries/top_10_refund_customers")
+
+
+
+
 
 
 print("Clean orders:", orders_clean_df.count())

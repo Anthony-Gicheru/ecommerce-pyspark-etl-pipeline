@@ -1,0 +1,885 @@
+order_id,return_id,return_date,reason,refund_amount,customer_id,order_date,status,total_amount,discount_pct,is_negative_amount,signup_date,country,customer_tier,email,item_id,product_id,quantity,unit_price,category,net_amount,refund_exceeds_order
+O0001117,R000283,2023-03-21,wrong_item,476.87,C00444,2023-11-02,cancelled,1672.14,0.0,false,2020-01-15,Nigeria,silver,tjimenez@example.com,I000003287,P0069,3,236.8,clothing,1672.14,false
+O0001117,R000283,2023-03-21,wrong_item,476.87,C00444,2023-11-02,cancelled,1672.14,0.0,false,2020-01-15,Nigeria,silver,tjimenez@example.com,I000003286,P0030,4,272.89,sports,1672.14,false
+O0000183,R000278,2023-01-25,duplicate_order,1904.66,C00282,2023-10-09,shipped,2341.01,10.0,false,2023-09-09,Rwanda,silver,stephen00@example.com,I000000525,P0317,7,416.94,home_garden,2106.909,false
+O0000183,R000278,2023-01-25,duplicate_order,1904.66,C00282,2023-10-09,shipped,2341.01,10.0,false,2023-09-09,Rwanda,silver,stephen00@example.com,I000000526,P0487,8,199.93,home_garden,2106.909,false
+O_MISSING_00015,R_GHOST_00016,2023-02-28,arrived_late,275.09,,,,,,,,,,,,,,,,,false
+O0000904,R000263,2024-03-05,duplicate_order,1132.29,C00390,2022-03-12,shipped,2442.5,15.0,false,2020-09-11,Rwanda,platinum,zachary87@example.com,I000002673,P0285,9,282.07,sports,2076.125,false
+O0000904,R000263,2024-03-05,duplicate_order,1132.29,C00390,2022-03-12,shipped,2442.5,15.0,false,2020-09-11,Rwanda,platinum,zachary87@example.com,I000002674,P0059,7,116.3,sports,2076.125,false
+O0000107,R000148,2024-02-20,arrived_late,1153.29,C00326,2022-05-28,shipped,831.47,0.0,false,2021-03-29,Nigeria,gold,schmidtjames@example.com,I000000306,P0317,8,41.69,books,831.47,true
+O0000107,R000148,2024-02-20,arrived_late,1153.29,C00326,2022-05-28,shipped,831.47,0.0,false,2021-03-29,Nigeria,gold,schmidtjames@example.com,I000000307,P0497,6,435.42,home_garden,831.47,true
+O0000600,R000174,2023-05-27,wrong_item,1169.35,C00192,2022-12-10,completed,1800.61,15.0,false,2020-04-10,Ethiopia,platinum,mnavarro@example.com,I000001764,P0465,8,72.28,home_garden,1530.5185,false
+O0001757,R000289,2023-05-11,not_as_described,61.37,C00360,2024-01-03,completed,505.76,5.0,false,2023-01-03,Ghana,silver,mmckee@example.com,I000005193,P0413,5,84.45,toys,480.472,false
+O0001757,R000289,2023-05-11,not_as_described,61.37,C00360,2024-01-03,completed,505.76,5.0,false,2023-01-03,Ghana,silver,mmckee@example.com,I000005197,P0144,8,19.74,home_garden,480.472,false
+O0001757,R000289,2023-05-11,not_as_described,61.37,C00360,2024-01-03,completed,505.76,5.0,false,2023-01-03,Ghana,silver,mmckee@example.com,I000005194,P0046,6,490.93,clothing,480.472,false
+O0001757,R000289,2023-05-11,not_as_described,61.37,C00360,2024-01-03,completed,505.76,5.0,false,2023-01-03,Ghana,silver,mmckee@example.com,I000005196,P0350,5,414.02,beauty,480.472,false
+O0001757,R000289,2023-05-11,not_as_described,61.37,C00360,2024-01-03,completed,505.76,5.0,false,2023-01-03,Ghana,silver,mmckee@example.com,I000005195,P0356,7,331.27,books,480.472,false
+O0000626,R000163,2024-03-25,duplicate_order,557.53,C00173,2022-01-20,pending,1776.11,15.0,false,2020-12-17,Kenya,silver,andrewstaylor@example.com,I000001843,P0476,2,75.6,books,1509.6934999999999,false
+O0000626,R000163,2024-03-25,duplicate_order,557.53,C00173,2022-01-20,pending,1776.11,15.0,false,2020-12-17,Kenya,silver,andrewstaylor@example.com,I000001844,P0404,8,411.0,food_drink,1509.6934999999999,false
+O0000626,R000163,2024-03-25,duplicate_order,557.53,C00173,2022-01-20,pending,1776.11,15.0,false,2020-12-17,Kenya,silver,andrewstaylor@example.com,I000001845,P0013,1,250.08,beauty,1509.6934999999999,false
+O0001269,R000124,2024-03-30,duplicate_order,758.51,,,,,,,,,,,,,,,,,false
+O0001462,R000280,2023-07-28,defective,368.0,C00163,2024-04-27,cancelled,2190.56,25.0,false,2019-08-01,Ethiopia,bronze,davisjeffrey@example.net,I000004283,P0103,4,114.48,home_garden,1642.92,false
+O0001462,R000280,2023-07-28,defective,368.0,C00163,2024-04-27,cancelled,2190.56,25.0,false,2019-08-01,Ethiopia,bronze,davisjeffrey@example.net,I000004282,P0163,8,178.29,food_drink,1642.92,false
+O0001462,R000280,2023-07-28,defective,368.0,C00163,2024-04-27,cancelled,2190.56,25.0,false,2019-08-01,Ethiopia,bronze,davisjeffrey@example.net,I000004284,P0283,7,69.74,toys,1642.92,false
+O0001462,R000280,2023-07-28,defective,368.0,C00163,2024-04-27,cancelled,2190.56,25.0,false,2019-08-01,Ethiopia,bronze,davisjeffrey@example.net,I000004281,P0044,5,255.55,sports,1642.92,false
+O0000198,R000131,2022-10-14,changed_mind,173.25,C00258,2022-08-04,refunded,1062.92,5.0,false,2018-05-28,Rwanda,platinum,thomasharvey@example.net,I000000563,P0124,6,399.88,clothing,1009.774,false
+O0000198,R000131,2022-10-14,changed_mind,173.25,C00258,2022-08-04,refunded,1062.92,5.0,false,2018-05-28,Rwanda,platinum,thomasharvey@example.net,I000000565,P0295,6,445.14,beauty,1009.774,false
+O0000198,R000131,2022-10-14,changed_mind,173.25,C00258,2022-08-04,refunded,1062.92,5.0,false,2018-05-28,Rwanda,platinum,thomasharvey@example.net,I000000566,P0192,9,381.25,toys,1009.774,false
+O0000198,R000131,2022-10-14,changed_mind,173.25,C00258,2022-08-04,refunded,1062.92,5.0,false,2018-05-28,Rwanda,platinum,thomasharvey@example.net,I000000562,P0254,3,120.12,toys,1009.774,false
+O0000198,R000131,2022-10-14,changed_mind,173.25,C00258,2022-08-04,refunded,1062.92,5.0,false,2018-05-28,Rwanda,platinum,thomasharvey@example.net,I000000564,P0428,5,149.58,electronics,1009.774,false
+O0001826,R000250,2023-12-07,not_as_described,774.53,C00106,2023-02-28,pending,1722.85,0.0,false,2020-11-04,Kenya,platinum,yleon@example.net,I000005403,P0172,1,71.71,books,1722.85,false
+O0001826,R000250,2023-12-07,not_as_described,774.53,C00106,2023-02-28,pending,1722.85,0.0,false,2020-11-04,Kenya,platinum,yleon@example.net,I000005401,P0264,5,445.02,sports,1722.85,false
+O0001826,R000250,2023-12-07,not_as_described,774.53,C00106,2023-02-28,pending,1722.85,0.0,false,2020-11-04,Kenya,platinum,yleon@example.net,I000005400,P0102,5,356.51,electronics,1722.85,false
+O0001826,R000250,2023-12-07,not_as_described,774.53,C00106,2023-02-28,pending,1722.85,0.0,false,2020-11-04,Kenya,platinum,yleon@example.net,I000005402,P0335,4,108.2,beauty,1722.85,false
+O0001826,R000250,2023-12-07,not_as_described,774.53,C00106,2023-02-28,pending,1722.85,0.0,false,2020-11-04,Kenya,platinum,yleon@example.net,I000005404,P0467,6,108.24,clothing,1722.85,false
+O0001014,R000057,2022-10-01,duplicate_order,-1261.73,C00370,2023-05-31,cancelled,-1306.75,10.0,true,2018-03-18,Nigeria,bronze,lacey20@example.com,I000003008,P0291,8,484.67,food_drink,-1176.075,false
+O_MISSING_00012,R_GHOST_00013,2022-08-10,duplicate_order,403.5,,,,,,,,,,,,,,,,,false
+O0001163,R000015,2024-01-21,defective,1373.03,C00081,2023-02-07,completed,2082.13,25.0,false,2018-11-01,Senegal,platinum,rodriguezsierra@example.net,I000003441,P0017,9,322.53,beauty,1561.5975,false
+O0001163,R000015,2024-01-21,defective,1373.03,C00081,2023-02-07,completed,2082.13,25.0,false,2018-11-01,Senegal,platinum,rodriguezsierra@example.net,I000003442,P0359,7,42.33,books,1561.5975,false
+O0001163,R000015,2024-01-21,defective,1373.03,C00081,2023-02-07,completed,2082.13,25.0,false,2018-11-01,Senegal,platinum,rodriguezsierra@example.net,I000003444,P0481,2,243.72,home_garden,1561.5975,false
+O0001163,R000015,2024-01-21,defective,1373.03,C00081,2023-02-07,completed,2082.13,25.0,false,2018-11-01,Senegal,platinum,rodriguezsierra@example.net,I000003445,P0171,5,101.51,sports,1561.5975,false
+O0001163,R000015,2024-01-21,defective,1373.03,C00081,2023-02-07,completed,2082.13,25.0,false,2018-11-01,Senegal,platinum,rodriguezsierra@example.net,I000003443,P0259,5,373.96,sports,1561.5975,false
+O0000959,R000197,2023-09-13,arrived_late,1573.6,C00066,2022-09-17,refunded,1919.8,0.0,false,2018-04-24,Rwanda,platinum,harveyrobert@example.net,I000002852,P0401,7,385.04,clothing,1919.8,false
+O0000959,R000197,2023-09-13,arrived_late,1573.6,C00066,2022-09-17,refunded,1919.8,0.0,false,2018-04-24,Rwanda,platinum,harveyrobert@example.net,I000002854,P0116,9,304.78,electronics,1919.8,false
+O0000959,R000197,2023-09-13,arrived_late,1573.6,C00066,2022-09-17,refunded,1919.8,0.0,false,2018-04-24,Rwanda,platinum,harveyrobert@example.net,I000002853,P0490,2,486.61,home_garden,1919.8,false
+O_MISSING_00009,R_GHOST_00010,2022-04-07,arrived_late,87.77,,,,,,,,,,,,,,,,,false
+O0000829,R000098,2022-05-20,arrived_late,263.32,C00284,2022-08-06,cancelled,801.99,25.0,false,2020-05-20,South Africa,silver,fjones@example.com,I000002454,P0085,2,353.21,food_drink,601.4925000000001,false
+O0000829,R000098,2022-05-20,arrived_late,263.32,C00284,2022-08-06,cancelled,801.99,25.0,false,2020-05-20,South Africa,silver,fjones@example.com,I000002450,P0048,8,464.0,books,601.4925000000001,false
+O0000829,R000098,2022-05-20,arrived_late,263.32,C00284,2022-08-06,cancelled,801.99,25.0,false,2020-05-20,South Africa,silver,fjones@example.com,I000002451,P0244,8,312.16,food_drink,601.4925000000001,false
+O0000829,R000098,2022-05-20,arrived_late,263.32,C00284,2022-08-06,cancelled,801.99,25.0,false,2020-05-20,South Africa,silver,fjones@example.com,I000002452,P0448,2,236.68,beauty,601.4925000000001,false
+O0000829,R000098,2022-05-20,arrived_late,263.32,C00284,2022-08-06,cancelled,801.99,25.0,false,2020-05-20,South Africa,silver,fjones@example.com,I000002453,P0368,9,385.12,toys,601.4925000000001,false
+O0000226,R000105,2022-06-24,duplicate_order,,C00302,2023-01-18,cancelled,77.53,10.0,false,2019-10-28,Ethiopia,bronze,anthony44@example.com,I000000648,P0341,5,387.12,sports,69.777,false
+O0000226,R000105,2022-06-24,duplicate_order,,C00302,2023-01-18,cancelled,77.53,10.0,false,2019-10-28,Ethiopia,bronze,anthony44@example.com,I000000649,P0192,5,495.09,home_garden,69.777,false
+O0001148,R000110,2024-07-19,duplicate_order,2020.28,C00215,2023-09-21,pending,2094.47,,false,2020-02-27,Nigeria,bronze,sarah84@example.org,I000003395,P0391,6,238.53,toys,,false
+O0001148,R000110,2024-07-19,duplicate_order,2020.28,C00215,2023-09-21,pending,2094.47,,false,2020-02-27,Nigeria,bronze,sarah84@example.org,I000003394,P0478,1,396.06,books,,false
+O0001148,R000110,2024-07-19,duplicate_order,2020.28,C00215,2023-09-21,pending,2094.47,,false,2020-02-27,Nigeria,bronze,sarah84@example.org,I000003396,P0479,3,165.46,toys,,false
+O0001148,R000110,2024-07-19,duplicate_order,2020.28,C00215,2023-09-21,pending,2094.47,,false,2020-02-27,Nigeria,bronze,sarah84@example.org,I000003397,P0437,8,468.26,electronics,,false
+O0000264,R000065,2024-05-07,not_as_described,-1064.72,C00213,2023-10-22,shipped,-2241.23,0.0,true,2018-03-22,Senegal,silver,mlee@example.net,I000000757,P0074,9,57.31,sports,-2241.23,true
+O0000264,R000065,2024-05-07,not_as_described,-1064.72,C00213,2023-10-22,shipped,-2241.23,0.0,true,2018-03-22,Senegal,silver,mlee@example.net,I000000758,P0484,8,457.41,food_drink,-2241.23,true
+O0000264,R000065,2024-05-07,not_as_described,-1064.72,C00213,2023-10-22,shipped,-2241.23,0.0,true,2018-03-22,Senegal,silver,mlee@example.net,I000000756,P0303,8,262.0,toys,-2241.23,true
+O0001685,R000241,2023-05-24,changed_mind,,C00279,2022-03-12,pending,1332.94,0.0,false,2022-07-08,Nigeria,silver,xwest@example.net,I000004969,P0303,8,123.49,toys,1332.94,false
+O0001846,R000097,2024-01-31,changed_mind,789.03,C00462,2023-05-27,completed,878.45,0.0,false,2023-02-17,South Africa,bronze,laura09@example.com,I000005473,P0294,7,335.68,electronics,878.45,false
+O0001846,R000097,2024-01-31,changed_mind,789.03,C00462,2023-05-27,completed,878.45,0.0,false,2023-02-17,South Africa,bronze,laura09@example.com,I000005472,P0040,6,247.21,food_drink,878.45,false
+O0001846,R000097,2024-01-31,changed_mind,789.03,C00462,2023-05-27,completed,878.45,0.0,false,2023-02-17,South Africa,bronze,laura09@example.com,I000005474,P0021,3,94.93,,878.45,false
+O0001091,R000257,2022-07-29,wrong_item,1106.98,C00300,2023-05-26,completed,2118.39,20.0,false,2023-11-21,Nigeria,bronze,lindsaybruce@example.net,I000003204,P0140,1,97.26,home_garden,1694.712,false
+O0001091,R000257,2022-07-29,wrong_item,1106.98,C00300,2023-05-26,completed,2118.39,20.0,false,2023-11-21,Nigeria,bronze,lindsaybruce@example.net,I000003205,P0077,4,482.72,food_drink,1694.712,false
+O0001091,R000257,2022-07-29,wrong_item,1106.98,C00300,2023-05-26,completed,2118.39,20.0,false,2023-11-21,Nigeria,bronze,lindsaybruce@example.net,I000003206,P0310,9,415.5,electronics,1694.712,false
+O0001358,R000221,2023-07-04,not_as_described,806.09,C00063,2023-05-28,refunded,1636.77,10.0,false,2022-10-02,Rwanda,bronze,brianromero@example.org,I000003978,P0323,5,497.12,sports,1473.093,false
+O0001358,R000221,2023-07-04,not_as_described,806.09,C00063,2023-05-28,refunded,1636.77,10.0,false,2022-10-02,Rwanda,bronze,brianromero@example.org,I000003976,P0089,9,326.18,sports,1473.093,false
+O0001358,R000221,2023-07-04,not_as_described,806.09,C00063,2023-05-28,refunded,1636.77,10.0,false,2022-10-02,Rwanda,bronze,brianromero@example.org,I000003977,P0077,7,61.64,books,1473.093,false
+O0000410,R000224,2024-02-29,duplicate_order,787.15,C00021,2023-05-17,completed,2429.08,5.0,false,2023-08-17,Nigeria,silver,pfoster@example.com,I000001210,P0120,5,367.28,food_drink,2307.6259999999997,false
+O0000410,R000224,2024-02-29,duplicate_order,787.15,C00021,2023-05-17,completed,2429.08,5.0,false,2023-08-17,Nigeria,silver,pfoster@example.com,I000001207,P0357,6,185.82,books,2307.6259999999997,false
+O0000410,R000224,2024-02-29,duplicate_order,787.15,C00021,2023-05-17,completed,2429.08,5.0,false,2023-08-17,Nigeria,silver,pfoster@example.com,I000001208,P0191,7,259.67,books,2307.6259999999997,false
+O0000410,R000224,2024-02-29,duplicate_order,787.15,C00021,2023-05-17,completed,2429.08,5.0,false,2023-08-17,Nigeria,silver,pfoster@example.com,I000001206,P0003,3,14.47,food_drink,2307.6259999999997,false
+O0000410,R000224,2024-02-29,duplicate_order,787.15,C00021,2023-05-17,completed,2429.08,5.0,false,2023-08-17,Nigeria,silver,pfoster@example.com,I000001209,P0490,1,235.41,beauty,2307.6259999999997,false
+O0001194,R000261,2023-03-09,duplicate_order,120.13,C00134,2023-08-10,completed,122.49,0.0,false,2021-10-19,Senegal,platinum,brentgray@example.org,I000003514,P0105,5,319.16,home_garden,122.49,false
+O0001194,R000261,2023-03-09,duplicate_order,120.13,C00134,2023-08-10,completed,122.49,0.0,false,2021-10-19,Senegal,platinum,brentgray@example.org,I000003515,P0011,3,311.04,home_garden,122.49,false
+O0001194,R000261,2023-03-09,duplicate_order,120.13,C00134,2023-08-10,completed,122.49,0.0,false,2021-10-19,Senegal,platinum,brentgray@example.org,I000003513,P0275,6,227.1,books,122.49,false
+O0001194,R000261,2023-03-09,duplicate_order,120.13,C00134,2023-08-10,completed,122.49,0.0,false,2021-10-19,Senegal,platinum,brentgray@example.org,I000003512,P0108,7,279.73,food_drink,122.49,false
+O0000499,R000018,2023-12-11,arrived_late,628.05,C00494,2023-08-16,cancelled,1208.07,0.0,false,2023-07-29,Tanzania,bronze,ismall@example.net,I000001469,P0166,2,161.65,electronics,1208.07,false
+O0000499,R000018,2023-12-11,arrived_late,628.05,C00494,2023-08-16,cancelled,1208.07,0.0,false,2023-07-29,Tanzania,bronze,ismall@example.net,I000001471,P0457,9,431.99,beauty,1208.07,false
+O0000499,R000018,2023-12-11,arrived_late,628.05,C00494,2023-08-16,cancelled,1208.07,0.0,false,2023-07-29,Tanzania,bronze,ismall@example.net,I000001470,P0478,9,95.85,sports,1208.07,false
+O0000499,R000018,2023-12-11,arrived_late,628.05,C00494,2023-08-16,cancelled,1208.07,0.0,false,2023-07-29,Tanzania,bronze,ismall@example.net,I000001472,P0187,1,133.62,electronics,1208.07,false
+O0000587,R000182,2023-07-27,changed_mind,604.06,C00146,2022-11-22,refunded,1443.09,10.0,false,2023-05-16,Ethiopia,silver,vargasmaria@example.org,I000001725,P0387,5,442.37,clothing,1298.781,false
+O0001018,R000188,2023-07-29,not_as_described,-566.11,C00500,2023-08-13,shipped,-1269.39,10.0,true,2020-04-25,Ghana,silver,lopezdonald@example.com,I000003018,P0368,9,134.68,food_drink,-1142.451,true
+O0001018,R000188,2023-07-29,not_as_described,-566.11,C00500,2023-08-13,shipped,-1269.39,10.0,true,2020-04-25,Ghana,silver,lopezdonald@example.com,I000003017,P0130,9,9.59,toys,-1142.451,true
+O0001018,R000188,2023-07-29,not_as_described,-566.11,C00500,2023-08-13,shipped,-1269.39,10.0,true,2020-04-25,Ghana,silver,lopezdonald@example.com,I000003019,P0341,5,450.6,home_garden,-1142.451,true
+O0001953,R000297,2023-07-13,arrived_late,128.2,C00324,2024-02-14,completed,356.56,0.0,false,2023-03-08,Egypt,gold,zwarren@example.com,I000005818,P0015,1,260.47,sports,356.56,false
+O0001953,R000297,2023-07-13,arrived_late,128.2,C00324,2024-02-14,completed,356.56,0.0,false,2023-03-08,Egypt,gold,zwarren@example.com,I000005817,P0126,2,488.18,electronics,356.56,false
+O0001953,R000297,2023-07-13,arrived_late,128.2,C00324,2024-02-14,completed,356.56,0.0,false,2023-03-08,Egypt,gold,zwarren@example.com,I000005819,P0468,3,391.17,home_garden,356.56,false
+O0001759,R000111,2023-03-21,not_as_described,1134.0,C00429,2022-04-12,shipped,1254.63,,false,2018-08-18,Ghana,platinum,brittanycarpenter@example.org,I000005200,P0499,5,73.43,toys,,false
+O0001199,R000069,2022-05-30,defective,,C00400,2022-07-23,refunded,1544.63,25.0,false,2023-06-16,Ghana,silver,yhill@example.org,I000003528,P0093,4,469.23,toys,1158.4725,false
+O0001199,R000069,2022-05-30,defective,,C00400,2022-07-23,refunded,1544.63,25.0,false,2023-06-16,Ghana,silver,yhill@example.org,I000003527,P0121,8,113.2,electronics,1158.4725,false
+O0001199,R000069,2022-05-30,defective,,C00400,2022-07-23,refunded,1544.63,25.0,false,2023-06-16,Ghana,silver,yhill@example.org,I000003525,P0191,7,343.28,sports,1158.4725,false
+O0001199,R000069,2022-05-30,defective,,C00400,2022-07-23,refunded,1544.63,25.0,false,2023-06-16,Ghana,silver,yhill@example.org,I000003526,P0023,2,364.48,clothing,1158.4725,false
+O0001933,R000268,2024-04-10,arrived_late,331.7,C00316,2024-06-21,cancelled,1006.54,0.0,false,2021-04-10,Egypt,gold,ythompson@example.net,I000005747,P0216,9,135.79,,1006.54,false
+O0001933,R000268,2024-04-10,arrived_late,331.7,C00316,2024-06-21,cancelled,1006.54,0.0,false,2021-04-10,Egypt,gold,ythompson@example.net,I000005746,P0148,5,182.99,food_drink,1006.54,false
+O0001150,R000164,2022-12-05,wrong_item,575.19,C00341,2024-03-06,pending,1083.57,20.0,false,2019-06-28,Ghana,bronze,wagnergerald@example.org,I000003405,P0126,7,326.05,books,866.856,false
+O0001150,R000164,2022-12-05,wrong_item,575.19,C00341,2024-03-06,pending,1083.57,20.0,false,2019-06-28,Ghana,bronze,wagnergerald@example.org,I000003406,P0363,1,223.68,food_drink,866.856,false
+O0001150,R000164,2022-12-05,wrong_item,575.19,C00341,2024-03-06,pending,1083.57,20.0,false,2019-06-28,Ghana,bronze,wagnergerald@example.org,I000003407,P0438,7,265.24,clothing,866.856,false
+O0001150,R000164,2022-12-05,wrong_item,575.19,C00341,2024-03-06,pending,1083.57,20.0,false,2019-06-28,Ghana,bronze,wagnergerald@example.org,I000003403,P0110,1,378.09,electronics,866.856,false
+O0001150,R000164,2022-12-05,wrong_item,575.19,C00341,2024-03-06,pending,1083.57,20.0,false,2019-06-28,Ghana,bronze,wagnergerald@example.org,I000003404,P0135,3,47.04,electronics,866.856,false
+O0000365,R000004,2023-09-11,defective,36.72,C00171,2022-02-19,pending,61.52,10.0,false,2018-07-16,Kenya,silver,brandon08@example.com,I000001059,P0406,9,48.68,home_garden,55.368,false
+O0000365,R000004,2023-09-11,defective,36.72,C00171,2022-02-19,pending,61.52,10.0,false,2018-07-16,Kenya,silver,brandon08@example.com,I000001060,P0401,9,347.2,sports,55.368,false
+O0000365,R000004,2023-09-11,defective,36.72,C00171,2022-02-19,pending,61.52,10.0,false,2018-07-16,Kenya,silver,brandon08@example.com,I000001061,P0288,2,405.76,beauty,55.368,false
+O0001282,R000279,2022-09-30,wrong_item,1943.41,C00487,2023-01-01,completed,2346.9,,false,2019-10-27,Ethiopia,platinum,katelynmitchell@example.com,I000003770,P0458,7,61.91,toys,,false
+O0001282,R000279,2022-09-30,wrong_item,1943.41,C00487,2023-01-01,completed,2346.9,,false,2019-10-27,Ethiopia,platinum,katelynmitchell@example.com,I000003771,P0046,1,298.68,books,,false
+O0000631,R000113,2022-05-13,changed_mind,179.5,C00062,2023-01-02,completed,781.91,25.0,false,2021-07-18,Senegal,silver,brian97@example.net,I000001861,P0147,5,91.19,toys,586.4325,false
+O0000631,R000113,2022-05-13,changed_mind,179.5,C00062,2023-01-02,completed,781.91,25.0,false,2021-07-18,Senegal,silver,brian97@example.net,I000001859,P0012,7,212.04,home_garden,586.4325,false
+O0000631,R000113,2022-05-13,changed_mind,179.5,C00062,2023-01-02,completed,781.91,25.0,false,2021-07-18,Senegal,silver,brian97@example.net,I000001860,P0191,3,18.02,food_drink,586.4325,false
+O0000874,R000282,2022-09-30,not_as_described,413.87,C00180,2023-05-07,cancelled,982.92,0.0,false,2018-10-03,Uganda,silver,lynchjody@example.org,I000002593,P0084,9,193.99,clothing,982.92,false
+O0000874,R000282,2022-09-30,not_as_described,413.87,C00180,2023-05-07,cancelled,982.92,0.0,false,2018-10-03,Uganda,silver,lynchjody@example.org,I000002594,P0024,6,246.67,sports,982.92,false
+O0001468,R000068,2023-06-20,defective,2175.94,C00462,2024-05-24,shipped,2236.21,25.0,false,2023-02-17,South Africa,bronze,laura09@example.com,I000004298,P0345,5,262.18,books,1677.1575,true
+O0001468,R000068,2023-06-20,defective,2175.94,C00462,2024-05-24,shipped,2236.21,25.0,false,2023-02-17,South Africa,bronze,laura09@example.com,I000004299,P0065,7,56.21,electronics,1677.1575,true
+O0001468,R000068,2023-06-20,defective,2175.94,C00462,2024-05-24,shipped,2236.21,25.0,false,2023-02-17,South Africa,bronze,laura09@example.com,I000004297,P0345,6,4.58,electronics,1677.1575,true
+O0001280,R000267,2022-10-02,defective,,C00060,2023-06-10,pending,,15.0,false,2023-07-10,Egypt,silver,,I000003765,P0269,3,112.75,toys,,false
+O0001280,R000267,2022-10-02,defective,,C00060,2023-06-10,pending,,15.0,false,2023-07-10,Egypt,silver,,I000003763,P0414,4,249.85,sports,,false
+O0001280,R000267,2022-10-02,defective,,C00060,2023-06-10,pending,,15.0,false,2023-07-10,Egypt,silver,,I000003766,P0380,9,98.84,electronics,,false
+O0001280,R000267,2022-10-02,defective,,C00060,2023-06-10,pending,,15.0,false,2023-07-10,Egypt,silver,,I000003764,P0350,4,190.21,books,,false
+O0000608,R000051,2024-03-16,duplicate_order,612.28,C00422,2024-02-15,refunded,1129.1,5.0,false,2018-02-16,Rwanda,silver,nataliedeleon@example.net,I000001788,P0329,5,45.88,,1072.6449999999998,false
+O0000608,R000051,2024-03-16,duplicate_order,612.28,C00422,2024-02-15,refunded,1129.1,5.0,false,2018-02-16,Rwanda,silver,nataliedeleon@example.net,I000001786,P0025,4,218.12,home_garden,1072.6449999999998,false
+O0000608,R000051,2024-03-16,duplicate_order,612.28,C00422,2024-02-15,refunded,1129.1,5.0,false,2018-02-16,Rwanda,silver,nataliedeleon@example.net,I000001785,P0303,5,131.7,books,1072.6449999999998,false
+O0000608,R000051,2024-03-16,duplicate_order,612.28,C00422,2024-02-15,refunded,1129.1,5.0,false,2018-02-16,Rwanda,silver,nataliedeleon@example.net,I000001787,P0092,3,282.34,food_drink,1072.6449999999998,false
+O0000608,R000051,2024-03-16,duplicate_order,612.28,C00422,2024-02-15,refunded,1129.1,5.0,false,2018-02-16,Rwanda,silver,nataliedeleon@example.net,I000001789,P0219,1,296.52,food_drink,1072.6449999999998,false
+O0001701,R000109,2022-02-24,arrived_late,1446.24,C00413,2022-04-02,refunded,2414.39,25.0,false,2020-12-13,Rwanda,platinum,elizabeth18@example.net,I000005019,P0389,8,38.32,electronics,1810.7925,false
+O0001701,R000109,2022-02-24,arrived_late,1446.24,C00413,2022-04-02,refunded,2414.39,25.0,false,2020-12-13,Rwanda,platinum,elizabeth18@example.net,I000005020,P0285,9,463.65,clothing,1810.7925,false
+O0001956,R000167,2023-07-24,arrived_late,830.09,C00366,2022-08-20,pending,1173.68,5.0,false,2018-08-03,Egypt,bronze,mariahdavis@example.org,I000005829,P0054,5,431.31,books,1114.996,false
+O0001956,R000167,2023-07-24,arrived_late,830.09,C00366,2022-08-20,pending,1173.68,5.0,false,2018-08-03,Egypt,bronze,mariahdavis@example.org,I000005828,P0443,8,496.02,toys,1114.996,false
+O0001956,R000167,2023-07-24,arrived_late,830.09,C00366,2022-08-20,pending,1173.68,5.0,false,2018-08-03,Egypt,bronze,mariahdavis@example.org,I000005826,P0336,6,383.69,sports,1114.996,false
+O0001956,R000167,2023-07-24,arrived_late,830.09,C00366,2022-08-20,pending,1173.68,5.0,false,2018-08-03,Egypt,bronze,mariahdavis@example.org,I000005827,P0377,9,382.09,clothing,1114.996,false
+O0001956,R000167,2023-07-24,arrived_late,830.09,C00366,2022-08-20,pending,1173.68,5.0,false,2018-08-03,Egypt,bronze,mariahdavis@example.org,I000005830,P0198,3,412.52,beauty,1114.996,false
+O0000169,R000231,2022-06-14,wrong_item,539.88,C00221,2022-11-29,pending,804.86,0.0,false,2021-12-11,Tanzania,platinum,floresthomas@example.com,I000000480,P0497,8,167.92,sports,804.86,false
+O0000169,R000231,2022-06-14,wrong_item,539.88,C00221,2022-11-29,pending,804.86,0.0,false,2021-12-11,Tanzania,platinum,floresthomas@example.com,I000000479,P0187,5,208.9,electronics,804.86,false
+O0001256,R000290,2024-06-30,arrived_late,1455.77,C00157,2022-06-21,shipped,1688.38,10.0,false,2019-01-24,Nigeria,bronze,frogers@example.com,I000003690,P0390,4,163.87,books,1519.5420000000001,false
+O0001256,R000290,2024-06-30,arrived_late,1455.77,C00157,2022-06-21,shipped,1688.38,10.0,false,2019-01-24,Nigeria,bronze,frogers@example.com,I000003692,P0278,9,464.91,electronics,1519.5420000000001,false
+O0001256,R000290,2024-06-30,arrived_late,1455.77,C00157,2022-06-21,shipped,1688.38,10.0,false,2019-01-24,Nigeria,bronze,frogers@example.com,I000003691,P0477,8,240.99,electronics,1519.5420000000001,false
+O0001256,R000290,2024-06-30,arrived_late,1455.77,C00157,2022-06-21,shipped,1688.38,10.0,false,2019-01-24,Nigeria,bronze,frogers@example.com,I000003693,P0403,4,58.31,beauty,1519.5420000000001,false
+O0000787,R000227,2024-01-31,duplicate_order,1444.44,C00449,2022-10-05,cancelled,2168.41,0.0,false,2019-08-12,South Africa,silver,kathryn50@example.com,I000002325,P0435,5,233.96,toys,2168.41,false
+O0000787,R000227,2024-01-31,duplicate_order,1444.44,C00449,2022-10-05,cancelled,2168.41,0.0,false,2019-08-12,South Africa,silver,kathryn50@example.com,I000002324,P0341,8,124.76,books,2168.41,false
+O0000787,R000227,2024-01-31,duplicate_order,1444.44,C00449,2022-10-05,cancelled,2168.41,0.0,false,2019-08-12,South Africa,silver,kathryn50@example.com,I000002323,P0009,2,131.9,electronics,2168.41,false
+O0000281,R000024,2022-03-29,wrong_item,64.48,C00430,2024-03-10,refunded,290.09,0.0,false,2020-08-19,Ethiopia,platinum,megan90@example.org,I000000810,P0007,1,489.32,beauty,290.09,false
+O0000281,R000024,2022-03-29,wrong_item,64.48,C00430,2024-03-10,refunded,290.09,0.0,false,2020-08-19,Ethiopia,platinum,megan90@example.org,I000000811,P0474,2,256.02,food_drink,290.09,false
+O0000281,R000024,2022-03-29,wrong_item,64.48,C00430,2024-03-10,refunded,290.09,0.0,false,2020-08-19,Ethiopia,platinum,megan90@example.org,I000000808,P0031,4,395.86,toys,290.09,false
+O0000281,R000024,2022-03-29,wrong_item,64.48,C00430,2024-03-10,refunded,290.09,0.0,false,2020-08-19,Ethiopia,platinum,megan90@example.org,I000000809,P0303,8,190.69,books,290.09,false
+O0001266,R000035,2024-05-10,arrived_late,114.21,C00154,2023-11-27,cancelled,184.36,0.0,false,2023-10-02,Ghana,bronze,lpetersen@example.com,I000003722,P0084,7,235.51,home_garden,184.36,false
+O0001266,R000035,2024-05-10,arrived_late,114.21,C00154,2023-11-27,cancelled,184.36,0.0,false,2023-10-02,Ghana,bronze,lpetersen@example.com,I000003723,P0475,9,395.84,beauty,184.36,false
+O0001266,R000035,2024-05-10,arrived_late,114.21,C00154,2023-11-27,cancelled,184.36,0.0,false,2023-10-02,Ghana,bronze,lpetersen@example.com,I000003720,P0068,2,279.22,toys,184.36,false
+O0001266,R000035,2024-05-10,arrived_late,114.21,C00154,2023-11-27,cancelled,184.36,0.0,false,2023-10-02,Ghana,bronze,lpetersen@example.com,I000003721,P0395,2,139.69,clothing,184.36,false
+O0000565,R000047,2024-04-04,wrong_item,695.24,C00289,2023-08-21,pending,1135.3,20.0,false,2021-03-11,Kenya,platinum,russellbeasley@example.com,I000001670,P0007,3,179.9,electronics,908.24,false
+O0000565,R000047,2024-04-04,wrong_item,695.24,C00289,2023-08-21,pending,1135.3,20.0,false,2021-03-11,Kenya,platinum,russellbeasley@example.com,I000001669,P0403,5,177.59,food_drink,908.24,false
+O0000565,R000047,2024-04-04,wrong_item,695.24,C00289,2023-08-21,pending,1135.3,20.0,false,2021-03-11,Kenya,platinum,russellbeasley@example.com,I000001671,P0159,8,483.86,books,908.24,false
+O0000565,R000047,2024-04-04,wrong_item,695.24,C00289,2023-08-21,pending,1135.3,20.0,false,2021-03-11,Kenya,platinum,russellbeasley@example.com,I000001667,P0239,5,324.59,books,908.24,false
+O0000565,R000047,2024-04-04,wrong_item,695.24,C00289,2023-08-21,pending,1135.3,20.0,false,2021-03-11,Kenya,platinum,russellbeasley@example.com,I000001668,P0306,6,372.52,beauty,908.24,false
+O0000435,R000262,2023-07-12,defective,167.48,C00182,2023-09-12,completed,461.94,25.0,false,2021-07-04,Egypt,gold,andreamoore@example.com,I000001287,P0424,4,105.68,sports,346.455,false
+O0000435,R000262,2023-07-12,defective,167.48,C00182,2023-09-12,completed,461.94,25.0,false,2021-07-04,Egypt,gold,andreamoore@example.com,I000001286,P0369,2,492.32,clothing,346.455,false
+O_MISSING_00013,R_GHOST_00014,2024-05-07,wrong_item,314.89,,,,,,,,,,,,,,,,,false
+O0000111,R000044,2023-01-07,not_as_described,281.78,C00151,2022-11-19,refunded,469.42,0.0,false,2018-05-13,Ghana,platinum,oyu@example.com,I000000322,P0067,1,287.75,toys,469.42,false
+O0000111,R000044,2023-01-07,not_as_described,281.78,C00151,2022-11-19,refunded,469.42,0.0,false,2018-05-13,Ghana,platinum,oyu@example.com,I000000319,P0354,8,337.96,books,469.42,false
+O0000111,R000044,2023-01-07,not_as_described,281.78,C00151,2022-11-19,refunded,469.42,0.0,false,2018-05-13,Ghana,platinum,oyu@example.com,I000000321,P0362,8,391.39,toys,469.42,false
+O0000111,R000044,2023-01-07,not_as_described,281.78,C00151,2022-11-19,refunded,469.42,0.0,false,2018-05-13,Ghana,platinum,oyu@example.com,I000000320,P0170,8,280.06,electronics,469.42,false
+O_MISSING_00005,R_GHOST_00006,2023-12-08,arrived_late,433.12,,,,,,,,,,,,,,,,,false
+O0000616,R000027,2024-06-22,duplicate_order,1774.0,C00346,2023-05-20,cancelled,1990.96,25.0,false,2020-08-19,Ethiopia,platinum,cody64@example.com,I000001812,P0274,8,427.35,clothing,1493.22,true
+O0000616,R000027,2024-06-22,duplicate_order,1774.0,C00346,2023-05-20,cancelled,1990.96,25.0,false,2020-08-19,Ethiopia,platinum,cody64@example.com,I000001811,P0208,8,222.5,home_garden,1493.22,true
+O0000616,R000027,2024-06-22,duplicate_order,1774.0,C00346,2023-05-20,cancelled,1990.96,25.0,false,2020-08-19,Ethiopia,platinum,cody64@example.com,I000001810,P0081,3,477.17,beauty,1493.22,true
+O0000616,R000027,2024-06-22,duplicate_order,1774.0,C00346,2023-05-20,cancelled,1990.96,25.0,false,2020-08-19,Ethiopia,platinum,cody64@example.com,I000001813,P0243,6,110.95,home_garden,1493.22,true
+O0000616,R000027,2024-06-22,duplicate_order,1774.0,C00346,2023-05-20,cancelled,1990.96,25.0,false,2020-08-19,Ethiopia,platinum,cody64@example.com,I000001814,P0077,8,37.79,clothing,1493.22,true
+O0000885,R000181,2022-04-27,not_as_described,129.94,C00358,2023-07-29,shipped,1002.08,0.0,false,2019-08-28,Senegal,bronze,tarabishop@example.net,I000002623,P0346,2,79.95,food_drink,1002.08,false
+O0000885,R000181,2022-04-27,not_as_described,129.94,C00358,2023-07-29,shipped,1002.08,0.0,false,2019-08-28,Senegal,bronze,tarabishop@example.net,I000002621,P0324,9,7.23,food_drink,1002.08,false
+O0000885,R000181,2022-04-27,not_as_described,129.94,C00358,2023-07-29,shipped,1002.08,0.0,false,2019-08-28,Senegal,bronze,tarabishop@example.net,I000002622,P0353,6,292.94,books,1002.08,false
+O0001947,R000176,2023-08-20,changed_mind,1872.16,C00097,2022-03-10,shipped,1964.78,0.0,false,2023-01-28,Tanzania,bronze,jonathanfletcher@example.org,I000005793,P0153,3,192.81,food_drink,1964.78,false
+O0001947,R000176,2023-08-20,changed_mind,1872.16,C00097,2022-03-10,shipped,1964.78,0.0,false,2023-01-28,Tanzania,bronze,jonathanfletcher@example.org,I000005794,P0077,4,3.31,home_garden,1964.78,false
+O0001176,R000107,2022-02-02,arrived_late,3.65,C00062,2023-03-09,completed,18.12,25.0,false,2021-07-18,Senegal,silver,brian97@example.net,I000003481,P0090,9,95.25,beauty,13.59,false
+O0001176,R000107,2022-02-02,arrived_late,3.65,C00062,2023-03-09,completed,18.12,25.0,false,2021-07-18,Senegal,silver,brian97@example.net,I000003480,P0003,6,249.32,books,13.59,false
+O0001176,R000107,2022-02-02,arrived_late,3.65,C00062,2023-03-09,completed,18.12,25.0,false,2021-07-18,Senegal,silver,brian97@example.net,I000003479,P0203,1,490.64,electronics,13.59,false
+O0001369,R000138,2023-05-10,duplicate_order,257.3,C00444,2024-05-03,refunded,1531.34,15.0,false,2020-01-15,Nigeria,silver,tjimenez@example.com,I000004007,P0418,7,340.35,electronics,1301.639,false
+O0001369,R000138,2023-05-10,duplicate_order,257.3,C00444,2024-05-03,refunded,1531.34,15.0,false,2020-01-15,Nigeria,silver,tjimenez@example.com,I000004010,P0055,7,412.47,home_garden,1301.639,false
+O0001369,R000138,2023-05-10,duplicate_order,257.3,C00444,2024-05-03,refunded,1531.34,15.0,false,2020-01-15,Nigeria,silver,tjimenez@example.com,I000004009,P0011,3,492.88,beauty,1301.639,false
+O0001369,R000138,2023-05-10,duplicate_order,257.3,C00444,2024-05-03,refunded,1531.34,15.0,false,2020-01-15,Nigeria,silver,tjimenez@example.com,I000004008,P0431,7,81.19,toys,1301.639,false
+O0001369,R000138,2023-05-10,duplicate_order,257.3,C00444,2024-05-03,refunded,1531.34,15.0,false,2020-01-15,Nigeria,silver,tjimenez@example.com,I000004011,P0437,4,330.89,clothing,1301.639,false
+O0001263,R000255,2022-09-09,arrived_late,1733.31,C00105,2023-05-10,cancelled,2249.06,0.0,false,2018-12-12,Nigeria,silver,steven73@example.net,I000003712,P0433,3,385.09,books,2249.06,false
+O0001263,R000255,2022-09-09,arrived_late,1733.31,C00105,2023-05-10,cancelled,2249.06,0.0,false,2018-12-12,Nigeria,silver,steven73@example.net,I000003711,P0081,9,491.83,beauty,2249.06,false
+O0001263,R000255,2022-09-09,arrived_late,1733.31,C00105,2023-05-10,cancelled,2249.06,0.0,false,2018-12-12,Nigeria,silver,steven73@example.net,I000003713,P0374,1,155.99,beauty,2249.06,false
+O0001263,R000255,2022-09-09,arrived_late,1733.31,C00105,2023-05-10,cancelled,2249.06,0.0,false,2018-12-12,Nigeria,silver,steven73@example.net,I000003710,P0131,7,99.42,toys,2249.06,false
+O0000036,R000147,2022-04-27,duplicate_order,658.27,C00055,2023-08-10,pending,716.63,,false,2020-01-02,Ethiopia,platinum,williamsyvette@example.org,I000000088,P0335,9,255.67,electronics,,false
+O0000036,R000147,2022-04-27,duplicate_order,658.27,C00055,2023-08-10,pending,716.63,,false,2020-01-02,Ethiopia,platinum,williamsyvette@example.org,I000000091,P0108,7,236.33,books,,false
+O0000036,R000147,2022-04-27,duplicate_order,658.27,C00055,2023-08-10,pending,716.63,,false,2020-01-02,Ethiopia,platinum,williamsyvette@example.org,I000000089,P0339,3,42.37,electronics,,false
+O0000036,R000147,2022-04-27,duplicate_order,658.27,C00055,2023-08-10,pending,716.63,,false,2020-01-02,Ethiopia,platinum,williamsyvette@example.org,I000000090,P0360,2,140.68,electronics,,false
+O0000036,R000147,2022-04-27,duplicate_order,658.27,C00055,2023-08-10,pending,716.63,,false,2020-01-02,Ethiopia,platinum,williamsyvette@example.org,I000000092,P0244,7,336.61,home_garden,,false
+O0001410,R000012,2023-02-12,duplicate_order,2448.11,C00343,2022-03-29,pending,2460.66,0.0,false,2019-03-28,Egypt,platinum,michaelhardin@example.com,I000004134,P0439,1,270.56,electronics,2460.66,false
+O0001318,R000144,2022-06-06,duplicate_order,1225.01,C00267,2024-05-14,refunded,1793.79,0.0,false,2020-11-02,Tanzania,bronze,jeff73@example.com,I000003867,P0474,9,265.14,food_drink,1793.79,false
+O0001318,R000144,2022-06-06,duplicate_order,1225.01,C00267,2024-05-14,refunded,1793.79,0.0,false,2020-11-02,Tanzania,bronze,jeff73@example.com,I000003868,P0094,9,132.85,clothing,1793.79,false
+O0001318,R000144,2022-06-06,duplicate_order,1225.01,C00267,2024-05-14,refunded,1793.79,0.0,false,2020-11-02,Tanzania,bronze,jeff73@example.com,I000003866,P0416,1,490.63,clothing,1793.79,false
+O0001473,R000156,2023-08-11,defective,624.34,C00394,2023-01-27,cancelled,762.22,20.0,false,2018-06-12,Kenya,platinum,terri77@example.com,I000004315,P0109,1,103.34,food_drink,609.7760000000001,true
+O0001473,R000156,2023-08-11,defective,624.34,C00394,2023-01-27,cancelled,762.22,20.0,false,2018-06-12,Kenya,platinum,terri77@example.com,I000004317,P0084,4,400.26,home_garden,609.7760000000001,true
+O0001473,R000156,2023-08-11,defective,624.34,C00394,2023-01-27,cancelled,762.22,20.0,false,2018-06-12,Kenya,platinum,terri77@example.com,I000004318,P0137,4,193.76,clothing,609.7760000000001,true
+O0001473,R000156,2023-08-11,defective,624.34,C00394,2023-01-27,cancelled,762.22,20.0,false,2018-06-12,Kenya,platinum,terri77@example.com,I000004316,P0032,6,47.45,beauty,609.7760000000001,true
+O0001473,R000156,2023-08-11,defective,624.34,C00394,2023-01-27,cancelled,762.22,20.0,false,2018-06-12,Kenya,platinum,terri77@example.com,I000004319,P0240,7,164.89,,609.7760000000001,true
+O0001710,R000256,2024-07-28,not_as_described,9.36,C00371,2022-08-01,cancelled,34.0,20.0,false,2021-09-07,Rwanda,silver,ihorton@example.net,I000005042,P0377,8,376.58,electronics,27.200000000000003,false
+O0001618,R000137,2022-11-05,defective,2667.23,C00255,2022-10-13,completed,1881.24,15.0,false,2023-06-08,Rwanda,gold,christopher60@example.com,I000004766,P0423,2,163.13,home_garden,1599.0539999999999,true
+O0000524,R000180,2022-03-20,arrived_late,660.02,C00369,2023-03-07,completed,1278.54,15.0,false,2023-07-30,South Africa,gold,brooksanthony@example.org,I000001548,P0255,2,404.83,electronics,1086.759,false
+O0000524,R000180,2022-03-20,arrived_late,660.02,C00369,2023-03-07,completed,1278.54,15.0,false,2023-07-30,South Africa,gold,brooksanthony@example.org,I000001547,P0331,7,252.24,books,1086.759,false
+O0000524,R000180,2022-03-20,arrived_late,660.02,C00369,2023-03-07,completed,1278.54,15.0,false,2023-07-30,South Africa,gold,brooksanthony@example.org,I000001549,P0448,3,180.66,sports,1086.759,false
+O0001637,R000200,2024-07-24,changed_mind,1001.84,C00448,2024-02-05,pending,1674.57,25.0,false,2018-04-14,Tanzania,bronze,booneryan@example.com,I000004824,P0232,6,51.92,beauty,1255.9275,false
+O0001637,R000200,2024-07-24,changed_mind,1001.84,C00448,2024-02-05,pending,1674.57,25.0,false,2018-04-14,Tanzania,bronze,booneryan@example.com,I000004825,P0212,1,259.46,food_drink,1255.9275,false
+O0001637,R000200,2024-07-24,changed_mind,1001.84,C00448,2024-02-05,pending,1674.57,25.0,false,2018-04-14,Tanzania,bronze,booneryan@example.com,I000004822,P0166,4,225.73,electronics,1255.9275,false
+O0001637,R000200,2024-07-24,changed_mind,1001.84,C00448,2024-02-05,pending,1674.57,25.0,false,2018-04-14,Tanzania,bronze,booneryan@example.com,I000004823,P0298,4,192.59,home_garden,1255.9275,false
+O_MISSING_00006,R_GHOST_00007,2024-06-18,defective,251.9,,,,,,,,,,,,,,,,,false
+O0000735,R000028,2023-12-08,duplicate_order,625.0,C00378,2023-07-05,refunded,643.0,0.0,false,2021-02-19,Kenya,gold,kellysmith@example.com,I000002172,P0027,5,44.61,food_drink,643.0,false
+O0001820,R000050,2022-09-04,not_as_described,-269.33,C00464,2022-01-06,shipped,-1782.77,15.0,true,2022-01-29,Ethiopia,platinum,silvageorge@example.net,I000005379,P0363,4,116.26,books,-1515.3545,true
+O0001820,R000050,2022-09-04,not_as_described,-269.33,C00464,2022-01-06,shipped,-1782.77,15.0,true,2022-01-29,Ethiopia,platinum,silvageorge@example.net,I000005378,P0472,3,36.99,beauty,-1515.3545,true
+O0000717,R000007,2022-10-01,defective,-377.83,C00499,2023-05-25,completed,-698.76,15.0,true,2023-01-05,Kenya,gold,frobertson@example.com,I000002127,P0468,9,191.67,clothing,-593.946,true
+O0000717,R000007,2022-10-01,defective,-377.83,C00499,2023-05-25,completed,-698.76,15.0,true,2023-01-05,Kenya,gold,frobertson@example.com,I000002129,P0339,6,256.75,food_drink,-593.946,true
+O0000717,R000007,2022-10-01,defective,-377.83,C00499,2023-05-25,completed,-698.76,15.0,true,2023-01-05,Kenya,gold,frobertson@example.com,I000002126,P0244,6,273.71,home_garden,-593.946,true
+O0000717,R000007,2022-10-01,defective,-377.83,C00499,2023-05-25,completed,-698.76,15.0,true,2023-01-05,Kenya,gold,frobertson@example.com,I000002128,P0366,2,446.69,home_garden,-593.946,true
+O0000174,R000295,2023-08-16,changed_mind,1594.0,C00252,2022-05-25,refunded,2199.27,25.0,false,2021-11-30,Nigeria,bronze,scoffey@example.net,I000000497,P0297,8,450.22,home_garden,1649.4524999999999,false
+O0000174,R000295,2023-08-16,changed_mind,1594.0,C00252,2022-05-25,refunded,2199.27,25.0,false,2021-11-30,Nigeria,bronze,scoffey@example.net,I000000496,P0151,4,70.58,beauty,1649.4524999999999,false
+O0000950,R000132,2024-07-17,arrived_late,1.19,C00355,2022-02-22,completed,6.42,25.0,false,2022-08-04,Egypt,gold,stanleynancy@example.net,I000002830,P0384,7,250.67,sports,4.8149999999999995,false
+O0000950,R000132,2024-07-17,arrived_late,1.19,C00355,2022-02-22,completed,6.42,25.0,false,2022-08-04,Egypt,gold,stanleynancy@example.net,I000002829,P0003,1,187.39,clothing,4.8149999999999995,false
+O0000950,R000132,2024-07-17,arrived_late,1.19,C00355,2022-02-22,completed,6.42,25.0,false,2022-08-04,Egypt,gold,stanleynancy@example.net,I000002828,P0380,8,41.49,books,4.8149999999999995,false
+O0000950,R000132,2024-07-17,arrived_late,1.19,C00355,2022-02-22,completed,6.42,25.0,false,2022-08-04,Egypt,gold,stanleynancy@example.net,I000002832,P0016,5,360.14,clothing,4.8149999999999995,false
+O0000950,R000132,2024-07-17,arrived_late,1.19,C00355,2022-02-22,completed,6.42,25.0,false,2022-08-04,Egypt,gold,stanleynancy@example.net,I000002831,P0040,2,275.66,clothing,4.8149999999999995,false
+O0001968,R000166,2024-01-20,wrong_item,1582.73,C00127,2022-04-03,completed,1909.18,0.0,false,2021-09-06,Kenya,bronze,wsmith@example.com,I000005871,P0379,9,69.42,electronics,1909.18,false
+O0001968,R000166,2024-01-20,wrong_item,1582.73,C00127,2022-04-03,completed,1909.18,0.0,false,2021-09-06,Kenya,bronze,wsmith@example.com,I000005868,P0164,7,389.07,food_drink,1909.18,false
+O0001968,R000166,2024-01-20,wrong_item,1582.73,C00127,2022-04-03,completed,1909.18,0.0,false,2021-09-06,Kenya,bronze,wsmith@example.com,I000005872,P0295,9,483.59,electronics,1909.18,false
+O0001968,R000166,2024-01-20,wrong_item,1582.73,C00127,2022-04-03,completed,1909.18,0.0,false,2021-09-06,Kenya,bronze,wsmith@example.com,I000005870,P0344,5,81.95,beauty,1909.18,false
+O0001968,R000166,2024-01-20,wrong_item,1582.73,C00127,2022-04-03,completed,1909.18,0.0,false,2021-09-06,Kenya,bronze,wsmith@example.com,I000005869,P0296,2,324.4,beauty,1909.18,false
+O0000581,R000193,2022-04-02,defective,1216.54,C00287,2023-08-31,completed,1875.58,15.0,false,2022-08-20,Ghana,platinum,bwagner@example.org,I000001709,P0225,1,14.45,books,1594.243,false
+O0001874,R000214,2022-12-25,duplicate_order,772.89,C00031,2023-03-26,cancelled,859.57,0.0,false,2019-10-08,Kenya,bronze,teresa28@example.org,I000005556,P0328,6,6.17,toys,859.57,false
+O0001874,R000214,2022-12-25,duplicate_order,772.89,C00031,2023-03-26,cancelled,859.57,0.0,false,2019-10-08,Kenya,bronze,teresa28@example.org,I000005555,P0466,9,62.45,sports,859.57,false
+O0001874,R000214,2022-12-25,duplicate_order,772.89,C00031,2023-03-26,cancelled,859.57,0.0,false,2019-10-08,Kenya,bronze,teresa28@example.org,I000005557,P0039,9,57.33,beauty,859.57,false
+O0001874,R000214,2022-12-25,duplicate_order,772.89,C00031,2023-03-26,cancelled,859.57,0.0,false,2019-10-08,Kenya,bronze,teresa28@example.org,I000005558,P0380,4,31.17,home_garden,859.57,false
+O0000559,R000126,2022-04-07,arrived_late,909.48,C00071,2022-01-14,completed,1982.32,,false,2022-06-02,Ghana,bronze,sarahibarra@example.org,I000001647,P0362,7,11.53,food_drink,,false
+O0001419,R000230,2023-02-19,arrived_late,21.3,C00408,2022-03-16,shipped,27.17,10.0,false,2020-10-22,Egypt,gold,fitzgeraldvictor@example.com,I000004158,P0226,6,215.87,home_garden,24.453000000000003,false
+O0001419,R000230,2023-02-19,arrived_late,21.3,C00408,2022-03-16,shipped,27.17,10.0,false,2020-10-22,Egypt,gold,fitzgeraldvictor@example.com,I000004157,P0327,8,79.87,beauty,24.453000000000003,false
+O0001792,R000049,2022-07-08,changed_mind,446.37,C00324,2022-10-29,completed,324.7,0.0,false,2023-03-08,Egypt,gold,zwarren@example.com,I000005298,P0297,5,460.94,food_drink,324.7,true
+O0001792,R000049,2022-07-08,changed_mind,446.37,C00324,2022-10-29,completed,324.7,0.0,false,2023-03-08,Egypt,gold,zwarren@example.com,I000005299,P0204,7,356.64,home_garden,324.7,true
+O0001479,R000006,2022-02-20,arrived_late,411.04,C00145,2023-12-24,cancelled,2312.81,0.0,false,2019-07-30,Tanzania,gold,tsanders@example.org,I000004333,P0449,1,297.17,food_drink,2312.81,false
+O0001479,R000006,2022-02-20,arrived_late,411.04,C00145,2023-12-24,cancelled,2312.81,0.0,false,2019-07-30,Tanzania,gold,tsanders@example.org,I000004334,P0352,2,349.49,books,2312.81,false
+O0000989,R000040,2023-08-11,wrong_item,554.64,C00204,2022-03-22,pending,673.98,,false,2023-05-29,Ethiopia,bronze,lopezmichael@example.com,I000002937,P0088,4,267.48,books,,false
+O0000989,R000040,2023-08-11,wrong_item,554.64,C00204,2022-03-22,pending,673.98,,false,2023-05-29,Ethiopia,bronze,lopezmichael@example.com,I000002938,P0460,7,323.34,beauty,,false
+O0001916,R000218,2023-07-22,wrong_item,1163.42,C00038,2022-04-11,refunded,2277.14,25.0,false,2020-03-23,South Africa,silver,davidalvarez@example.net,I000005683,P0372,4,119.85,beauty,1707.855,false
+O0001916,R000218,2023-07-22,wrong_item,1163.42,C00038,2022-04-11,refunded,2277.14,25.0,false,2020-03-23,South Africa,silver,davidalvarez@example.net,I000005682,P0053,6,184.11,books,1707.855,false
+O0001916,R000218,2023-07-22,wrong_item,1163.42,C00038,2022-04-11,refunded,2277.14,25.0,false,2020-03-23,South Africa,silver,davidalvarez@example.net,I000005684,P0099,1,442.95,toys,1707.855,false
+O0000754,R000208,2022-05-01,duplicate_order,10.62,C00432,2023-09-06,completed,11.01,5.0,false,2019-06-22,Nigeria,bronze,debra96@example.net,I000002225,P0220,7,364.96,food_drink,10.459499999999998,true
+O0000754,R000208,2022-05-01,duplicate_order,10.62,C00432,2023-09-06,completed,11.01,5.0,false,2019-06-22,Nigeria,bronze,debra96@example.net,I000002223,P0428,4,454.05,sports,10.459499999999998,true
+O0000754,R000208,2022-05-01,duplicate_order,10.62,C00432,2023-09-06,completed,11.01,5.0,false,2019-06-22,Nigeria,bronze,debra96@example.net,I000002224,P0085,4,490.46,clothing,10.459499999999998,true
+O0000754,R000208,2022-05-01,duplicate_order,10.62,C00432,2023-09-06,completed,11.01,5.0,false,2019-06-22,Nigeria,bronze,debra96@example.net,I000002226,P0386,8,137.39,electronics,10.459499999999998,true
+O0000754,R000208,2022-05-01,duplicate_order,10.62,C00432,2023-09-06,completed,11.01,5.0,false,2019-06-22,Nigeria,bronze,debra96@example.net,I000002222,P0406,8,246.1,toys,10.459499999999998,true
+O0001402,R000254,2022-08-19,defective,364.15,C00197,2022-11-15,shipped,663.89,20.0,false,2021-06-14,Senegal,platinum,fwalters@example.org,I000004111,P0189,2,280.54,home_garden,531.112,false
+O0001402,R000254,2022-08-19,defective,364.15,C00197,2022-11-15,shipped,663.89,20.0,false,2021-06-14,Senegal,platinum,fwalters@example.org,I000004113,P0177,4,73.71,toys,531.112,false
+O0001402,R000254,2022-08-19,defective,364.15,C00197,2022-11-15,shipped,663.89,20.0,false,2021-06-14,Senegal,platinum,fwalters@example.org,I000004112,P0307,3,385.57,sports,531.112,false
+O0001402,R000254,2022-08-19,defective,364.15,C00197,2022-11-15,shipped,663.89,20.0,false,2021-06-14,Senegal,platinum,fwalters@example.org,I000004114,P0088,7,213.05,electronics,531.112,false
+O0000450,R000142,2022-06-25,wrong_item,1686.12,C00496,2023-09-06,pending,2066.53,0.0,false,2022-03-25,Nigeria,silver,francisco74@example.net,I000001330,P0016,1,361.98,toys,2066.53,false
+O0000450,R000142,2022-06-25,wrong_item,1686.12,C00496,2023-09-06,pending,2066.53,0.0,false,2022-03-25,Nigeria,silver,francisco74@example.net,I000001331,P0246,6,470.73,food_drink,2066.53,false
+O0001745,R000005,2024-05-26,wrong_item,560.18,C00273,2023-01-30,pending,2461.09,25.0,false,2022-09-01,Nigeria,bronze,lisahall@example.org,I000005160,P0334,8,392.74,toys,1845.8175,false
+O_MISSING_00007,R_GHOST_00008,2022-04-10,wrong_item,60.03,,,,,,,,,,,,,,,,,false
+O0000659,R000219,2023-05-21,defective,138.35,C00308,2023-04-08,shipped,327.52,5.0,false,2020-08-02,Egypt,platinum,moorekaren@example.org,I000001943,P0090,4,8.37,beauty,311.14399999999995,false
+O0000659,R000219,2023-05-21,defective,138.35,C00308,2023-04-08,shipped,327.52,5.0,false,2020-08-02,Egypt,platinum,moorekaren@example.org,I000001944,P0139,6,372.11,home_garden,311.14399999999995,false
+O0000017,R000019,2022-12-08,changed_mind,1150.35,C00306,2023-06-28,pending,1883.92,0.0,false,2023-09-06,South Africa,bronze,kchavez@example.com,I000000042,P0245,5,493.44,books,1883.92,false
+O0000017,R000019,2022-12-08,changed_mind,1150.35,C00306,2023-06-28,pending,1883.92,0.0,false,2023-09-06,South Africa,bronze,kchavez@example.com,I000000041,P0158,7,480.06,sports,1883.92,false
+O0000417,R000294,2022-05-03,changed_mind,2012.53,C00492,2023-04-30,cancelled,2243.72,10.0,false,2018-12-09,Ghana,bronze,nancy04@example.net,I000001234,P0033,3,39.83,beauty,2019.348,false
+O0000417,R000294,2022-05-03,changed_mind,2012.53,C00492,2023-04-30,cancelled,2243.72,10.0,false,2018-12-09,Ghana,bronze,nancy04@example.net,I000001236,P0218,6,53.22,sports,2019.348,false
+O0000417,R000294,2022-05-03,changed_mind,2012.53,C00492,2023-04-30,cancelled,2243.72,10.0,false,2018-12-09,Ghana,bronze,nancy04@example.net,I000001238,P0219,1,58.73,sports,2019.348,false
+O0000417,R000294,2022-05-03,changed_mind,2012.53,C00492,2023-04-30,cancelled,2243.72,10.0,false,2018-12-09,Ghana,bronze,nancy04@example.net,I000001235,P0261,7,406.72,electronics,2019.348,false
+O0000417,R000294,2022-05-03,changed_mind,2012.53,C00492,2023-04-30,cancelled,2243.72,10.0,false,2018-12-09,Ghana,bronze,nancy04@example.net,I000001237,P0253,6,169.4,sports,2019.348,false
+O0000601,R000281,2022-04-24,not_as_described,1230.65,C00307,2022-10-04,cancelled,1992.66,25.0,false,2023-12-10,Rwanda,silver,jennifer99@example.org,I000001765,P0107,3,334.53,,1494.4950000000001,false
+O0000861,R000009,2024-01-03,changed_mind,303.81,C00345,2023-04-21,completed,1177.69,0.0,false,2019-01-18,Ghana,bronze,mccormickdeborah@example.org,I000002554,P0497,5,479.03,home_garden,1177.69,false
+O0001870,R000189,2023-10-24,arrived_late,272.57,C00031,2023-10-13,pending,1009.7,20.0,false,2019-10-08,Kenya,bronze,teresa28@example.org,I000005545,P0402,1,178.7,books,807.7600000000001,false
+O0001870,R000189,2023-10-24,arrived_late,272.57,C00031,2023-10-13,pending,1009.7,20.0,false,2019-10-08,Kenya,bronze,teresa28@example.org,I000005544,P0415,9,164.37,clothing,807.7600000000001,false
+O0001214,R000160,2024-01-15,wrong_item,177.41,C00090,2022-03-09,pending,629.38,0.0,false,2020-08-26,Ethiopia,bronze,dwalker@example.com,I000003570,P0475,7,265.09,electronics,629.38,false
+O0001214,R000160,2024-01-15,wrong_item,177.41,C00090,2022-03-09,pending,629.38,0.0,false,2020-08-26,Ethiopia,bronze,dwalker@example.com,I000003572,P0107,8,197.53,toys,629.38,false
+O0001214,R000160,2024-01-15,wrong_item,177.41,C00090,2022-03-09,pending,629.38,0.0,false,2020-08-26,Ethiopia,bronze,dwalker@example.com,I000003571,P0426,1,282.54,clothing,629.38,false
+O0001214,R000160,2024-01-15,wrong_item,177.41,C00090,2022-03-09,pending,629.38,0.0,false,2020-08-26,Ethiopia,bronze,dwalker@example.com,I000003569,P0257,7,453.93,food_drink,629.38,false
+O0001401,R000010,2022-12-02,wrong_item,1406.69,C00352,2022-02-16,pending,1118.06,15.0,false,2023-12-19,Nigeria,bronze,coxhenry@example.org,I000004109,P0061,8,456.29,beauty,950.3509999999999,true
+O0001401,R000010,2022-12-02,wrong_item,1406.69,C00352,2022-02-16,pending,1118.06,15.0,false,2023-12-19,Nigeria,bronze,coxhenry@example.org,I000004110,P0066,9,299.35,electronics,950.3509999999999,true
+O0000133,R000134,2023-06-08,arrived_late,1862.98,C00444,2023-04-07,completed,2360.64,0.0,false,2020-01-15,Nigeria,silver,tjimenez@example.com,I000000381,P0321,3,127.69,electronics,2360.64,false
+O0000425,R000023,2022-12-27,defective,341.65,C00023,2022-07-11,shipped,646.57,20.0,false,2020-01-13,Senegal,silver,julie69@example.com,I000001261,P0458,3,311.46,toys,517.2560000000001,false
+O0000425,R000023,2022-12-27,defective,341.65,C00023,2022-07-11,shipped,646.57,20.0,false,2020-01-13,Senegal,silver,julie69@example.com,I000001260,P0330,1,12.01,home_garden,517.2560000000001,false
+O0000949,R000149,2024-01-07,arrived_late,836.77,C00471,2023-08-24,cancelled,1298.71,10.0,false,2018-06-10,Senegal,silver,sue78@example.com,I000002826,P0284,2,235.24,food_drink,1168.8390000000002,false
+O0000949,R000149,2024-01-07,arrived_late,836.77,C00471,2023-08-24,cancelled,1298.71,10.0,false,2018-06-10,Senegal,silver,sue78@example.com,I000002824,P0056,8,146.86,beauty,1168.8390000000002,false
+O0000949,R000149,2024-01-07,arrived_late,836.77,C00471,2023-08-24,cancelled,1298.71,10.0,false,2018-06-10,Senegal,silver,sue78@example.com,I000002825,P0113,4,207.27,beauty,1168.8390000000002,false
+O0000949,R000149,2024-01-07,arrived_late,836.77,C00471,2023-08-24,cancelled,1298.71,10.0,false,2018-06-10,Senegal,silver,sue78@example.com,I000002827,P0480,2,10.18,books,1168.8390000000002,false
+O0001928,R000108,2024-01-11,not_as_described,-11.48,C00236,2024-01-01,refunded,-19.32,10.0,true,2023-06-17,Uganda,platinum,tyleraguilar@example.org,I000005721,P0426,2,251.17,books,-17.388,true
+O0001928,R000108,2024-01-11,not_as_described,-11.48,C00236,2024-01-01,refunded,-19.32,10.0,true,2023-06-17,Uganda,platinum,tyleraguilar@example.org,I000005722,P0014,7,389.36,books,-17.388,true
+O0001928,R000108,2024-01-11,not_as_described,-11.48,C00236,2024-01-01,refunded,-19.32,10.0,true,2023-06-17,Uganda,platinum,tyleraguilar@example.org,I000005725,P0429,9,92.82,electronics,-17.388,true
+O0001928,R000108,2024-01-11,not_as_described,-11.48,C00236,2024-01-01,refunded,-19.32,10.0,true,2023-06-17,Uganda,platinum,tyleraguilar@example.org,I000005724,P0026,9,383.24,food_drink,-17.388,true
+O0001928,R000108,2024-01-11,not_as_described,-11.48,C00236,2024-01-01,refunded,-19.32,10.0,true,2023-06-17,Uganda,platinum,tyleraguilar@example.org,I000005723,P0417,4,69.2,electronics,-17.388,true
+O0000574,R000258,2023-03-16,arrived_late,332.25,C00398,2022-08-01,refunded,541.48,25.0,false,2023-01-19,Rwanda,bronze,cjackson@example.com,I000001694,P0005,7,223.34,food_drink,406.11,false
+O0000121,R000123,2022-09-20,wrong_item,85.95,C00066,2023-04-18,pending,414.81,0.0,false,2018-04-24,Rwanda,platinum,harveyrobert@example.net,I000000346,P0299,9,166.22,sports,414.81,false
+O0000121,R000123,2022-09-20,wrong_item,85.95,C00066,2023-04-18,pending,414.81,0.0,false,2018-04-24,Rwanda,platinum,harveyrobert@example.net,I000000345,P0051,5,26.23,electronics,414.81,false
+O0001300,R000198,2024-06-24,wrong_item,165.39,C00060,2022-07-01,pending,174.23,25.0,false,2023-07-10,Egypt,silver,,I000003822,P0231,4,489.98,electronics,130.67249999999999,true
+O0001300,R000198,2024-06-24,wrong_item,165.39,C00060,2022-07-01,pending,174.23,25.0,false,2023-07-10,Egypt,silver,,I000003823,P0203,4,354.8,books,130.67249999999999,true
+O0001982,R000203,2022-04-15,arrived_late,1084.89,C00358,2023-09-23,shipped,1273.84,10.0,false,2019-08-28,Senegal,bronze,tarabishop@example.net,I000005917,P0069,6,213.18,,1146.456,false
+O0001982,R000203,2022-04-15,arrived_late,1084.89,C00358,2023-09-23,shipped,1273.84,10.0,false,2019-08-28,Senegal,bronze,tarabishop@example.net,I000005915,P0028,6,153.56,clothing,1146.456,false
+O0001982,R000203,2022-04-15,arrived_late,1084.89,C00358,2023-09-23,shipped,1273.84,10.0,false,2019-08-28,Senegal,bronze,tarabishop@example.net,I000005916,P0176,6,226.89,toys,1146.456,false
+O0001982,R000203,2022-04-15,arrived_late,1084.89,C00358,2023-09-23,shipped,1273.84,10.0,false,2019-08-28,Senegal,bronze,tarabishop@example.net,I000005918,P0363,1,461.59,sports,1146.456,false
+O0001982,R000203,2022-04-15,arrived_late,1084.89,C00358,2023-09-23,shipped,1273.84,10.0,false,2019-08-28,Senegal,bronze,tarabishop@example.net,I000005914,P0054,3,135.77,toys,1146.456,false
+O0000247,R000152,2023-02-15,arrived_late,930.91,C00318,2023-12-15,cancelled,1193.33,,false,2020-05-07,Uganda,silver,sandersjudy@example.com,I000000706,P0439,9,458.23,beauty,,false
+O0001951,R000177,2024-01-21,arrived_late,117.8,C00325,2022-11-06,shipped,258.29,25.0,false,2021-09-21,Senegal,bronze,jeffrey21@example.net,I000005809,P0402,5,175.36,clothing,193.71750000000003,false
+O0001951,R000177,2024-01-21,arrived_late,117.8,C00325,2022-11-06,shipped,258.29,25.0,false,2021-09-21,Senegal,bronze,jeffrey21@example.net,I000005811,P0215,8,440.94,sports,193.71750000000003,false
+O0001951,R000177,2024-01-21,arrived_late,117.8,C00325,2022-11-06,shipped,258.29,25.0,false,2021-09-21,Senegal,bronze,jeffrey21@example.net,I000005810,P0409,6,57.35,books,193.71750000000003,false
+O0001951,R000177,2024-01-21,arrived_late,117.8,C00325,2022-11-06,shipped,258.29,25.0,false,2021-09-21,Senegal,bronze,jeffrey21@example.net,I000005808,P0059,3,498.78,sports,193.71750000000003,false
+O0001320,R000130,2023-03-02,not_as_described,629.38,C00263,2023-08-22,cancelled,2179.52,0.0,false,2021-10-01,South Africa,platinum,paulwatson@example.net,I000003870,P0101,2,436.19,electronics,2179.52,false
+O0001753,R000191,2022-12-12,not_as_described,604.44,C00163,2022-02-09,refunded,853.92,15.0,false,2019-08-01,Ethiopia,bronze,davisjeffrey@example.net,I000005183,P0122,5,480.21,toys,725.832,false
+O0001753,R000191,2022-12-12,not_as_described,604.44,C00163,2022-02-09,refunded,853.92,15.0,false,2019-08-01,Ethiopia,bronze,davisjeffrey@example.net,I000005185,P0432,8,416.33,toys,725.832,false
+O0001753,R000191,2022-12-12,not_as_described,604.44,C00163,2022-02-09,refunded,853.92,15.0,false,2019-08-01,Ethiopia,bronze,davisjeffrey@example.net,I000005184,P0357,4,108.89,clothing,725.832,false
+O0001753,R000191,2022-12-12,not_as_described,604.44,C00163,2022-02-09,refunded,853.92,15.0,false,2019-08-01,Ethiopia,bronze,davisjeffrey@example.net,I000005186,P0040,7,227.03,home_garden,725.832,false
+O_MISSING_00008,R_GHOST_00009,2024-04-26,not_as_described,430.23,,,,,,,,,,,,,,,,,false
+O0001161,R000133,2022-05-01,duplicate_order,1211.44,C00218,2023-06-10,pending,1760.3,25.0,false,2021-08-24,Tanzania,silver,jreed@example.net,I000003439,P0436,3,145.06,books,1320.225,false
+O0001252,R000205,2022-12-28,not_as_described,2206.85,C00407,2022-02-06,completed,2391.29,0.0,false,2022-01-04,Egypt,silver,raymond43@example.org,I000003682,P0359,6,260.11,beauty,2391.29,false
+O0001252,R000205,2022-12-28,not_as_described,2206.85,C00407,2022-02-06,completed,2391.29,0.0,false,2022-01-04,Egypt,silver,raymond43@example.org,I000003680,P0045,3,199.76,home_garden,2391.29,false
+O0001252,R000205,2022-12-28,not_as_described,2206.85,C00407,2022-02-06,completed,2391.29,0.0,false,2022-01-04,Egypt,silver,raymond43@example.org,I000003681,P0055,3,126.98,clothing,2391.29,false
+O0001252,R000205,2022-12-28,not_as_described,2206.85,C00407,2022-02-06,completed,2391.29,0.0,false,2022-01-04,Egypt,silver,raymond43@example.org,I000003678,P0005,8,47.91,clothing,2391.29,false
+O0001252,R000205,2022-12-28,not_as_described,2206.85,C00407,2022-02-06,completed,2391.29,0.0,false,2022-01-04,Egypt,silver,raymond43@example.org,I000003679,P0419,7,471.65,sports,2391.29,false
+O0001413,R000236,2023-11-27,duplicate_order,593.21,C00135,2022-12-19,completed,831.06,15.0,false,2021-02-02,Uganda,silver,wmurphy@example.com,I000004142,P0487,7,360.62,clothing,706.401,false
+O0001413,R000236,2023-11-27,duplicate_order,593.21,C00135,2022-12-19,completed,831.06,15.0,false,2021-02-02,Uganda,silver,wmurphy@example.com,I000004141,P0250,8,356.6,toys,706.401,false
+O0000068,R000183,2024-03-31,duplicate_order,73.07,C00399,2022-06-17,cancelled,117.19,0.0,false,2019-03-29,Ghana,gold,wwilliams@example.net,I000000189,P0385,2,305.62,,117.19,false
+O0000068,R000183,2024-03-31,duplicate_order,73.07,C00399,2022-06-17,cancelled,117.19,0.0,false,2019-03-29,Ghana,gold,wwilliams@example.net,I000000190,P0344,8,289.0,books,117.19,false
+O0000068,R000183,2024-03-31,duplicate_order,73.07,C00399,2022-06-17,cancelled,117.19,0.0,false,2019-03-29,Ghana,gold,wwilliams@example.net,I000000191,P0351,4,159.51,sports,117.19,false
+O0000007,R000175,2023-08-07,defective,281.86,C00422,2022-01-30,pending,1011.17,25.0,false,2018-02-16,Rwanda,silver,nataliedeleon@example.net,I000000014,P0433,1,311.9,beauty,758.3774999999999,false
+O0000007,R000175,2023-08-07,defective,281.86,C00422,2022-01-30,pending,1011.17,25.0,false,2018-02-16,Rwanda,silver,nataliedeleon@example.net,I000000015,P0401,6,9.15,,758.3774999999999,false
+O0000902,R000025,2023-05-20,arrived_late,852.97,C00473,2024-05-30,refunded,2497.65,0.0,false,2023-06-22,Ghana,platinum,susanramirez@example.com,I000002667,P0397,3,329.89,electronics,2497.65,false
+O0000902,R000025,2023-05-20,arrived_late,852.97,C00473,2024-05-30,refunded,2497.65,0.0,false,2023-06-22,Ghana,platinum,susanramirez@example.com,I000002666,P0128,7,402.44,sports,2497.65,false
+O0000902,R000025,2023-05-20,arrived_late,852.97,C00473,2024-05-30,refunded,2497.65,0.0,false,2023-06-22,Ghana,platinum,susanramirez@example.com,I000002669,P0357,3,266.36,toys,2497.65,false
+O0000902,R000025,2023-05-20,arrived_late,852.97,C00473,2024-05-30,refunded,2497.65,0.0,false,2023-06-22,Ghana,platinum,susanramirez@example.com,I000002668,P0017,3,261.65,toys,2497.65,false
+O_MISSING_00010,R_GHOST_00011,2024-01-10,wrong_item,417.14,,,,,,,,,,,,,,,,,false
+O0001929,R000061,2022-12-09,wrong_item,1282.69,C00040,2022-11-17,refunded,1805.92,,false,2018-12-27,Nigeria,platinum,sarahcampos@example.net,I000005727,P0234,1,79.21,beauty,,false
+O0001929,R000061,2022-12-09,wrong_item,1282.69,C00040,2022-11-17,refunded,1805.92,,false,2018-12-27,Nigeria,platinum,sarahcampos@example.net,I000005726,P0261,2,429.31,home_garden,,false
+O0001929,R000061,2022-12-09,wrong_item,1282.69,C00040,2022-11-17,refunded,1805.92,,false,2018-12-27,Nigeria,platinum,sarahcampos@example.net,I000005730,P0318,4,17.58,food_drink,,false
+O0001929,R000061,2022-12-09,wrong_item,1282.69,C00040,2022-11-17,refunded,1805.92,,false,2018-12-27,Nigeria,platinum,sarahcampos@example.net,I000005729,P0212,8,255.44,,,false
+O0001929,R000061,2022-12-09,wrong_item,1282.69,C00040,2022-11-17,refunded,1805.92,,false,2018-12-27,Nigeria,platinum,sarahcampos@example.net,I000005728,P0092,5,281.21,food_drink,,false
+O0001289,R000084,2022-06-28,wrong_item,439.08,C00355,2023-01-20,pending,700.08,0.0,false,2022-08-04,Egypt,gold,stanleynancy@example.net,I000003792,P0079,8,481.75,sports,700.08,false
+O0001289,R000084,2022-06-28,wrong_item,439.08,C00355,2023-01-20,pending,700.08,0.0,false,2022-08-04,Egypt,gold,stanleynancy@example.net,I000003791,P0033,1,460.73,electronics,700.08,false
+O0001289,R000084,2022-06-28,wrong_item,439.08,C00355,2023-01-20,pending,700.08,0.0,false,2022-08-04,Egypt,gold,stanleynancy@example.net,I000003793,P0350,1,373.27,sports,700.08,false
+O0001289,R000084,2022-06-28,wrong_item,439.08,C00355,2023-01-20,pending,700.08,0.0,false,2022-08-04,Egypt,gold,stanleynancy@example.net,I000003790,P0016,3,283.82,food_drink,700.08,false
+O0000775,R000086,2023-05-02,changed_mind,381.98,C00113,2023-08-19,shipped,977.36,0.0,false,2022-05-26,Ethiopia,silver,zrobinson@example.net,I000002280,P0146,2,187.62,books,977.36,false
+O0000675,R000233,2022-10-07,arrived_late,498.11,C00238,2022-05-13,shipped,1930.16,10.0,false,2023-11-08,Ethiopia,bronze,nolansteven@example.com,I000001995,P0246,2,338.65,food_drink,1737.144,false
+O0000675,R000233,2022-10-07,arrived_late,498.11,C00238,2022-05-13,shipped,1930.16,10.0,false,2023-11-08,Ethiopia,bronze,nolansteven@example.com,I000001997,P0017,6,112.93,sports,1737.144,false
+O0000675,R000233,2022-10-07,arrived_late,498.11,C00238,2022-05-13,shipped,1930.16,10.0,false,2023-11-08,Ethiopia,bronze,nolansteven@example.com,I000001996,P0452,3,146.91,home_garden,1737.144,false
+O0000757,R000034,2023-02-15,wrong_item,78.79,C00486,2022-02-03,shipped,163.1,0.0,false,2023-10-21,Ethiopia,silver,edelgado@example.com,I000002233,P0410,9,314.85,sports,163.1,false
+O0000397,R000099,2023-06-06,not_as_described,491.09,C00037,2022-04-28,cancelled,2047.66,0.0,false,2023-11-06,South Africa,silver,wcabrera@example.net,I000001166,P0483,3,169.56,sports,2047.66,false
+O0000397,R000099,2023-06-06,not_as_described,491.09,C00037,2022-04-28,cancelled,2047.66,0.0,false,2023-11-06,South Africa,silver,wcabrera@example.net,I000001167,P0226,3,424.65,toys,2047.66,false
+O0001724,R000211,2023-07-15,duplicate_order,1220.13,C00156,2024-03-27,shipped,1918.66,0.0,false,2022-06-14,Rwanda,gold,karenhudson@example.net,I000005086,P0469,4,18.26,home_garden,1918.66,false
+O0001724,R000211,2023-07-15,duplicate_order,1220.13,C00156,2024-03-27,shipped,1918.66,0.0,false,2022-06-14,Rwanda,gold,karenhudson@example.net,I000005087,P0095,2,109.41,toys,1918.66,false
+O0001724,R000211,2023-07-15,duplicate_order,1220.13,C00156,2024-03-27,shipped,1918.66,0.0,false,2022-06-14,Rwanda,gold,karenhudson@example.net,I000005085,P0199,9,73.62,toys,1918.66,false
+O0001724,R000211,2023-07-15,duplicate_order,1220.13,C00156,2024-03-27,shipped,1918.66,0.0,false,2022-06-14,Rwanda,gold,karenhudson@example.net,I000005084,P0129,3,354.14,home_garden,1918.66,false
+O0000277,R000226,2022-08-09,not_as_described,1265.66,C00225,2023-02-23,shipped,1977.08,0.0,false,2020-06-25,Uganda,gold,jsmith@example.com,I000000798,P0262,5,133.06,sports,1977.08,false
+O0000277,R000226,2022-08-09,not_as_described,1265.66,C00225,2023-02-23,shipped,1977.08,0.0,false,2020-06-25,Uganda,gold,jsmith@example.com,I000000797,P0059,5,64.39,toys,1977.08,false
+O0000277,R000226,2022-08-09,not_as_described,1265.66,C00225,2023-02-23,shipped,1977.08,0.0,false,2020-06-25,Uganda,gold,jsmith@example.com,I000000799,P0272,2,4.28,sports,1977.08,false
+O0000277,R000226,2022-08-09,not_as_described,1265.66,C00225,2023-02-23,shipped,1977.08,0.0,false,2020-06-25,Uganda,gold,jsmith@example.com,I000000800,P0186,6,339.29,home_garden,1977.08,false
+O0001262,R000244,2022-02-14,changed_mind,415.47,C00106,2022-02-17,pending,433.69,25.0,false,2020-11-04,Kenya,platinum,yleon@example.net,I000003707,P0246,7,203.52,electronics,325.2675,true
+O0001262,R000244,2022-02-14,changed_mind,415.47,C00106,2022-02-17,pending,433.69,25.0,false,2020-11-04,Kenya,platinum,yleon@example.net,I000003709,P0025,7,43.0,books,325.2675,true
+O0001262,R000244,2022-02-14,changed_mind,415.47,C00106,2022-02-17,pending,433.69,25.0,false,2020-11-04,Kenya,platinum,yleon@example.net,I000003708,P0341,8,358.75,clothing,325.2675,true
+O0001868,R000199,2022-05-16,not_as_described,1081.3,C00162,2024-03-07,refunded,1940.4,25.0,false,2023-10-03,Ethiopia,bronze,fbrewer@example.com,I000005540,P0042,1,364.24,home_garden,1455.3000000000002,false
+O0001868,R000199,2022-05-16,not_as_described,1081.3,C00162,2024-03-07,refunded,1940.4,25.0,false,2023-10-03,Ethiopia,bronze,fbrewer@example.com,I000005538,P0429,9,389.25,food_drink,1455.3000000000002,false
+O0001868,R000199,2022-05-16,not_as_described,1081.3,C00162,2024-03-07,refunded,1940.4,25.0,false,2023-10-03,Ethiopia,bronze,fbrewer@example.com,I000005539,P0270,2,256.01,electronics,1455.3000000000002,false
+O0001868,R000199,2022-05-16,not_as_described,1081.3,C00162,2024-03-07,refunded,1940.4,25.0,false,2023-10-03,Ethiopia,bronze,fbrewer@example.com,I000005541,P0350,3,366.99,clothing,1455.3000000000002,false
+O0000047,R000170,2022-09-30,not_as_described,1055.55,C00357,2023-10-15,refunded,1439.3,25.0,false,2019-10-18,Tanzania,silver,jenniferwilliams@example.com,I000000121,P0075,9,211.19,home_garden,1079.475,false
+O0000047,R000170,2022-09-30,not_as_described,1055.55,C00357,2023-10-15,refunded,1439.3,25.0,false,2019-10-18,Tanzania,silver,jenniferwilliams@example.com,I000000122,P0456,8,7.69,toys,1079.475,false
+O0000643,R000017,2023-06-11,defective,412.06,C00454,2023-06-21,completed,1913.64,10.0,false,2018-02-18,Uganda,platinum,kari39@example.net,I000001900,P0059,6,69.13,electronics,1722.276,false
+O0000643,R000017,2023-06-11,defective,412.06,C00454,2023-06-21,completed,1913.64,10.0,false,2018-02-18,Uganda,platinum,kari39@example.net,I000001899,P0031,7,326.99,toys,1722.276,false
+O0001570,R000194,2023-04-16,defective,1837.84,C00121,2023-03-14,completed,2121.29,25.0,false,2023-07-09,Senegal,platinum,reevesjimmy@example.com,I000004620,P0394,2,105.1,books,1590.9675,true
+O0001570,R000194,2023-04-16,defective,1837.84,C00121,2023-03-14,completed,2121.29,25.0,false,2023-07-09,Senegal,platinum,reevesjimmy@example.com,I000004621,P0179,5,97.91,electronics,1590.9675,true
+O0001570,R000194,2023-04-16,defective,1837.84,C00121,2023-03-14,completed,2121.29,25.0,false,2023-07-09,Senegal,platinum,reevesjimmy@example.com,I000004619,P0013,3,123.28,beauty,1590.9675,true
+O0001570,R000194,2023-04-16,defective,1837.84,C00121,2023-03-14,completed,2121.29,25.0,false,2023-07-09,Senegal,platinum,reevesjimmy@example.com,I000004622,P0345,6,124.02,food_drink,1590.9675,true
+O0001789,R000045,2024-06-02,arrived_late,,C00147,2022-02-17,pending,,20.0,false,2023-05-31,South Africa,silver,terrykevin@example.net,I000005287,P0140,4,56.38,beauty,,false
+O0001789,R000045,2024-06-02,arrived_late,,C00147,2022-02-17,pending,,20.0,false,2023-05-31,South Africa,silver,terrykevin@example.net,I000005290,P0150,7,406.46,electronics,,false
+O0001789,R000045,2024-06-02,arrived_late,,C00147,2022-02-17,pending,,20.0,false,2023-05-31,South Africa,silver,terrykevin@example.net,I000005289,P0427,6,462.83,electronics,,false
+O0001789,R000045,2024-06-02,arrived_late,,C00147,2022-02-17,pending,,20.0,false,2023-05-31,South Africa,silver,terrykevin@example.net,I000005288,P0446,3,352.52,,,false
+O0000110,R000118,2023-04-18,wrong_item,,C00136,2024-01-24,pending,,0.0,false,2023-03-14,Tanzania,silver,karen64@example.org,I000000314,P0326,1,169.65,home_garden,,false
+O0000110,R000118,2023-04-18,wrong_item,,C00136,2024-01-24,pending,,0.0,false,2023-03-14,Tanzania,silver,karen64@example.org,I000000315,P0172,8,119.93,,,false
+O0000110,R000118,2023-04-18,wrong_item,,C00136,2024-01-24,pending,,0.0,false,2023-03-14,Tanzania,silver,karen64@example.org,I000000316,P0126,6,489.36,clothing,,false
+O0000110,R000118,2023-04-18,wrong_item,,C00136,2024-01-24,pending,,0.0,false,2023-03-14,Tanzania,silver,karen64@example.org,I000000317,P0411,2,482.88,home_garden,,false
+O0000110,R000118,2023-04-18,wrong_item,,C00136,2024-01-24,pending,,0.0,false,2023-03-14,Tanzania,silver,karen64@example.org,I000000318,P0014,8,386.64,toys,,false
+O0000514,R000081,2023-11-30,wrong_item,723.38,C00182,2022-09-27,completed,732.02,20.0,false,2021-07-04,Egypt,gold,andreamoore@example.com,I000001514,P0483,3,186.46,beauty,585.616,true
+O0000514,R000081,2023-11-30,wrong_item,723.38,C00182,2022-09-27,completed,732.02,20.0,false,2021-07-04,Egypt,gold,andreamoore@example.com,I000001515,P0336,9,138.81,beauty,585.616,true
+O0000135,R000264,2023-11-02,wrong_item,1933.48,C00350,2023-04-04,pending,1989.84,5.0,false,2020-12-18,Tanzania,bronze,elizabethcalderon@example.net,I000000385,P0006,4,256.54,electronics,1890.3479999999997,true
+O0000135,R000264,2023-11-02,wrong_item,1933.48,C00350,2023-04-04,pending,1989.84,5.0,false,2020-12-18,Tanzania,bronze,elizabethcalderon@example.net,I000000384,P0366,3,389.93,clothing,1890.3479999999997,true
+O0000135,R000264,2023-11-02,wrong_item,1933.48,C00350,2023-04-04,pending,1989.84,5.0,false,2020-12-18,Tanzania,bronze,elizabethcalderon@example.net,I000000387,P0151,4,87.25,electronics,1890.3479999999997,true
+O0000135,R000264,2023-11-02,wrong_item,1933.48,C00350,2023-04-04,pending,1989.84,5.0,false,2020-12-18,Tanzania,bronze,elizabethcalderon@example.net,I000000386,P0073,1,81.57,toys,1890.3479999999997,true
+O0000135,R000264,2023-11-02,wrong_item,1933.48,C00350,2023-04-04,pending,1989.84,5.0,false,2020-12-18,Tanzania,bronze,elizabethcalderon@example.net,I000000388,P0213,7,148.75,toys,1890.3479999999997,true
+O0000873,R000129,2023-03-15,wrong_item,721.1,C00199,2023-07-23,refunded,607.99,20.0,false,2018-02-21,Senegal,bronze,hodgemark@example.net,I000002592,P0352,2,141.01,food_drink,486.39200000000005,true
+O0000873,R000129,2023-03-15,wrong_item,721.1,C00199,2023-07-23,refunded,607.99,20.0,false,2018-02-21,Senegal,bronze,hodgemark@example.net,I000002590,P0464,4,32.98,toys,486.39200000000005,true
+O0000873,R000129,2023-03-15,wrong_item,721.1,C00199,2023-07-23,refunded,607.99,20.0,false,2018-02-21,Senegal,bronze,hodgemark@example.net,I000002591,P0090,2,314.24,clothing,486.39200000000005,true
+O0001679,R000242,2022-03-19,not_as_described,1296.68,,,,,,,,,,,,,,,,,false
+O0000311,R000216,2023-02-03,not_as_described,1499.68,C00015,2022-11-28,shipped,2310.69,25.0,false,2018-06-23,Uganda,bronze,mitchellclark@example.com,I000000907,P0054,9,366.21,toys,1733.0175,false
+O0000311,R000216,2023-02-03,not_as_described,1499.68,C00015,2022-11-28,shipped,2310.69,25.0,false,2018-06-23,Uganda,bronze,mitchellclark@example.com,I000000905,P0044,3,139.41,sports,1733.0175,false
+O0000311,R000216,2023-02-03,not_as_described,1499.68,C00015,2022-11-28,shipped,2310.69,25.0,false,2018-06-23,Uganda,bronze,mitchellclark@example.com,I000000906,P0112,5,426.5,books,1733.0175,false
+O0001815,R000146,2024-02-29,duplicate_order,-534.01,C00332,2023-04-17,pending,-861.66,0.0,true,2023-05-18,Uganda,gold,michelle52@example.com,I000005362,P0135,9,387.7,sports,-861.66,true
+O0001815,R000146,2024-02-29,duplicate_order,-534.01,C00332,2023-04-17,pending,-861.66,0.0,true,2023-05-18,Uganda,gold,michelle52@example.com,I000005365,P0394,3,56.84,electronics,-861.66,true
+O0001815,R000146,2024-02-29,duplicate_order,-534.01,C00332,2023-04-17,pending,-861.66,0.0,true,2023-05-18,Uganda,gold,michelle52@example.com,I000005364,P0131,5,115.24,sports,-861.66,true
+O0001815,R000146,2024-02-29,duplicate_order,-534.01,C00332,2023-04-17,pending,-861.66,0.0,true,2023-05-18,Uganda,gold,michelle52@example.com,I000005363,P0313,1,352.51,toys,-861.66,true
+O0000805,R000115,2023-04-28,changed_mind,142.97,C00171,2023-03-12,completed,325.93,0.0,false,2018-07-16,Kenya,silver,brandon08@example.com,I000002374,P0422,8,244.74,sports,325.93,false
+O0000805,R000115,2023-04-28,changed_mind,142.97,C00171,2023-03-12,completed,325.93,0.0,false,2018-07-16,Kenya,silver,brandon08@example.com,I000002372,P0167,8,376.72,food_drink,325.93,false
+O0000805,R000115,2023-04-28,changed_mind,142.97,C00171,2023-03-12,completed,325.93,0.0,false,2018-07-16,Kenya,silver,brandon08@example.com,I000002373,P0191,7,174.83,food_drink,325.93,false
+O0000805,R000115,2023-04-28,changed_mind,142.97,C00171,2023-03-12,completed,325.93,0.0,false,2018-07-16,Kenya,silver,brandon08@example.com,I000002375,P0061,5,358.25,food_drink,325.93,false
+O_MISSING_00000,R_GHOST_00001,2022-11-22,changed_mind,456.63,,,,,,,,,,,,,,,,,false
+O0001812,R000135,2023-05-02,arrived_late,175.75,C00373,2024-03-25,completed,802.5,25.0,false,2018-09-24,Uganda,platinum,scottmary@example.net,I000005349,P0131,2,69.53,home_garden,601.875,false
+O0001812,R000135,2023-05-02,arrived_late,175.75,C00373,2024-03-25,completed,802.5,25.0,false,2018-09-24,Uganda,platinum,scottmary@example.net,I000005351,P0322,9,189.71,sports,601.875,false
+O0001812,R000135,2023-05-02,arrived_late,175.75,C00373,2024-03-25,completed,802.5,25.0,false,2018-09-24,Uganda,platinum,scottmary@example.net,I000005350,P0291,5,395.23,sports,601.875,false
+O0001204,R000252,2023-06-21,arrived_late,875.61,C00181,2022-11-09,shipped,961.13,5.0,false,2019-08-04,Kenya,gold,josephmiller@example.org,I000003541,P0120,6,151.36,food_drink,913.0735,false
+O0001372,R000122,2024-04-07,defective,3582.92,C00313,2022-04-30,shipped,2479.51,25.0,false,2022-09-29,Nigeria,bronze,randallgreene@example.org,I000004020,P0434,2,220.13,beauty,1859.6325000000002,true
+O0000492,R000212,2023-06-25,arrived_late,314.39,C00026,2023-04-06,refunded,1399.19,15.0,false,2019-03-20,Egypt,bronze,laurahenderson@example.org,I000001449,P0029,9,262.99,food_drink,1189.3115,false
+O0000554,R000139,2024-06-04,arrived_late,1039.84,C00364,2022-11-09,pending,1805.87,10.0,false,2021-11-07,Tanzania,bronze,angela18@example.org,I000001632,P0488,6,310.76,sports,1625.283,false
+O0000554,R000139,2024-06-04,arrived_late,1039.84,C00364,2022-11-09,pending,1805.87,10.0,false,2021-11-07,Tanzania,bronze,angela18@example.org,I000001631,P0480,1,459.69,electronics,1625.283,false
+O0000554,R000139,2024-06-04,arrived_late,1039.84,C00364,2022-11-09,pending,1805.87,10.0,false,2021-11-07,Tanzania,bronze,angela18@example.org,I000001633,P0209,2,167.68,toys,1625.283,false
+O0001069,R000234,2024-05-21,defective,180.75,C00322,2023-11-10,refunded,666.18,0.0,false,2018-05-19,South Africa,gold,george97@example.net,I000003147,P0281,9,456.24,electronics,666.18,false
+O0000275,R000141,2022-10-20,changed_mind,310.72,C00334,2022-06-09,refunded,418.0,0.0,false,2021-10-14,Senegal,platinum,bellcharles@example.com,I000000793,P0470,9,166.32,home_garden,418.0,false
+O0000275,R000141,2022-10-20,changed_mind,310.72,C00334,2022-06-09,refunded,418.0,0.0,false,2021-10-14,Senegal,platinum,bellcharles@example.com,I000000794,P0443,8,159.17,food_drink,418.0,false
+O0000313,R000253,2023-12-06,defective,,C00369,2022-07-15,completed,,5.0,false,2023-07-30,South Africa,gold,brooksanthony@example.org,I000000912,P0423,2,121.33,electronics,,false
+O0000313,R000253,2023-12-06,defective,,C00369,2022-07-15,completed,,5.0,false,2023-07-30,South Africa,gold,brooksanthony@example.org,I000000911,P0081,1,266.54,toys,,false
+O0000313,R000253,2023-12-06,defective,,C00369,2022-07-15,completed,,5.0,false,2023-07-30,South Africa,gold,brooksanthony@example.org,I000000913,P0346,1,406.36,clothing,,false
+O0001819,R000186,2023-08-27,arrived_late,1418.25,C00014,2024-03-08,shipped,2260.93,25.0,false,2021-05-30,Tanzania,silver,jamesshawn@example.com,I000005376,P0439,3,426.49,sports,1695.6974999999998,false
+O0001819,R000186,2023-08-27,arrived_late,1418.25,C00014,2024-03-08,shipped,2260.93,25.0,false,2021-05-30,Tanzania,silver,jamesshawn@example.com,I000005373,P0288,9,199.03,toys,1695.6974999999998,false
+O0001819,R000186,2023-08-27,arrived_late,1418.25,C00014,2024-03-08,shipped,2260.93,25.0,false,2021-05-30,Tanzania,silver,jamesshawn@example.com,I000005375,P0275,8,391.63,toys,1695.6974999999998,false
+O0001819,R000186,2023-08-27,arrived_late,1418.25,C00014,2024-03-08,shipped,2260.93,25.0,false,2021-05-30,Tanzania,silver,jamesshawn@example.com,I000005374,P0463,7,77.68,sports,1695.6974999999998,false
+O0001819,R000186,2023-08-27,arrived_late,1418.25,C00014,2024-03-08,shipped,2260.93,25.0,false,2021-05-30,Tanzania,silver,jamesshawn@example.com,I000005377,P0425,2,143.46,beauty,1695.6974999999998,false
+O0000389,R000079,2023-12-01,arrived_late,109.26,C00149,2022-08-21,refunded,544.92,15.0,false,2020-07-19,Rwanda,platinum,amanda51@example.net,I000001145,P0472,8,487.67,sports,463.18199999999996,false
+O0000389,R000079,2023-12-01,arrived_late,109.26,C00149,2022-08-21,refunded,544.92,15.0,false,2020-07-19,Rwanda,platinum,amanda51@example.net,I000001146,P0232,5,215.15,books,463.18199999999996,false
+O0000389,R000079,2023-12-01,arrived_late,109.26,C00149,2022-08-21,refunded,544.92,15.0,false,2020-07-19,Rwanda,platinum,amanda51@example.net,I000001147,P0065,8,215.11,electronics,463.18199999999996,false
+O0001394,R000011,2023-06-04,duplicate_order,142.15,C00049,2024-03-13,shipped,613.18,20.0,false,2022-12-14,Nigeria,bronze,clintonhopkins@example.com,I000004091,P0199,4,450.65,sports,490.544,false
+O0000004,R000063,2024-02-01,changed_mind,3.87,C00037,2023-10-26,pending,17.12,20.0,false,2023-11-06,South Africa,silver,wcabrera@example.net,I000000010,P0108,3,176.2,food_drink,13.696000000000002,false
+O0001095,R000039,2023-06-29,defective,28.89,C00277,2022-08-09,completed,55.95,25.0,false,2020-01-23,Ghana,platinum,alfred40@example.org,I000003222,P0439,3,202.17,home_garden,41.962500000000006,false
+O0001095,R000039,2023-06-29,defective,28.89,C00277,2022-08-09,completed,55.95,25.0,false,2020-01-23,Ghana,platinum,alfred40@example.org,I000003220,P0145,4,204.42,electronics,41.962500000000006,false
+O0001095,R000039,2023-06-29,defective,28.89,C00277,2022-08-09,completed,55.95,25.0,false,2020-01-23,Ghana,platinum,alfred40@example.org,I000003223,P0296,8,164.87,home_garden,41.962500000000006,false
+O0001095,R000039,2023-06-29,defective,28.89,C00277,2022-08-09,completed,55.95,25.0,false,2020-01-23,Ghana,platinum,alfred40@example.org,I000003219,P0327,9,450.67,clothing,41.962500000000006,false
+O0001095,R000039,2023-06-29,defective,28.89,C00277,2022-08-09,completed,55.95,25.0,false,2020-01-23,Ghana,platinum,alfred40@example.org,I000003221,P0146,4,68.52,sports,41.962500000000006,false
+O0001129,R000259,2022-05-05,arrived_late,552.16,C00496,2023-10-27,cancelled,1838.08,25.0,false,2022-03-25,Nigeria,silver,francisco74@example.net,I000003330,P0338,7,262.43,books,1378.56,false
+O0001129,R000259,2022-05-05,arrived_late,552.16,C00496,2023-10-27,cancelled,1838.08,25.0,false,2022-03-25,Nigeria,silver,francisco74@example.net,I000003331,P0134,8,333.31,sports,1378.56,false
+O0000401,R000021,2024-06-23,duplicate_order,1028.51,C00303,2024-05-10,completed,1708.82,5.0,false,2021-06-23,Nigeria,platinum,adam29@example.net,I000001177,P0140,8,216.63,home_garden,1623.379,false
+O0000401,R000021,2024-06-23,duplicate_order,1028.51,C00303,2024-05-10,completed,1708.82,5.0,false,2021-06-23,Nigeria,platinum,adam29@example.net,I000001179,P0212,6,261.23,clothing,1623.379,false
+O0000401,R000021,2024-06-23,duplicate_order,1028.51,C00303,2024-05-10,completed,1708.82,5.0,false,2021-06-23,Nigeria,platinum,adam29@example.net,I000001175,P0196,8,166.22,books,1623.379,false
+O0000401,R000021,2024-06-23,duplicate_order,1028.51,C00303,2024-05-10,completed,1708.82,5.0,false,2021-06-23,Nigeria,platinum,adam29@example.net,I000001176,P0308,2,371.06,toys,1623.379,false
+O0000401,R000021,2024-06-23,duplicate_order,1028.51,C00303,2024-05-10,completed,1708.82,5.0,false,2021-06-23,Nigeria,platinum,adam29@example.net,I000001178,P0312,7,338.17,toys,1623.379,false
+O0001187,R000222,2022-06-12,wrong_item,25.17,C00365,2023-01-27,cancelled,177.85,0.0,false,2018-06-06,South Africa,platinum,christopher24@example.com,I000003498,P0497,5,483.69,food_drink,177.85,false
+O0001187,R000222,2022-06-12,wrong_item,25.17,C00365,2023-01-27,cancelled,177.85,0.0,false,2018-06-06,South Africa,platinum,christopher24@example.com,I000003500,P0311,5,400.1,toys,177.85,false
+O0001187,R000222,2022-06-12,wrong_item,25.17,C00365,2023-01-27,cancelled,177.85,0.0,false,2018-06-06,South Africa,platinum,christopher24@example.com,I000003499,P0165,9,222.47,books,177.85,false
+O0001624,R000251,2023-02-23,changed_mind,602.41,C00247,2023-10-11,pending,498.18,25.0,false,2018-09-10,Ghana,silver,courtneyberger@example.net,I000004786,P0008,7,439.23,sports,373.635,true
+O0001185,R000275,2022-09-30,defective,211.35,C00418,2023-01-12,shipped,726.08,20.0,false,2022-10-15,Kenya,silver,jonesraymond@example.net,I000003495,P0064,8,391.24,beauty,580.864,false
+O0001185,R000275,2022-09-30,defective,211.35,C00418,2023-01-12,shipped,726.08,20.0,false,2022-10-15,Kenya,silver,jonesraymond@example.net,I000003494,P0115,9,492.35,sports,580.864,false
+O0000825,R000190,2023-11-29,arrived_late,24.16,C00013,2022-03-03,cancelled,230.38,15.0,false,2020-10-29,Uganda,silver,kendragalloway@example.org,I000002437,P0335,1,379.05,sports,195.82299999999998,false
+O0000825,R000190,2023-11-29,arrived_late,24.16,C00013,2022-03-03,cancelled,230.38,15.0,false,2020-10-29,Uganda,silver,kendragalloway@example.org,I000002435,P0197,9,126.21,sports,195.82299999999998,false
+O0000825,R000190,2023-11-29,arrived_late,24.16,C00013,2022-03-03,cancelled,230.38,15.0,false,2020-10-29,Uganda,silver,kendragalloway@example.org,I000002436,P0132,6,292.89,books,195.82299999999998,false
+O0001008,R000192,2024-07-21,changed_mind,544.86,C00233,2022-12-04,shipped,972.69,0.0,false,2019-10-31,Kenya,silver,nguyenbrian@example.com,I000002990,P0122,7,417.79,sports,972.69,false
+O0001008,R000192,2024-07-21,changed_mind,544.86,C00233,2022-12-04,shipped,972.69,0.0,false,2019-10-31,Kenya,silver,nguyenbrian@example.com,I000002989,P0407,9,107.34,clothing,972.69,false
+O0001859,R000031,2022-04-29,defective,422.72,C00134,2023-08-23,refunded,1482.27,0.0,false,2021-10-19,Senegal,platinum,brentgray@example.org,I000005511,P0320,2,395.46,food_drink,1482.27,false
+O0000788,R000014,2022-04-03,duplicate_order,717.3,C00414,2023-09-25,cancelled,1571.62,5.0,false,2019-09-21,Uganda,silver,patricia22@example.com,I000002327,P0393,9,314.52,,1493.0389999999998,false
+O0000788,R000014,2022-04-03,duplicate_order,717.3,C00414,2023-09-25,cancelled,1571.62,5.0,false,2019-09-21,Uganda,silver,patricia22@example.com,I000002326,P0178,4,127.77,electronics,1493.0389999999998,false
+O0001941,R000228,2024-02-28,changed_mind,1374.78,C00271,2022-09-30,pending,1714.74,0.0,false,2018-10-17,Ethiopia,gold,williamsmatthew@example.org,I000005775,P0008,2,390.97,,1714.74,false
+O0001941,R000228,2024-02-28,changed_mind,1374.78,C00271,2022-09-30,pending,1714.74,0.0,false,2018-10-17,Ethiopia,gold,williamsmatthew@example.org,I000005777,P0161,5,36.19,food_drink,1714.74,false
+O0001941,R000228,2024-02-28,changed_mind,1374.78,C00271,2022-09-30,pending,1714.74,0.0,false,2018-10-17,Ethiopia,gold,williamsmatthew@example.org,I000005778,P0092,5,408.45,electronics,1714.74,false
+O0001941,R000228,2024-02-28,changed_mind,1374.78,C00271,2022-09-30,pending,1714.74,0.0,false,2018-10-17,Ethiopia,gold,williamsmatthew@example.org,I000005779,P0391,3,343.03,toys,1714.74,false
+O0001941,R000228,2024-02-28,changed_mind,1374.78,C00271,2022-09-30,pending,1714.74,0.0,false,2018-10-17,Ethiopia,gold,williamsmatthew@example.org,I000005776,P0149,8,440.84,,1714.74,false
+O0000678,R000002,2024-06-19,wrong_item,52.13,C00332,2022-12-07,refunded,84.13,0.0,false,2023-05-18,Uganda,gold,michelle52@example.com,I000002002,P0046,5,125.21,toys,84.13,false
+O0000678,R000002,2024-06-19,wrong_item,52.13,C00332,2022-12-07,refunded,84.13,0.0,false,2023-05-18,Uganda,gold,michelle52@example.com,I000002004,P0016,7,488.99,toys,84.13,false
+O0000678,R000002,2024-06-19,wrong_item,52.13,C00332,2022-12-07,refunded,84.13,0.0,false,2023-05-18,Uganda,gold,michelle52@example.com,I000002003,P0359,9,14.9,home_garden,84.13,false
+O0000340,R000119,2022-09-12,arrived_late,,C00123,2022-10-07,pending,,0.0,false,2018-04-01,Egypt,platinum,patrickhernandez@example.org,I000000991,P0341,9,191.01,toys,,false
+O0000340,R000119,2022-09-12,arrived_late,,C00123,2022-10-07,pending,,0.0,false,2018-04-01,Egypt,platinum,patrickhernandez@example.org,I000000990,P0030,6,335.04,,,false
+O0000340,R000119,2022-09-12,arrived_late,,C00123,2022-10-07,pending,,0.0,false,2018-04-01,Egypt,platinum,patrickhernandez@example.org,I000000993,P0031,4,161.68,home_garden,,false
+O0000340,R000119,2022-09-12,arrived_late,,C00123,2022-10-07,pending,,0.0,false,2018-04-01,Egypt,platinum,patrickhernandez@example.org,I000000992,P0168,7,210.59,books,,false
+O0000413,R000288,2022-12-29,defective,-142.06,C00369,2022-06-26,pending,-374.34,20.0,true,2023-07-30,South Africa,gold,brooksanthony@example.org,I000001220,P0007,1,250.35,sports,-299.472,true
+O0000413,R000288,2022-12-29,defective,-142.06,C00369,2022-06-26,pending,-374.34,20.0,true,2023-07-30,South Africa,gold,brooksanthony@example.org,I000001219,P0235,8,395.13,electronics,-299.472,true
+O0000413,R000288,2022-12-29,defective,-142.06,C00369,2022-06-26,pending,-374.34,20.0,true,2023-07-30,South Africa,gold,brooksanthony@example.org,I000001222,P0187,5,120.38,beauty,-299.472,true
+O0000413,R000288,2022-12-29,defective,-142.06,C00369,2022-06-26,pending,-374.34,20.0,true,2023-07-30,South Africa,gold,brooksanthony@example.org,I000001221,P0480,7,76.4,,-299.472,true
+O0001555,R000154,2024-07-10,duplicate_order,557.1,,,,,,,,,,,,,,,,,false
+O0000082,R000053,2023-10-17,duplicate_order,,,,,,,,,,,,,,,,,,false
+O0000189,R000284,2023-10-14,arrived_late,1491.5,C00250,2023-10-04,cancelled,1896.26,20.0,false,2023-04-22,Ethiopia,bronze,ithompson@example.net,I000000542,P0077,9,123.84,clothing,1517.008,false
+O0000189,R000284,2023-10-14,arrived_late,1491.5,C00250,2023-10-04,cancelled,1896.26,20.0,false,2023-04-22,Ethiopia,bronze,ithompson@example.net,I000000540,P0302,4,396.47,toys,1517.008,false
+O0000189,R000284,2023-10-14,arrived_late,1491.5,C00250,2023-10-04,cancelled,1896.26,20.0,false,2023-04-22,Ethiopia,bronze,ithompson@example.net,I000000541,P0445,3,445.99,toys,1517.008,false
+O0000159,R000029,2024-02-07,changed_mind,386.67,C00304,2022-07-27,shipped,390.34,10.0,false,2021-09-16,Senegal,gold,vjones@example.net,I000000453,P0306,4,121.37,,351.306,true
+O0000159,R000029,2024-02-07,changed_mind,386.67,C00304,2022-07-27,shipped,390.34,10.0,false,2021-09-16,Senegal,gold,vjones@example.net,I000000452,P0226,4,357.61,electronics,351.306,true
+O0000916,R000136,2024-04-20,defective,1095.85,C00053,2024-04-11,refunded,1235.8,0.0,false,2019-02-02,Senegal,gold,,I000002715,P0372,5,270.66,beauty,1235.8,false
+O0000916,R000136,2024-04-20,defective,1095.85,C00053,2024-04-11,refunded,1235.8,0.0,false,2019-02-02,Senegal,gold,,I000002714,P0357,7,463.82,toys,1235.8,false
+O0000916,R000136,2024-04-20,defective,1095.85,C00053,2024-04-11,refunded,1235.8,0.0,false,2019-02-02,Senegal,gold,,I000002716,P0143,5,147.01,beauty,1235.8,false
+O0000916,R000136,2024-04-20,defective,1095.85,C00053,2024-04-11,refunded,1235.8,0.0,false,2019-02-02,Senegal,gold,,I000002713,P0160,8,165.5,clothing,1235.8,false
+O0001233,R000159,2022-05-20,not_as_described,769.31,C00435,2022-03-17,completed,1292.4,20.0,false,2022-04-16,Senegal,bronze,barkereric@example.com,I000003627,P0171,3,384.58,food_drink,1033.92,false
+O0001233,R000159,2022-05-20,not_as_described,769.31,C00435,2022-03-17,completed,1292.4,20.0,false,2022-04-16,Senegal,bronze,barkereric@example.com,I000003626,P0045,4,109.28,sports,1033.92,false
+O0001233,R000159,2022-05-20,not_as_described,769.31,C00435,2022-03-17,completed,1292.4,20.0,false,2022-04-16,Senegal,bronze,barkereric@example.com,I000003629,P0093,6,322.06,home_garden,1033.92,false
+O0001233,R000159,2022-05-20,not_as_described,769.31,C00435,2022-03-17,completed,1292.4,20.0,false,2022-04-16,Senegal,bronze,barkereric@example.com,I000003630,P0257,7,150.48,books,1033.92,false
+O0001233,R000159,2022-05-20,not_as_described,769.31,C00435,2022-03-17,completed,1292.4,20.0,false,2022-04-16,Senegal,bronze,barkereric@example.com,I000003628,P0171,7,165.84,books,1033.92,false
+O0000651,R000248,2023-02-16,wrong_item,878.07,C00182,2022-11-19,cancelled,971.33,0.0,false,2021-07-04,Egypt,gold,andreamoore@example.com,I000001923,P0456,3,381.43,food_drink,971.33,false
+O0000651,R000248,2023-02-16,wrong_item,878.07,C00182,2022-11-19,cancelled,971.33,0.0,false,2021-07-04,Egypt,gold,andreamoore@example.com,I000001924,P0417,7,256.64,toys,971.33,false
+O0001283,R000060,2022-04-11,duplicate_order,55.32,C00371,2023-08-21,completed,454.91,5.0,false,2021-09-07,Rwanda,silver,ihorton@example.net,I000003774,P0101,2,102.54,electronics,432.1645,false
+O0001283,R000060,2022-04-11,duplicate_order,55.32,C00371,2023-08-21,completed,454.91,5.0,false,2021-09-07,Rwanda,silver,ihorton@example.net,I000003773,P0447,8,315.37,clothing,432.1645,false
+O0001283,R000060,2022-04-11,duplicate_order,55.32,C00371,2023-08-21,completed,454.91,5.0,false,2021-09-07,Rwanda,silver,ihorton@example.net,I000003775,P0099,4,414.21,food_drink,432.1645,false
+O0001283,R000060,2022-04-11,duplicate_order,55.32,C00371,2023-08-21,completed,454.91,5.0,false,2021-09-07,Rwanda,silver,ihorton@example.net,I000003772,P0305,5,371.18,sports,432.1645,false
+O0001803,R000209,2022-05-24,wrong_item,101.82,C00230,2023-04-10,completed,400.51,0.0,false,2020-06-01,Uganda,silver,younggabrielle@example.com,I000005326,P0084,3,65.8,food_drink,400.51,false
+O0001803,R000209,2022-05-24,wrong_item,101.82,C00230,2023-04-10,completed,400.51,0.0,false,2020-06-01,Uganda,silver,younggabrielle@example.com,I000005325,P0350,8,461.16,electronics,400.51,false
+O0001803,R000209,2022-05-24,wrong_item,101.82,C00230,2023-04-10,completed,400.51,0.0,false,2020-06-01,Uganda,silver,younggabrielle@example.com,I000005327,P0073,3,399.43,sports,400.51,false
+O0001384,R000178,2023-05-02,changed_mind,1225.93,C00493,2022-04-13,pending,1754.68,0.0,false,2022-08-16,Senegal,silver,hebertmatthew@example.com,I000004059,P0086,4,468.6,sports,1754.68,false
+O0001384,R000178,2023-05-02,changed_mind,1225.93,C00493,2022-04-13,pending,1754.68,0.0,false,2022-08-16,Senegal,silver,hebertmatthew@example.com,I000004058,P0478,6,38.95,sports,1754.68,false
+O0001384,R000178,2023-05-02,changed_mind,1225.93,C00493,2022-04-13,pending,1754.68,0.0,false,2022-08-16,Senegal,silver,hebertmatthew@example.com,I000004056,P0144,2,381.03,books,1754.68,false
+O0001384,R000178,2023-05-02,changed_mind,1225.93,C00493,2022-04-13,pending,1754.68,0.0,false,2022-08-16,Senegal,silver,hebertmatthew@example.com,I000004055,P0227,7,262.93,toys,1754.68,false
+O0001384,R000178,2023-05-02,changed_mind,1225.93,C00493,2022-04-13,pending,1754.68,0.0,false,2022-08-16,Senegal,silver,hebertmatthew@example.com,I000004057,P0444,9,59.36,home_garden,1754.68,false
+O0001636,R000117,2022-07-27,not_as_described,198.01,C00490,2024-03-25,cancelled,244.99,0.0,false,2021-12-22,South Africa,bronze,robertmonroe@example.org,I000004819,P0414,7,152.87,home_garden,244.99,false
+O0001636,R000117,2022-07-27,not_as_described,198.01,C00490,2024-03-25,cancelled,244.99,0.0,false,2021-12-22,South Africa,bronze,robertmonroe@example.org,I000004820,P0467,3,483.34,toys,244.99,false
+O0001636,R000117,2022-07-27,not_as_described,198.01,C00490,2024-03-25,cancelled,244.99,0.0,false,2021-12-22,South Africa,bronze,robertmonroe@example.org,I000004821,P0021,8,36.71,food_drink,244.99,false
+O0001034,R000202,2023-06-30,not_as_described,588.58,C00085,2023-09-21,pending,1298.69,5.0,false,2022-06-04,Ghana,silver,gomezanita@example.com,I000003052,P0423,3,435.87,home_garden,1233.7555,false
+O0001034,R000202,2023-06-30,not_as_described,588.58,C00085,2023-09-21,pending,1298.69,5.0,false,2022-06-04,Ghana,silver,gomezanita@example.com,I000003053,P0170,5,476.56,clothing,1233.7555,false
+O0001797,R000165,2023-02-05,not_as_described,184.25,C00386,2023-01-28,pending,1241.5,0.0,false,2018-04-22,South Africa,gold,mariacohen@example.net,I000005312,P0098,9,267.71,home_garden,1241.5,false
+O0001797,R000165,2023-02-05,not_as_described,184.25,C00386,2023-01-28,pending,1241.5,0.0,false,2018-04-22,South Africa,gold,mariacohen@example.net,I000005311,P0038,2,139.29,electronics,1241.5,false
+O0001797,R000165,2023-02-05,not_as_described,184.25,C00386,2023-01-28,pending,1241.5,0.0,false,2018-04-22,South Africa,gold,mariacohen@example.net,I000005310,P0261,3,368.99,food_drink,1241.5,false
+O0000442,R000206,2022-03-04,defective,349.41,C00446,2023-01-13,pending,1901.89,15.0,false,2020-09-04,Ghana,bronze,jasongomez@example.org,I000001307,P0365,9,204.55,electronics,1616.6065,false
+O0000442,R000206,2022-03-04,defective,349.41,C00446,2023-01-13,pending,1901.89,15.0,false,2020-09-04,Ghana,bronze,jasongomez@example.org,I000001309,P0329,3,137.74,books,1616.6065,false
+O0000442,R000206,2022-03-04,defective,349.41,C00446,2023-01-13,pending,1901.89,15.0,false,2020-09-04,Ghana,bronze,jasongomez@example.org,I000001308,P0439,3,9.44,toys,1616.6065,false
+O0000338,R000271,2022-06-26,not_as_described,448.94,C00291,2022-01-29,shipped,1568.5,20.0,false,2023-10-27,Senegal,platinum,edwardslarry@example.com,I000000986,P0364,5,42.37,clothing,1254.8000000000002,false
+O0000338,R000271,2022-06-26,not_as_described,448.94,C00291,2022-01-29,shipped,1568.5,20.0,false,2023-10-27,Senegal,platinum,edwardslarry@example.com,I000000987,P0162,3,240.61,toys,1254.8000000000002,false
+O0000593,R000299,2023-08-07,defective,40.12,C00127,2022-01-02,pending,188.66,15.0,false,2021-09-06,Kenya,bronze,wsmith@example.com,I000001743,P0366,4,45.56,beauty,160.361,false
+O0000295,R000066,2023-05-04,arrived_late,937.21,C00254,2022-04-10,completed,2124.41,0.0,false,2020-07-19,Ghana,platinum,michelleramsey@example.com,I000000853,P0290,5,84.14,food_drink,2124.41,false
+O0000295,R000066,2023-05-04,arrived_late,937.21,C00254,2022-04-10,completed,2124.41,0.0,false,2020-07-19,Ghana,platinum,michelleramsey@example.com,I000000852,P0010,6,360.54,clothing,2124.41,false
+O0001422,R000300,2023-06-22,arrived_late,865.0,C00042,2022-04-30,completed,1018.87,20.0,false,2019-11-23,Rwanda,bronze,samuel87@example.org,I000004163,P0263,4,90.97,beauty,815.096,true
+O0001422,R000300,2023-06-22,arrived_late,865.0,C00042,2022-04-30,completed,1018.87,20.0,false,2019-11-23,Rwanda,bronze,samuel87@example.org,I000004162,P0319,2,352.75,,815.096,true
+O0001422,R000300,2023-06-22,arrived_late,865.0,C00042,2022-04-30,completed,1018.87,20.0,false,2019-11-23,Rwanda,bronze,samuel87@example.org,I000004161,P0420,8,63.33,sports,815.096,true
+O0000672,R000184,2023-04-20,changed_mind,786.27,C00045,2022-01-29,completed,821.26,0.0,false,2018-04-09,Nigeria,silver,perezrebecca@example.com,I000001990,P0387,6,154.56,sports,821.26,false
+O0000672,R000184,2023-04-20,changed_mind,786.27,C00045,2022-01-29,completed,821.26,0.0,false,2018-04-09,Nigeria,silver,perezrebecca@example.com,I000001991,P0445,2,389.35,clothing,821.26,false
+O0000672,R000184,2023-04-20,changed_mind,786.27,C00045,2022-01-29,completed,821.26,0.0,false,2018-04-09,Nigeria,silver,perezrebecca@example.com,I000001992,P0331,2,238.8,food_drink,821.26,false
+O0000672,R000184,2023-04-20,changed_mind,786.27,C00045,2022-01-29,completed,821.26,0.0,false,2018-04-09,Nigeria,silver,perezrebecca@example.com,I000001989,P0278,3,339.48,,821.26,false
+O0001952,R000269,2023-08-06,defective,-406.08,C00297,2023-01-30,pending,-1346.64,5.0,true,2019-04-16,Ethiopia,platinum,caroline51@example.net,I000005814,P0432,5,393.13,home_garden,-1279.308,true
+O0001952,R000269,2023-08-06,defective,-406.08,C00297,2023-01-30,pending,-1346.64,5.0,true,2019-04-16,Ethiopia,platinum,caroline51@example.net,I000005816,P0396,9,389.51,books,-1279.308,true
+O0001952,R000269,2023-08-06,defective,-406.08,C00297,2023-01-30,pending,-1346.64,5.0,true,2019-04-16,Ethiopia,platinum,caroline51@example.net,I000005815,P0222,9,293.2,home_garden,-1279.308,true
+O0001952,R000269,2023-08-06,defective,-406.08,C00297,2023-01-30,pending,-1346.64,5.0,true,2019-04-16,Ethiopia,platinum,caroline51@example.net,I000005812,P0262,9,177.25,food_drink,-1279.308,true
+O0001952,R000269,2023-08-06,defective,-406.08,C00297,2023-01-30,pending,-1346.64,5.0,true,2019-04-16,Ethiopia,platinum,caroline51@example.net,I000005813,P0382,9,250.16,food_drink,-1279.308,true
+O0000134,R000245,2022-02-24,not_as_described,284.5,C00167,2023-04-23,shipped,734.38,20.0,false,2020-06-17,Egypt,gold,griffithleslie@example.net,I000000382,P0275,5,282.14,toys,587.504,false
+O0000134,R000245,2022-02-24,not_as_described,284.5,C00167,2023-04-23,shipped,734.38,20.0,false,2020-06-17,Egypt,gold,griffithleslie@example.net,I000000383,P0014,8,212.92,sports,587.504,false
+O0001235,R000125,2023-08-13,changed_mind,295.88,C00474,2022-12-20,pending,1025.15,10.0,false,2019-12-20,South Africa,platinum,shellyhendrix@example.com,I000003634,P0099,5,82.1,beauty,922.6350000000001,false
+O0001235,R000125,2023-08-13,changed_mind,295.88,C00474,2022-12-20,pending,1025.15,10.0,false,2019-12-20,South Africa,platinum,shellyhendrix@example.com,I000003635,P0475,5,367.88,clothing,922.6350000000001,false
+O0001998,R000195,2023-08-25,duplicate_order,292.74,C00355,2024-04-23,shipped,658.77,0.0,false,2022-08-04,Egypt,gold,stanleynancy@example.net,I000005963,P0133,9,16.09,clothing,658.77,false
+O0001998,R000195,2023-08-25,duplicate_order,292.74,C00355,2024-04-23,shipped,658.77,0.0,false,2022-08-04,Egypt,gold,stanleynancy@example.net,I000005962,P0028,8,183.71,toys,658.77,false
+O0000320,R000239,2022-12-21,duplicate_order,441.82,C00491,2023-01-10,shipped,451.42,25.0,false,2018-09-22,Ethiopia,bronze,lfrench@example.net,I000000936,P0247,7,495.86,toys,338.565,true
+O0000320,R000239,2022-12-21,duplicate_order,441.82,C00491,2023-01-10,shipped,451.42,25.0,false,2018-09-22,Ethiopia,bronze,lfrench@example.net,I000000937,P0299,2,417.32,beauty,338.565,true
+O0000320,R000239,2022-12-21,duplicate_order,441.82,C00491,2023-01-10,shipped,451.42,25.0,false,2018-09-22,Ethiopia,bronze,lfrench@example.net,I000000938,P0355,4,277.06,home_garden,338.565,true
+O0001899,R000092,2023-01-14,wrong_item,1739.58,C00413,2023-11-01,pending,1653.73,0.0,false,2020-12-13,Rwanda,platinum,elizabeth18@example.net,I000005639,P0033,1,45.44,books,1653.73,true
+O0000929,R000058,2023-09-04,defective,155.46,C00425,2023-02-28,shipped,387.13,0.0,false,2020-09-16,Rwanda,silver,fernandodonovan@example.org,I000002763,P0410,4,34.81,home_garden,387.13,false
+O0000929,R000058,2023-09-04,defective,155.46,C00425,2023-02-28,shipped,387.13,0.0,false,2020-09-16,Rwanda,silver,fernandodonovan@example.org,I000002761,P0086,6,164.84,home_garden,387.13,false
+O0000929,R000058,2023-09-04,defective,155.46,C00425,2023-02-28,shipped,387.13,0.0,false,2020-09-16,Rwanda,silver,fernandodonovan@example.org,I000002762,P0012,7,330.49,beauty,387.13,false
+O0000929,R000058,2023-09-04,defective,155.46,C00425,2023-02-28,shipped,387.13,0.0,false,2020-09-16,Rwanda,silver,fernandodonovan@example.org,I000002764,P0197,1,151.43,clothing,387.13,false
+O0000204,R000229,2024-05-31,not_as_described,219.16,C00372,2022-10-11,shipped,338.07,20.0,false,2018-04-21,Ethiopia,platinum,awest@example.org,I000000584,P0038,3,489.31,electronics,270.456,false
+O0000139,R000213,2023-12-29,changed_mind,905.33,C00306,2022-01-10,completed,1140.04,20.0,false,2023-09-06,South Africa,bronze,kchavez@example.com,I000000393,P0271,4,309.64,books,912.032,false
+O0000139,R000213,2023-12-29,changed_mind,905.33,C00306,2022-01-10,completed,1140.04,20.0,false,2023-09-06,South Africa,bronze,kchavez@example.com,I000000394,P0367,1,351.99,beauty,912.032,false
+O0001226,R000001,2022-02-04,arrived_late,1324.69,C00256,2022-11-29,pending,1393.74,25.0,false,2022-06-28,South Africa,bronze,gibsonemily@example.net,I000003608,P0289,2,36.01,toys,1045.305,true
+O0001226,R000001,2022-02-04,arrived_late,1324.69,C00256,2022-11-29,pending,1393.74,25.0,false,2022-06-28,South Africa,bronze,gibsonemily@example.net,I000003609,P0029,3,30.25,toys,1045.305,true
+O0001226,R000001,2022-02-04,arrived_late,1324.69,C00256,2022-11-29,pending,1393.74,25.0,false,2022-06-28,South Africa,bronze,gibsonemily@example.net,I000003610,P0382,3,297.73,home_garden,1045.305,true
+O0001932,R000038,2022-09-12,duplicate_order,334.05,,,,,,,,,,,,,,,,,false
+O0000781,R000155,2023-01-20,not_as_described,394.17,C00390,2023-04-02,pending,988.1,0.0,false,2020-09-11,Rwanda,platinum,zachary87@example.com,I000002301,P0063,1,160.81,,988.1,false
+O0000781,R000155,2023-01-20,not_as_described,394.17,C00390,2023-04-02,pending,988.1,0.0,false,2020-09-11,Rwanda,platinum,zachary87@example.com,I000002300,P0280,2,22.17,sports,988.1,false
+O0001108,R000293,2023-05-16,not_as_described,144.43,C00092,2022-03-19,pending,605.02,25.0,false,2018-08-22,Tanzania,bronze,raymondramirez@example.org,I000003259,P0026,2,160.13,food_drink,453.765,false
+O0000944,R000003,2023-11-09,arrived_late,928.14,,,,,,,,,,,,,,,,,false
+O0001678,R000100,2023-11-19,not_as_described,214.81,C00438,2022-08-21,completed,219.4,20.0,false,2018-06-14,Uganda,silver,theresa25@example.net,I000004948,P0268,5,274.61,home_garden,175.52,true
+O0001347,R000196,2024-05-23,changed_mind,47.48,C00189,2024-06-07,completed,274.13,20.0,false,2021-12-10,Ghana,platinum,scott74@example.net,I000003938,P0414,2,57.54,beauty,219.304,false
+O0001347,R000196,2024-05-23,changed_mind,47.48,C00189,2024-06-07,completed,274.13,20.0,false,2021-12-10,Ghana,platinum,scott74@example.net,I000003939,P0200,6,38.43,home_garden,219.304,false
+O0001587,R000052,2022-03-01,arrived_late,82.94,C00005,2022-08-03,completed,142.67,15.0,false,2023-02-23,Rwanda,gold,jennifermiles@example.com,I000004668,P0264,9,64.71,beauty,121.26949999999998,false
+O0001587,R000052,2022-03-01,arrived_late,82.94,C00005,2022-08-03,completed,142.67,15.0,false,2023-02-23,Rwanda,gold,jennifermiles@example.com,I000004669,P0288,9,268.09,clothing,121.26949999999998,false
+O0001587,R000052,2022-03-01,arrived_late,82.94,C00005,2022-08-03,completed,142.67,15.0,false,2023-02-23,Rwanda,gold,jennifermiles@example.com,I000004667,P0180,4,84.42,beauty,121.26949999999998,false
+O0001587,R000052,2022-03-01,arrived_late,82.94,C00005,2022-08-03,completed,142.67,15.0,false,2023-02-23,Rwanda,gold,jennifermiles@example.com,I000004666,P0326,9,496.96,sports,121.26949999999998,false
+O0001355,R000102,2022-06-13,defective,889.84,C00074,2022-11-28,shipped,2145.86,0.0,false,2021-03-12,Kenya,bronze,sarah12@example.com,I000003964,P0082,6,137.98,sports,2145.86,false
+O0001355,R000102,2022-06-13,defective,889.84,C00074,2022-11-28,shipped,2145.86,0.0,false,2021-03-12,Kenya,bronze,sarah12@example.com,I000003965,P0490,2,418.55,books,2145.86,false
+O0001355,R000102,2022-06-13,defective,889.84,C00074,2022-11-28,shipped,2145.86,0.0,false,2021-03-12,Kenya,bronze,sarah12@example.com,I000003966,P0470,8,297.35,food_drink,2145.86,false
+O0000938,R000062,2023-10-04,changed_mind,312.3,C00199,2023-09-24,pending,937.95,10.0,false,2018-02-21,Senegal,bronze,hodgemark@example.net,I000002787,P0443,5,451.42,home_garden,844.1550000000001,false
+O0000938,R000062,2023-10-04,changed_mind,312.3,C00199,2023-09-24,pending,937.95,10.0,false,2018-02-21,Senegal,bronze,hodgemark@example.net,I000002786,P0179,4,295.34,books,844.1550000000001,false
+O0000938,R000062,2023-10-04,changed_mind,312.3,C00199,2023-09-24,pending,937.95,10.0,false,2018-02-21,Senegal,bronze,hodgemark@example.net,I000002788,P0207,4,366.72,sports,844.1550000000001,false
+O0000938,R000062,2023-10-04,changed_mind,312.3,C00199,2023-09-24,pending,937.95,10.0,false,2018-02-21,Senegal,bronze,hodgemark@example.net,I000002785,P0282,4,444.16,electronics,844.1550000000001,false
+O0001854,R000056,2022-04-22,arrived_late,219.69,C00399,2022-10-13,pending,2151.03,15.0,false,2019-03-29,Ghana,gold,wwilliams@example.net,I000005495,P0215,7,77.03,books,1828.3755,false
+O0001854,R000056,2022-04-22,arrived_late,219.69,C00399,2022-10-13,pending,2151.03,15.0,false,2019-03-29,Ghana,gold,wwilliams@example.net,I000005496,P0009,4,347.23,beauty,1828.3755,false
+O0001854,R000056,2022-04-22,arrived_late,219.69,C00399,2022-10-13,pending,2151.03,15.0,false,2019-03-29,Ghana,gold,wwilliams@example.net,I000005493,P0083,1,499.95,beauty,1828.3755,false
+O0001854,R000056,2022-04-22,arrived_late,219.69,C00399,2022-10-13,pending,2151.03,15.0,false,2019-03-29,Ghana,gold,wwilliams@example.net,I000005494,P0485,4,68.07,sports,1828.3755,false
+O0001854,R000056,2022-04-22,arrived_late,219.69,C00399,2022-10-13,pending,2151.03,15.0,false,2019-03-29,Ghana,gold,wwilliams@example.net,I000005497,P0440,5,159.72,toys,1828.3755,false
+O0000792,R000042,2022-04-22,arrived_late,95.26,C00433,2023-05-04,shipped,750.9,5.0,false,2018-11-02,Rwanda,gold,,I000002339,P0046,6,363.47,home_garden,713.3549999999999,false
+O0000792,R000042,2022-04-22,arrived_late,95.26,C00433,2023-05-04,shipped,750.9,5.0,false,2018-11-02,Rwanda,gold,,I000002341,P0363,8,201.25,home_garden,713.3549999999999,false
+O0000792,R000042,2022-04-22,arrived_late,95.26,C00433,2023-05-04,shipped,750.9,5.0,false,2018-11-02,Rwanda,gold,,I000002340,P0078,5,208.84,clothing,713.3549999999999,false
+O0000073,R000036,2024-03-29,not_as_described,1090.27,C00038,2023-12-01,cancelled,953.69,0.0,false,2020-03-23,South Africa,silver,davidalvarez@example.net,I000000204,P0220,6,266.06,sports,953.69,true
+O0000131,R000116,2022-05-16,changed_mind,98.77,C00266,2023-05-13,refunded,733.28,0.0,false,2020-05-10,Egypt,bronze,rcrosby@example.org,I000000377,P0141,8,61.36,toys,733.28,false
+O0000131,R000116,2022-05-16,changed_mind,98.77,C00266,2023-05-13,refunded,733.28,0.0,false,2020-05-10,Egypt,bronze,rcrosby@example.org,I000000375,P0478,6,298.14,beauty,733.28,false
+O0000131,R000116,2022-05-16,changed_mind,98.77,C00266,2023-05-13,refunded,733.28,0.0,false,2020-05-10,Egypt,bronze,rcrosby@example.org,I000000376,P0392,9,170.59,home_garden,733.28,false
+O0001583,R000077,2024-01-13,not_as_described,400.55,C00267,2023-02-21,cancelled,750.64,,false,2020-11-02,Tanzania,bronze,jeff73@example.com,I000004656,P0452,7,250.86,clothing,,false
+O0000467,R000270,2024-01-25,defective,899.1,C00254,2023-02-19,completed,1425.09,5.0,false,2020-07-19,Ghana,platinum,michelleramsey@example.com,I000001385,P0066,3,260.7,home_garden,1353.8355,false
+O0000467,R000270,2024-01-25,defective,899.1,C00254,2023-02-19,completed,1425.09,5.0,false,2020-07-19,Ghana,platinum,michelleramsey@example.com,I000001384,P0119,5,348.49,food_drink,1353.8355,false
+O0000467,R000270,2024-01-25,defective,899.1,C00254,2023-02-19,completed,1425.09,5.0,false,2020-07-19,Ghana,platinum,michelleramsey@example.com,I000001382,P0348,2,12.53,electronics,1353.8355,false
+O0000467,R000270,2024-01-25,defective,899.1,C00254,2023-02-19,completed,1425.09,5.0,false,2020-07-19,Ghana,platinum,michelleramsey@example.com,I000001383,P0222,9,36.92,toys,1353.8355,false
+O0000467,R000270,2024-01-25,defective,899.1,C00254,2023-02-19,completed,1425.09,5.0,false,2020-07-19,Ghana,platinum,michelleramsey@example.com,I000001381,P0338,7,476.06,books,1353.8355,false
+O0001777,R000243,2024-07-22,wrong_item,883.87,C00357,2024-01-09,pending,1417.68,25.0,false,2019-10-18,Tanzania,silver,jenniferwilliams@example.com,I000005251,P0303,1,30.96,sports,1063.26,false
+O0000114,R000235,2022-06-01,wrong_item,5.91,C00064,2024-02-29,shipped,15.89,0.0,false,2019-06-03,South Africa,bronze,larsonemma@example.org,I000000325,P0425,7,31.33,clothing,15.89,false
+O0000114,R000235,2022-06-01,wrong_item,5.91,C00064,2024-02-29,shipped,15.89,0.0,false,2019-06-03,South Africa,bronze,larsonemma@example.org,I000000326,P0289,2,117.39,,15.89,false
+O0000114,R000235,2022-06-01,wrong_item,5.91,C00064,2024-02-29,shipped,15.89,0.0,false,2019-06-03,South Africa,bronze,larsonemma@example.org,I000000327,P0468,9,402.31,books,15.89,false
+O0001202,R000210,2024-03-08,defective,1034.95,C00232,2023-06-23,refunded,1482.71,5.0,false,2020-08-21,Nigeria,gold,wallaceheather@example.org,I000003535,P0088,5,207.32,food_drink,1408.5745,false
+O0001202,R000210,2024-03-08,defective,1034.95,C00232,2023-06-23,refunded,1482.71,5.0,false,2020-08-21,Nigeria,gold,wallaceheather@example.org,I000003537,P0291,2,25.94,electronics,1408.5745,false
+O0001202,R000210,2024-03-08,defective,1034.95,C00232,2023-06-23,refunded,1482.71,5.0,false,2020-08-21,Nigeria,gold,wallaceheather@example.org,I000003539,P0209,3,33.79,electronics,1408.5745,false
+O0001202,R000210,2024-03-08,defective,1034.95,C00232,2023-06-23,refunded,1482.71,5.0,false,2020-08-21,Nigeria,gold,wallaceheather@example.org,I000003536,P0414,4,351.36,books,1408.5745,false
+O0001202,R000210,2024-03-08,defective,1034.95,C00232,2023-06-23,refunded,1482.71,5.0,false,2020-08-21,Nigeria,gold,wallaceheather@example.org,I000003538,P0327,7,281.64,beauty,1408.5745,false
+O0001250,R000237,2023-11-25,not_as_described,320.18,C00194,2023-10-20,completed,1270.59,0.0,false,2022-10-14,Egypt,bronze,keyemily@example.com,I000003674,P0222,5,44.57,toys,1270.59,false
+O0001250,R000237,2023-11-25,not_as_described,320.18,C00194,2023-10-20,completed,1270.59,0.0,false,2022-10-14,Egypt,bronze,keyemily@example.com,I000003670,P0188,3,22.94,electronics,1270.59,false
+O0001250,R000237,2023-11-25,not_as_described,320.18,C00194,2023-10-20,completed,1270.59,0.0,false,2022-10-14,Egypt,bronze,keyemily@example.com,I000003671,P0272,6,322.05,books,1270.59,false
+O0001250,R000237,2023-11-25,not_as_described,320.18,C00194,2023-10-20,completed,1270.59,0.0,false,2022-10-14,Egypt,bronze,keyemily@example.com,I000003672,P0457,8,262.0,books,1270.59,false
+O0001250,R000237,2023-11-25,not_as_described,320.18,C00194,2023-10-20,completed,1270.59,0.0,false,2022-10-14,Egypt,bronze,keyemily@example.com,I000003673,P0084,3,442.29,sports,1270.59,false
+O0001072,R000153,2022-08-11,changed_mind,585.26,C00127,2023-12-08,shipped,614.36,25.0,false,2021-09-06,Kenya,bronze,wsmith@example.com,I000003156,P0263,4,125.53,,460.77,true
+O0001072,R000153,2022-08-11,changed_mind,585.26,C00127,2023-12-08,shipped,614.36,25.0,false,2021-09-06,Kenya,bronze,wsmith@example.com,I000003155,P0129,1,342.23,electronics,460.77,true
+O0001072,R000153,2022-08-11,changed_mind,585.26,C00127,2023-12-08,shipped,614.36,25.0,false,2021-09-06,Kenya,bronze,wsmith@example.com,I000003154,P0289,1,407.64,electronics,460.77,true
+O0000146,R000020,2024-06-22,not_as_described,,C00451,2024-06-15,cancelled,,0.0,false,2019-12-10,Ghana,bronze,charles87@example.net,I000000411,P0156,2,460.66,sports,,false
+O0000146,R000020,2024-06-22,not_as_described,,C00451,2024-06-15,cancelled,,0.0,false,2019-12-10,Ghana,bronze,charles87@example.net,I000000410,P0437,5,245.49,toys,,false
+O0000146,R000020,2024-06-22,not_as_described,,C00451,2024-06-15,cancelled,,0.0,false,2019-12-10,Ghana,bronze,charles87@example.net,I000000412,P0283,4,392.22,books,,false
+O0000146,R000020,2024-06-22,not_as_described,,C00451,2024-06-15,cancelled,,0.0,false,2019-12-10,Ghana,bronze,charles87@example.net,I000000409,P0152,1,254.23,beauty,,false
+O0000146,R000020,2024-06-22,not_as_described,,C00451,2024-06-15,cancelled,,0.0,false,2019-12-10,Ghana,bronze,charles87@example.net,I000000413,P0008,1,366.83,toys,,false
+O0000744,R000085,2023-06-25,not_as_described,399.72,C00365,2024-02-16,refunded,1038.96,20.0,false,2018-06-06,South Africa,platinum,christopher24@example.com,I000002196,P0468,7,456.78,sports,831.1680000000001,false
+O0000744,R000085,2023-06-25,not_as_described,399.72,C00365,2024-02-16,refunded,1038.96,20.0,false,2018-06-06,South Africa,platinum,christopher24@example.com,I000002197,P0109,2,366.71,beauty,831.1680000000001,false
+O0001569,R000037,2022-12-11,defective,707.12,C00268,2023-11-23,cancelled,1305.13,10.0,false,2021-05-25,Egypt,bronze,pollardmichael@example.net,I000004617,P0434,5,302.27,toys,1174.6170000000002,false
+O0001569,R000037,2022-12-11,defective,707.12,C00268,2023-11-23,cancelled,1305.13,10.0,false,2021-05-25,Egypt,bronze,pollardmichael@example.net,I000004618,P0340,5,18.36,electronics,1174.6170000000002,false
+O0000667,R000067,2022-03-18,wrong_item,785.85,C00018,2024-06-28,completed,1283.98,25.0,false,2019-09-09,Ethiopia,platinum,gabriellecameron@example.org,I000001967,P0426,5,92.83,sports,962.985,false
+O0000667,R000067,2022-03-18,wrong_item,785.85,C00018,2024-06-28,completed,1283.98,25.0,false,2019-09-09,Ethiopia,platinum,gabriellecameron@example.org,I000001968,P0279,6,472.7,toys,962.985,false
+O0000192,R000026,2022-07-29,wrong_item,192.11,C00066,2022-01-15,completed,784.41,0.0,false,2018-04-24,Rwanda,platinum,harveyrobert@example.net,I000000549,P0043,5,337.9,food_drink,784.41,false
+O0000192,R000026,2022-07-29,wrong_item,192.11,C00066,2022-01-15,completed,784.41,0.0,false,2018-04-24,Rwanda,platinum,harveyrobert@example.net,I000000545,P0364,8,10.69,toys,784.41,false
+O0000192,R000026,2022-07-29,wrong_item,192.11,C00066,2022-01-15,completed,784.41,0.0,false,2018-04-24,Rwanda,platinum,harveyrobert@example.net,I000000548,P0483,7,64.43,beauty,784.41,false
+O0000192,R000026,2022-07-29,wrong_item,192.11,C00066,2022-01-15,completed,784.41,0.0,false,2018-04-24,Rwanda,platinum,harveyrobert@example.net,I000000547,P0159,2,27.54,home_garden,784.41,false
+O0000192,R000026,2022-07-29,wrong_item,192.11,C00066,2022-01-15,completed,784.41,0.0,false,2018-04-24,Rwanda,platinum,harveyrobert@example.net,I000000546,P0161,9,142.73,clothing,784.41,false
+O0001665,R000089,2022-08-29,not_as_described,62.83,C00043,2023-12-31,shipped,256.64,,false,2020-04-12,South Africa,bronze,jeffreymorgan@example.net,I000004918,P0485,7,24.48,books,,false
+O0001665,R000089,2022-08-29,not_as_described,62.83,C00043,2023-12-31,shipped,256.64,,false,2020-04-12,South Africa,bronze,jeffreymorgan@example.net,I000004919,P0250,6,369.39,electronics,,false
+O0001665,R000089,2022-08-29,not_as_described,62.83,C00043,2023-12-31,shipped,256.64,,false,2020-04-12,South Africa,bronze,jeffreymorgan@example.net,I000004917,P0073,9,68.69,home_garden,,false
+O0001665,R000089,2022-08-29,not_as_described,62.83,C00043,2023-12-31,shipped,256.64,,false,2020-04-12,South Africa,bronze,jeffreymorgan@example.net,I000004916,P0255,1,261.48,beauty,,false
+O0000328,R000158,2022-03-30,changed_mind,70.77,C00422,2022-12-25,cancelled,566.43,0.0,false,2018-02-16,Rwanda,silver,nataliedeleon@example.net,I000000968,P0239,3,10.26,beauty,566.43,false
+O0001334,R000247,2023-01-21,wrong_item,469.76,C00174,2022-10-22,completed,1909.36,5.0,false,2018-12-23,South Africa,silver,jack04@example.com,I000003912,P0229,3,450.85,sports,1813.8919999999998,false
+O0001334,R000247,2023-01-21,wrong_item,469.76,C00174,2022-10-22,completed,1909.36,5.0,false,2018-12-23,South Africa,silver,jack04@example.com,I000003911,P0049,7,98.02,beauty,1813.8919999999998,false
+O0001737,R000217,2024-03-21,wrong_item,276.9,C00330,2022-06-14,cancelled,1561.46,0.0,false,2020-11-12,South Africa,gold,wwebster@example.net,I000005131,P0231,7,124.12,home_garden,1561.46,false
+O0001737,R000217,2024-03-21,wrong_item,276.9,C00330,2022-06-14,cancelled,1561.46,0.0,false,2020-11-12,South Africa,gold,wwebster@example.net,I000005130,P0378,3,200.88,food_drink,1561.46,false
+O0001737,R000217,2024-03-21,wrong_item,276.9,C00330,2022-06-14,cancelled,1561.46,0.0,false,2020-11-12,South Africa,gold,wwebster@example.net,I000005132,P0160,3,347.5,toys,1561.46,false
+O0001733,R000074,2023-07-31,changed_mind,23.89,C00361,2022-12-23,shipped,72.3,0.0,false,2019-04-03,South Africa,platinum,smurray@example.com,I000005117,P0358,8,321.13,clothing,72.3,false
+O0001733,R000074,2023-07-31,changed_mind,23.89,C00361,2022-12-23,shipped,72.3,0.0,false,2019-04-03,South Africa,platinum,smurray@example.com,I000005116,P0012,8,149.47,sports,72.3,false
+O0001733,R000074,2023-07-31,changed_mind,23.89,C00361,2022-12-23,shipped,72.3,0.0,false,2019-04-03,South Africa,platinum,smurray@example.com,I000005114,P0456,6,141.19,books,72.3,false
+O0001733,R000074,2023-07-31,changed_mind,23.89,C00361,2022-12-23,shipped,72.3,0.0,false,2019-04-03,South Africa,platinum,smurray@example.com,I000005115,P0362,2,59.55,food_drink,72.3,false
+O_MISSING_00017,R_GHOST_00018,2023-09-04,changed_mind,147.42,,,,,,,,,,,,,,,,,false
+O0000540,R000187,2023-02-19,duplicate_order,2.33,C00172,2023-03-13,pending,13.72,10.0,false,2018-08-31,South Africa,silver,danamullins@example.org,I000001591,P0224,4,335.6,sports,12.348,false
+O0000540,R000187,2023-02-19,duplicate_order,2.33,C00172,2023-03-13,pending,13.72,10.0,false,2018-08-31,South Africa,silver,danamullins@example.org,I000001592,P0443,8,79.95,electronics,12.348,false
+O0000333,R000249,2023-07-10,duplicate_order,638.13,C00161,2023-10-15,pending,1895.5,0.0,false,2022-09-04,Ethiopia,silver,wfreeman@example.org,I000000980,P0365,9,93.96,clothing,1895.5,false
+O0000367,R000179,2024-04-02,defective,374.95,C00497,2022-08-23,shipped,429.72,0.0,false,2020-09-03,Kenya,silver,alexisrogers@example.com,I000001068,P0327,8,33.13,clothing,429.72,false
+O0000367,R000179,2024-04-02,defective,374.95,C00497,2022-08-23,shipped,429.72,0.0,false,2020-09-03,Kenya,silver,alexisrogers@example.com,I000001067,P0087,8,458.28,clothing,429.72,false
+O_MISSING_00002,R_GHOST_00003,2022-11-13,arrived_late,172.33,,,,,,,,,,,,,,,,,false
+O0000640,R000091,2024-04-29,defective,459.83,C00264,2022-04-19,cancelled,1375.78,,false,2018-07-08,Kenya,silver,umatthews@example.org,I000001889,P0029,8,14.35,books,,false
+O0000640,R000091,2024-04-29,defective,459.83,C00264,2022-04-19,cancelled,1375.78,,false,2018-07-08,Kenya,silver,umatthews@example.org,I000001888,P0039,2,291.53,sports,,false
+O0000640,R000091,2024-04-29,defective,459.83,C00264,2022-04-19,cancelled,1375.78,,false,2018-07-08,Kenya,silver,umatthews@example.org,I000001890,P0401,2,174.6,food_drink,,false
+O0000227,R000055,2022-02-26,wrong_item,1149.37,C00084,2022-12-03,refunded,1824.53,25.0,false,2020-03-08,Kenya,silver,nolanjason@example.org,I000000650,P0451,2,499.06,clothing,1368.3975,false
+O0001995,R000286,2023-12-30,arrived_late,55.57,C00049,2023-02-26,completed,133.84,15.0,false,2022-12-14,Nigeria,bronze,clintonhopkins@example.com,I000005955,P0132,6,228.18,electronics,113.764,false
+O0001995,R000286,2023-12-30,arrived_late,55.57,C00049,2023-02-26,completed,133.84,15.0,false,2022-12-14,Nigeria,bronze,clintonhopkins@example.com,I000005956,P0303,5,91.15,books,113.764,false
+O0001387,R000272,2022-03-23,not_as_described,651.03,,,,,,,,,,,,,,,,,false
+O0000713,R000095,2022-10-20,arrived_late,1237.66,C00407,2022-03-21,shipped,1594.29,0.0,false,2022-01-04,Egypt,silver,raymond43@example.org,I000002114,P0168,7,479.65,clothing,1594.29,false
+O0000713,R000095,2022-10-20,arrived_late,1237.66,C00407,2022-03-21,shipped,1594.29,0.0,false,2022-01-04,Egypt,silver,raymond43@example.org,I000002115,P0377,8,398.39,home_garden,1594.29,false
+O_MISSING_00011,R_GHOST_00012,2022-07-15,wrong_item,76.27,,,,,,,,,,,,,,,,,false
+O0000161,R000070,2024-01-15,not_as_described,287.68,C00141,2022-11-10,cancelled,734.71,25.0,false,2019-08-06,Senegal,bronze,stevenscott@example.com,I000000456,P0166,7,135.53,beauty,551.0325,false
+O0001703,R000078,2023-08-06,changed_mind,259.85,C00369,2024-05-18,shipped,870.81,15.0,false,2023-07-30,South Africa,gold,brooksanthony@example.org,I000005025,P0431,9,345.38,food_drink,740.1885,false
+O_MISSING_00014,R_GHOST_00015,2023-02-03,arrived_late,140.86,,,,,,,,,,,,,,,,,false
+O0000493,R000287,2022-05-08,defective,17.39,C00463,2022-01-29,shipped,85.66,10.0,false,2019-03-14,Kenya,platinum,tammy99@example.org,I000001452,P0214,6,111.03,books,77.094,false
+O0000493,R000287,2022-05-08,defective,17.39,C00463,2022-01-29,shipped,85.66,10.0,false,2019-03-14,Kenya,platinum,tammy99@example.org,I000001450,P0353,2,96.71,clothing,77.094,false
+O0000493,R000287,2022-05-08,defective,17.39,C00463,2022-01-29,shipped,85.66,10.0,false,2019-03-14,Kenya,platinum,tammy99@example.org,I000001453,P0480,5,295.01,food_drink,77.094,false
+O0000493,R000287,2022-05-08,defective,17.39,C00463,2022-01-29,shipped,85.66,10.0,false,2019-03-14,Kenya,platinum,tammy99@example.org,I000001451,P0104,6,271.04,electronics,77.094,false
+O0001374,R000260,2022-04-29,duplicate_order,86.35,C00173,2023-02-28,shipped,121.53,0.0,false,2020-12-17,Kenya,silver,andrewstaylor@example.com,I000004024,P0229,3,43.1,home_garden,121.53,false
+O0001374,R000260,2022-04-29,duplicate_order,86.35,C00173,2023-02-28,shipped,121.53,0.0,false,2020-12-17,Kenya,silver,andrewstaylor@example.com,I000004025,P0348,3,439.01,books,121.53,false
+O0001374,R000260,2022-04-29,duplicate_order,86.35,C00173,2023-02-28,shipped,121.53,0.0,false,2020-12-17,Kenya,silver,andrewstaylor@example.com,I000004023,P0160,3,225.66,books,121.53,false
+O_MISSING_00001,R_GHOST_00002,2024-06-23,defective,447.61,,,,,,,,,,,,,,,,,false
+O0000664,R000046,2022-07-21,arrived_late,19.91,,,,,,,,,,,,,,,,,false
+O0000729,R000008,2024-04-03,not_as_described,237.12,C00223,2022-03-12,shipped,1133.04,0.0,false,2019-09-07,South Africa,platinum,tylerjohnson@example.net,I000002162,P0438,3,433.78,books,1133.04,false
+O0000892,R000013,2023-03-23,wrong_item,466.13,C00094,2023-08-29,pending,1315.29,10.0,false,2022-08-29,Senegal,bronze,,I000002642,P0188,1,192.07,food_drink,1183.761,false
+O0000377,R000103,2022-10-23,not_as_described,1815.95,C00381,2024-05-22,shipped,2465.47,0.0,false,2021-02-05,Uganda,silver,myerstheodore@example.net,I000001105,P0408,4,433.17,toys,2465.47,false
+O0001988,R000223,2022-08-01,changed_mind,423.67,C00249,2024-01-11,shipped,1840.72,,false,2023-08-18,Nigeria,bronze,jessica14@example.com,I000005934,P0250,3,215.43,sports,,false
+O0001988,R000223,2022-08-01,changed_mind,423.67,C00249,2024-01-11,shipped,1840.72,,false,2023-08-18,Nigeria,bronze,jessica14@example.com,I000005936,P0238,4,425.87,books,,false
+O0001988,R000223,2022-08-01,changed_mind,423.67,C00249,2024-01-11,shipped,1840.72,,false,2023-08-18,Nigeria,bronze,jessica14@example.com,I000005935,P0189,7,176.82,home_garden,,false
+O0000669,R000112,2024-05-21,changed_mind,530.43,C00171,2022-09-25,pending,1816.89,15.0,false,2018-07-16,Kenya,silver,brandon08@example.com,I000001977,P0493,8,233.56,toys,1544.3565,false
+O0000669,R000112,2024-05-21,changed_mind,530.43,C00171,2022-09-25,pending,1816.89,15.0,false,2018-07-16,Kenya,silver,brandon08@example.com,I000001975,P0016,9,175.64,toys,1544.3565,false
+O0000669,R000112,2024-05-21,changed_mind,530.43,C00171,2022-09-25,pending,1816.89,15.0,false,2018-07-16,Kenya,silver,brandon08@example.com,I000001978,P0191,6,468.38,home_garden,1544.3565,false
+O0000669,R000112,2024-05-21,changed_mind,530.43,C00171,2022-09-25,pending,1816.89,15.0,false,2018-07-16,Kenya,silver,brandon08@example.com,I000001976,P0018,7,493.29,books,1544.3565,false
+O0000669,R000112,2024-05-21,changed_mind,530.43,C00171,2022-09-25,pending,1816.89,15.0,false,2018-07-16,Kenya,silver,brandon08@example.com,I000001974,P0377,8,422.54,books,1544.3565,false
+O0000548,R000265,2024-01-12,wrong_item,794.43,C00470,2024-04-15,cancelled,1653.34,10.0,false,2018-12-23,Egypt,gold,,I000001615,P0249,8,94.07,clothing,1488.0059999999999,false
+O0000548,R000265,2024-01-12,wrong_item,794.43,C00470,2024-04-15,cancelled,1653.34,10.0,false,2018-12-23,Egypt,gold,,I000001616,P0098,4,323.59,home_garden,1488.0059999999999,false
+O0001046,R000080,2022-05-26,wrong_item,580.56,C00394,2024-06-20,completed,1592.1,25.0,false,2018-06-12,Kenya,platinum,terri77@example.com,I000003088,P0074,6,271.58,toys,1194.0749999999998,false
+O0001046,R000080,2022-05-26,wrong_item,580.56,C00394,2024-06-20,completed,1592.1,25.0,false,2018-06-12,Kenya,platinum,terri77@example.com,I000003087,P0356,2,212.32,food_drink,1194.0749999999998,false
+O0000799,R000238,2022-09-19,arrived_late,943.01,C00076,2022-06-20,pending,1411.75,0.0,false,2018-07-28,Uganda,bronze,juan35@example.org,I000002359,P0058,5,334.04,sports,1411.75,false
+O0001223,R000114,2023-04-21,changed_mind,1106.06,C00306,2023-05-07,completed,1263.67,5.0,false,2023-09-06,South Africa,bronze,kchavez@example.com,I000003598,P0165,5,415.16,sports,1200.4865,false
+O0001223,R000114,2023-04-21,changed_mind,1106.06,C00306,2023-05-07,completed,1263.67,5.0,false,2023-09-06,South Africa,bronze,kchavez@example.com,I000003599,P0293,7,488.45,beauty,1200.4865,false
+O0001223,R000114,2023-04-21,changed_mind,1106.06,C00306,2023-05-07,completed,1263.67,5.0,false,2023-09-06,South Africa,bronze,kchavez@example.com,I000003600,P0268,3,78.81,books,1200.4865,false
+O0000715,R000106,2023-08-08,arrived_late,1233.62,C00302,2023-12-01,cancelled,2362.66,20.0,false,2019-10-28,Ethiopia,bronze,anthony44@example.com,I000002121,P0130,7,276.39,clothing,1890.128,false
+O0000715,R000106,2023-08-08,arrived_late,1233.62,C00302,2023-12-01,cancelled,2362.66,20.0,false,2019-10-28,Ethiopia,bronze,anthony44@example.com,I000002118,P0041,5,155.76,beauty,1890.128,false
+O0000715,R000106,2023-08-08,arrived_late,1233.62,C00302,2023-12-01,cancelled,2362.66,20.0,false,2019-10-28,Ethiopia,bronze,anthony44@example.com,I000002119,P0007,8,479.33,clothing,1890.128,false
+O0000715,R000106,2023-08-08,arrived_late,1233.62,C00302,2023-12-01,cancelled,2362.66,20.0,false,2019-10-28,Ethiopia,bronze,anthony44@example.com,I000002120,P0342,7,227.21,electronics,1890.128,false
+O0000434,R000215,2023-07-25,wrong_item,1141.82,C00455,2023-07-13,completed,2285.58,15.0,false,2019-08-14,Senegal,platinum,cporter@example.org,I000001284,P0309,1,21.39,home_garden,1942.743,false
+O0000434,R000215,2023-07-25,wrong_item,1141.82,C00455,2023-07-13,completed,2285.58,15.0,false,2019-08-14,Senegal,platinum,cporter@example.org,I000001283,P0453,7,99.92,sports,1942.743,false
+O0000434,R000215,2023-07-25,wrong_item,1141.82,C00455,2023-07-13,completed,2285.58,15.0,false,2019-08-14,Senegal,platinum,cporter@example.org,I000001285,P0498,8,470.92,sports,1942.743,false
+O0000434,R000215,2023-07-25,wrong_item,1141.82,C00455,2023-07-13,completed,2285.58,15.0,false,2019-08-14,Senegal,platinum,cporter@example.org,I000001282,P0421,3,291.33,sports,1942.743,false
+O0000611,R000083,2024-05-07,arrived_late,626.81,C00015,2024-06-29,refunded,2022.75,25.0,false,2018-06-23,Uganda,bronze,mitchellclark@example.com,I000001794,P0282,8,264.14,,1517.0625,false
+O0000611,R000083,2024-05-07,arrived_late,626.81,C00015,2024-06-29,refunded,2022.75,25.0,false,2018-06-23,Uganda,bronze,mitchellclark@example.com,I000001796,P0399,5,471.89,beauty,1517.0625,false
+O0000611,R000083,2024-05-07,arrived_late,626.81,C00015,2024-06-29,refunded,2022.75,25.0,false,2018-06-23,Uganda,bronze,mitchellclark@example.com,I000001797,P0053,6,201.51,toys,1517.0625,false
+O0000611,R000083,2024-05-07,arrived_late,626.81,C00015,2024-06-29,refunded,2022.75,25.0,false,2018-06-23,Uganda,bronze,mitchellclark@example.com,I000001795,P0130,3,42.21,home_garden,1517.0625,false
+O0001311,R000277,2022-07-05,wrong_item,612.51,C00290,2023-06-08,refunded,2321.84,0.0,false,2020-05-02,Ethiopia,silver,maria66@example.net,I000003850,P0329,7,484.75,sports,2321.84,false
+O0001311,R000277,2022-07-05,wrong_item,612.51,C00290,2023-06-08,refunded,2321.84,0.0,false,2020-05-02,Ethiopia,silver,maria66@example.net,I000003852,P0028,2,232.77,electronics,2321.84,false
+O0001311,R000277,2022-07-05,wrong_item,612.51,C00290,2023-06-08,refunded,2321.84,0.0,false,2020-05-02,Ethiopia,silver,maria66@example.net,I000003851,P0101,7,49.51,toys,2321.84,false
+O0000909,R000168,2022-06-22,not_as_described,1233.98,C00231,2024-02-21,refunded,1770.16,25.0,false,2019-02-19,Tanzania,bronze,juliehamilton@example.org,I000002692,P0077,3,416.58,toys,1327.6200000000001,false
+O0000909,R000168,2022-06-22,not_as_described,1233.98,C00231,2024-02-21,refunded,1770.16,25.0,false,2019-02-19,Tanzania,bronze,juliehamilton@example.org,I000002690,P0099,5,459.43,books,1327.6200000000001,false
+O0000909,R000168,2022-06-22,not_as_described,1233.98,C00231,2024-02-21,refunded,1770.16,25.0,false,2019-02-19,Tanzania,bronze,juliehamilton@example.org,I000002688,P0051,4,379.8,electronics,1327.6200000000001,false
+O0000909,R000168,2022-06-22,not_as_described,1233.98,C00231,2024-02-21,refunded,1770.16,25.0,false,2019-02-19,Tanzania,bronze,juliehamilton@example.org,I000002689,P0295,1,281.93,beauty,1327.6200000000001,false
+O0000909,R000168,2022-06-22,not_as_described,1233.98,C00231,2024-02-21,refunded,1770.16,25.0,false,2019-02-19,Tanzania,bronze,juliehamilton@example.org,I000002691,P0106,8,268.92,home_garden,1327.6200000000001,false
+O0001028,R000101,2022-04-01,changed_mind,477.64,C00142,2024-06-24,shipped,636.79,5.0,false,2020-03-27,Uganda,gold,catherinestuart@example.net,I000003041,P0044,7,24.49,food_drink,604.9504999999999,false
+O0001028,R000101,2022-04-01,changed_mind,477.64,C00142,2024-06-24,shipped,636.79,5.0,false,2020-03-27,Uganda,gold,catherinestuart@example.net,I000003040,P0189,3,242.27,clothing,604.9504999999999,false
+O_MISSING_00016,R_GHOST_00017,2024-07-18,wrong_item,207.09,,,,,,,,,,,,,,,,,false
+O0001003,R000292,2024-02-10,changed_mind,738.46,C00143,2023-03-31,refunded,766.52,0.0,false,2018-01-18,Rwanda,silver,stricklandfrank@example.com,I000002982,P0086,9,16.84,home_garden,766.52,false
+O0001003,R000292,2024-02-10,changed_mind,738.46,C00143,2023-03-31,refunded,766.52,0.0,false,2018-01-18,Rwanda,silver,stricklandfrank@example.com,I000002981,P0233,1,447.35,electronics,766.52,false
+O0001003,R000292,2024-02-10,changed_mind,738.46,C00143,2023-03-31,refunded,766.52,0.0,false,2018-01-18,Rwanda,silver,stricklandfrank@example.com,I000002983,P0365,7,412.19,food_drink,766.52,false
+O0001003,R000292,2024-02-10,changed_mind,738.46,C00143,2023-03-31,refunded,766.52,0.0,false,2018-01-18,Rwanda,silver,stricklandfrank@example.com,I000002984,P0195,1,301.99,,766.52,false
+O0000399,R000094,2022-10-20,arrived_late,459.43,C00089,2022-06-12,shipped,483.85,0.0,false,2022-05-02,Rwanda,platinum,kristinrodriguez@example.org,I000001170,P0426,8,154.12,home_garden,483.85,false
+O0000399,R000094,2022-10-20,arrived_late,459.43,C00089,2022-06-12,shipped,483.85,0.0,false,2022-05-02,Rwanda,platinum,kristinrodriguez@example.org,I000001171,P0338,6,375.66,toys,483.85,false
+O0001661,R000127,2023-07-21,wrong_item,457.24,C00214,2023-06-30,pending,1703.63,0.0,false,2021-02-07,Rwanda,bronze,michellehill@example.com,I000004901,P0303,3,356.52,home_garden,1703.63,false
+O0001661,R000127,2023-07-21,wrong_item,457.24,C00214,2023-06-30,pending,1703.63,0.0,false,2021-02-07,Rwanda,bronze,michellehill@example.com,I000004905,P0292,8,212.41,electronics,1703.63,false
+O0001661,R000127,2023-07-21,wrong_item,457.24,C00214,2023-06-30,pending,1703.63,0.0,false,2021-02-07,Rwanda,bronze,michellehill@example.com,I000004904,P0366,7,236.49,home_garden,1703.63,false
+O0001661,R000127,2023-07-21,wrong_item,457.24,C00214,2023-06-30,pending,1703.63,0.0,false,2021-02-07,Rwanda,bronze,michellehill@example.com,I000004903,P0114,5,444.76,toys,1703.63,false
+O0001661,R000127,2023-07-21,wrong_item,457.24,C00214,2023-06-30,pending,1703.63,0.0,false,2021-02-07,Rwanda,bronze,michellehill@example.com,I000004902,P0224,5,277.96,books,1703.63,false
+O0001251,R000064,2022-12-29,arrived_late,266.88,C00461,2022-09-11,shipped,1840.19,15.0,false,2022-05-10,Rwanda,bronze,richardsonemily@example.com,I000003676,P0175,7,443.46,clothing,1564.1615,false
+O0001251,R000064,2022-12-29,arrived_late,266.88,C00461,2022-09-11,shipped,1840.19,15.0,false,2022-05-10,Rwanda,bronze,richardsonemily@example.com,I000003675,P0350,7,84.28,home_garden,1564.1615,false
+O0001251,R000064,2022-12-29,arrived_late,266.88,C00461,2022-09-11,shipped,1840.19,15.0,false,2022-05-10,Rwanda,bronze,richardsonemily@example.com,I000003677,P0407,4,308.88,clothing,1564.1615,false
+O0000296,R000041,2023-06-30,wrong_item,1444.24,C00312,2022-10-24,completed,1623.04,15.0,false,2021-05-27,Nigeria,silver,trose@example.org,I000000854,P0460,5,84.79,food_drink,1379.5839999999998,true
+O0001927,R000090,2022-09-26,arrived_late,535.78,C00092,2024-04-25,completed,1070.29,5.0,false,2018-08-22,Tanzania,bronze,raymondramirez@example.org,I000005718,P0066,8,464.44,,1016.7755,false
+O0001927,R000090,2022-09-26,arrived_late,535.78,C00092,2024-04-25,completed,1070.29,5.0,false,2018-08-22,Tanzania,bronze,raymondramirez@example.org,I000005719,P0131,1,366.66,books,1016.7755,false
+O0001927,R000090,2022-09-26,arrived_late,535.78,C00092,2024-04-25,completed,1070.29,5.0,false,2018-08-22,Tanzania,bronze,raymondramirez@example.org,I000005720,P0075,9,84.65,electronics,1016.7755,false
+O0001901,R000043,2023-10-13,defective,1062.19,C00081,2023-07-25,completed,1179.59,10.0,false,2018-11-01,Senegal,platinum,rodriguezsierra@example.net,I000005643,P0004,8,34.67,electronics,1061.6309999999999,true
+O0001901,R000043,2023-10-13,defective,1062.19,C00081,2023-07-25,completed,1179.59,10.0,false,2018-11-01,Senegal,platinum,rodriguezsierra@example.net,I000005644,P0342,7,273.9,books,1061.6309999999999,true
+O0001824,R000059,2024-03-27,arrived_late,64.27,C00001,2022-08-12,shipped,64.65,25.0,false,2018-07-15,Uganda,bronze,johnsonjoshua@example.org,I000005395,P0285,4,195.25,food_drink,48.487500000000004,true
+O0001824,R000059,2024-03-27,arrived_late,64.27,C00001,2022-08-12,shipped,64.65,25.0,false,2018-07-15,Uganda,bronze,johnsonjoshua@example.org,I000005393,P0070,6,4.95,electronics,48.487500000000004,true
+O0001824,R000059,2024-03-27,arrived_late,64.27,C00001,2022-08-12,shipped,64.65,25.0,false,2018-07-15,Uganda,bronze,johnsonjoshua@example.org,I000005394,P0408,6,152.41,toys,48.487500000000004,true
+O0001824,R000059,2024-03-27,arrived_late,64.27,C00001,2022-08-12,shipped,64.65,25.0,false,2018-07-15,Uganda,bronze,johnsonjoshua@example.org,I000005392,P0068,8,254.3,home_garden,48.487500000000004,true
+O0001485,R000087,2023-04-17,wrong_item,551.68,C00202,2023-06-03,completed,917.84,20.0,false,2020-11-20,Rwanda,silver,cordovarichard@example.net,I000004354,P0473,1,277.61,electronics,734.272,false
+O0001485,R000087,2023-04-17,wrong_item,551.68,C00202,2023-06-03,completed,917.84,20.0,false,2020-11-20,Rwanda,silver,cordovarichard@example.net,I000004355,P0065,1,156.27,sports,734.272,false
+O0001485,R000087,2023-04-17,wrong_item,551.68,C00202,2023-06-03,completed,917.84,20.0,false,2020-11-20,Rwanda,silver,cordovarichard@example.net,I000004356,P0200,1,307.27,sports,734.272,false
+O0001485,R000087,2023-04-17,wrong_item,551.68,C00202,2023-06-03,completed,917.84,20.0,false,2020-11-20,Rwanda,silver,cordovarichard@example.net,I000004353,P0225,2,432.47,home_garden,734.272,false
+O0000907,R000161,2022-11-18,not_as_described,43.84,C00426,2024-04-14,refunded,84.3,10.0,false,2019-01-27,Rwanda,gold,stacey84@example.org,I000002681,P0347,9,439.57,home_garden,75.87,false
+O0000907,R000161,2022-11-18,not_as_described,43.84,C00426,2024-04-14,refunded,84.3,10.0,false,2019-01-27,Rwanda,gold,stacey84@example.org,I000002682,P0175,3,496.35,toys,75.87,false
+O0000404,R000157,2023-12-19,defective,34.52,C00458,2024-05-28,shipped,63.7,10.0,false,2020-11-16,South Africa,bronze,sarah52@example.com,I000001190,P0354,1,479.57,sports,57.330000000000005,false
+O0000404,R000157,2023-12-19,defective,34.52,C00458,2024-05-28,shipped,63.7,10.0,false,2020-11-16,South Africa,bronze,sarah52@example.com,I000001189,P0431,5,191.39,books,57.330000000000005,false
+O0000404,R000157,2023-12-19,defective,34.52,C00458,2024-05-28,shipped,63.7,10.0,false,2020-11-16,South Africa,bronze,sarah52@example.com,I000001188,P0287,7,232.14,beauty,57.330000000000005,false
+O0000722,R000088,2022-03-26,wrong_item,852.87,C00285,2022-06-05,shipped,2101.46,0.0,false,2022-10-15,Rwanda,gold,cameronhill@example.net,I000002144,P0469,3,221.87,electronics,2101.46,false
+O0000722,R000088,2022-03-26,wrong_item,852.87,C00285,2022-06-05,shipped,2101.46,0.0,false,2022-10-15,Rwanda,gold,cameronhill@example.net,I000002146,P0488,4,421.93,electronics,2101.46,false
+O0000722,R000088,2022-03-26,wrong_item,852.87,C00285,2022-06-05,shipped,2101.46,0.0,false,2022-10-15,Rwanda,gold,cameronhill@example.net,I000002145,P0007,7,81.52,toys,2101.46,false
+O0000722,R000088,2022-03-26,wrong_item,852.87,C00285,2022-06-05,shipped,2101.46,0.0,false,2022-10-15,Rwanda,gold,cameronhill@example.net,I000002143,P0130,8,463.2,electronics,2101.46,false
+O0000722,R000088,2022-03-26,wrong_item,852.87,C00285,2022-06-05,shipped,2101.46,0.0,false,2022-10-15,Rwanda,gold,cameronhill@example.net,I000002142,P0212,2,109.07,books,2101.46,false
+O0000857,R000246,2023-07-29,changed_mind,496.45,C00301,2023-07-09,cancelled,2181.06,25.0,false,2023-04-14,Uganda,platinum,lynchdiane@example.net,I000002541,P0419,1,87.11,home_garden,1635.795,false
+O0000857,R000246,2023-07-29,changed_mind,496.45,C00301,2023-07-09,cancelled,2181.06,25.0,false,2023-04-14,Uganda,platinum,lynchdiane@example.net,I000002540,P0369,2,200.48,beauty,1635.795,false
+O0000857,R000246,2023-07-29,changed_mind,496.45,C00301,2023-07-09,cancelled,2181.06,25.0,false,2023-04-14,Uganda,platinum,lynchdiane@example.net,I000002539,P0195,4,245.24,toys,1635.795,false
+O0000857,R000246,2023-07-29,changed_mind,496.45,C00301,2023-07-09,cancelled,2181.06,25.0,false,2023-04-14,Uganda,platinum,lynchdiane@example.net,I000002542,P0198,2,418.0,beauty,1635.795,false
+O0001835,R000232,2023-02-27,arrived_late,1448.66,C00298,2024-05-06,completed,2279.43,0.0,false,2023-02-17,Ethiopia,silver,ericolson@example.org,I000005439,P0218,9,446.14,home_garden,2279.43,false
+O0001835,R000232,2023-02-27,arrived_late,1448.66,C00298,2024-05-06,completed,2279.43,0.0,false,2023-02-17,Ethiopia,silver,ericolson@example.org,I000005441,P0274,1,74.57,electronics,2279.43,false
+O0001835,R000232,2023-02-27,arrived_late,1448.66,C00298,2024-05-06,completed,2279.43,0.0,false,2023-02-17,Ethiopia,silver,ericolson@example.org,I000005440,P0159,2,351.26,toys,2279.43,false
+O0001338,R000128,2023-04-14,defective,,C00178,2022-02-21,cancelled,159.54,20.0,false,2020-01-29,Rwanda,gold,kimberlyjames@example.com,I000003920,P0315,4,218.79,sports,127.632,false
+O0000928,R000172,2022-03-08,changed_mind,669.45,C00249,2022-03-28,shipped,1122.52,0.0,false,2023-08-18,Nigeria,bronze,jessica14@example.com,I000002757,P0391,1,140.1,sports,1122.52,false
+O0000928,R000172,2022-03-08,changed_mind,669.45,C00249,2022-03-28,shipped,1122.52,0.0,false,2023-08-18,Nigeria,bronze,jessica14@example.com,I000002759,P0476,9,55.1,electronics,1122.52,false
+O0000928,R000172,2022-03-08,changed_mind,669.45,C00249,2022-03-28,shipped,1122.52,0.0,false,2023-08-18,Nigeria,bronze,jessica14@example.com,I000002760,P0397,3,387.1,home_garden,1122.52,false
+O0000928,R000172,2022-03-08,changed_mind,669.45,C00249,2022-03-28,shipped,1122.52,0.0,false,2023-08-18,Nigeria,bronze,jessica14@example.com,I000002758,P0288,9,162.4,clothing,1122.52,false
+O0000928,R000172,2022-03-08,changed_mind,669.45,C00249,2022-03-28,shipped,1122.52,0.0,false,2023-08-18,Nigeria,bronze,jessica14@example.com,I000002756,P0173,7,389.1,sports,1122.52,false
+O0001689,R000298,2022-02-18,wrong_item,1048.67,C00095,2022-03-07,pending,1454.19,10.0,false,2018-12-09,Kenya,platinum,benjamin96@example.com,I000004976,P0217,7,139.93,beauty,1308.7710000000002,false
+O0001689,R000298,2022-02-18,wrong_item,1048.67,C00095,2022-03-07,pending,1454.19,10.0,false,2018-12-09,Kenya,platinum,benjamin96@example.com,I000004978,P0140,9,271.15,electronics,1308.7710000000002,false
+O0001689,R000298,2022-02-18,wrong_item,1048.67,C00095,2022-03-07,pending,1454.19,10.0,false,2018-12-09,Kenya,platinum,benjamin96@example.com,I000004980,P0303,9,289.73,food_drink,1308.7710000000002,false
+O0001689,R000298,2022-02-18,wrong_item,1048.67,C00095,2022-03-07,pending,1454.19,10.0,false,2018-12-09,Kenya,platinum,benjamin96@example.com,I000004979,P0020,2,417.81,books,1308.7710000000002,false
+O0001689,R000298,2022-02-18,wrong_item,1048.67,C00095,2022-03-07,pending,1454.19,10.0,false,2018-12-09,Kenya,platinum,benjamin96@example.com,I000004977,P0381,7,300.3,food_drink,1308.7710000000002,false
+O0001206,R000266,2024-07-29,defective,1077.37,C00172,2024-04-18,shipped,2463.63,15.0,false,2018-08-31,South Africa,silver,danamullins@example.org,I000003547,P0254,2,114.42,beauty,2094.0855,false
+O0001206,R000266,2024-07-29,defective,1077.37,C00172,2024-04-18,shipped,2463.63,15.0,false,2018-08-31,South Africa,silver,danamullins@example.org,I000003546,P0091,1,284.84,home_garden,2094.0855,false
+O0001206,R000266,2024-07-29,defective,1077.37,C00172,2024-04-18,shipped,2463.63,15.0,false,2018-08-31,South Africa,silver,danamullins@example.org,I000003548,P0433,2,278.85,beauty,2094.0855,false
+O0000472,R000121,2022-06-14,not_as_described,239.74,,,,,,,,,,,,,,,,,false
+O0001511,R000240,2024-05-19,not_as_described,1851.41,C00296,2023-06-07,cancelled,2332.48,25.0,false,2020-03-28,Egypt,platinum,uparrish@example.org,I000004445,P0058,6,214.27,books,1749.3600000000001,true
+O0001511,R000240,2024-05-19,not_as_described,1851.41,C00296,2023-06-07,cancelled,2332.48,25.0,false,2020-03-28,Egypt,platinum,uparrish@example.org,I000004447,P0030,5,224.44,,1749.3600000000001,true
+O0001511,R000240,2024-05-19,not_as_described,1851.41,C00296,2023-06-07,cancelled,2332.48,25.0,false,2020-03-28,Egypt,platinum,uparrish@example.org,I000004448,P0017,6,73.44,electronics,1749.3600000000001,true
+O0001511,R000240,2024-05-19,not_as_described,1851.41,C00296,2023-06-07,cancelled,2332.48,25.0,false,2020-03-28,Egypt,platinum,uparrish@example.org,I000004446,P0166,4,315.67,electronics,1749.3600000000001,true
+O0000850,R000150,2024-04-25,wrong_item,809.07,C00159,2022-06-27,completed,899.82,0.0,false,2021-07-13,Tanzania,silver,joshua94@example.net,I000002519,P0472,9,203.74,beauty,899.82,false
+O0000850,R000150,2024-04-25,wrong_item,809.07,C00159,2022-06-27,completed,899.82,0.0,false,2021-07-13,Tanzania,silver,joshua94@example.net,I000002518,P0117,3,133.5,food_drink,899.82,false
+O0000850,R000150,2024-04-25,wrong_item,809.07,C00159,2022-06-27,completed,899.82,0.0,false,2021-07-13,Tanzania,silver,joshua94@example.net,I000002516,P0083,8,280.59,sports,899.82,false
+O0000850,R000150,2024-04-25,wrong_item,809.07,C00159,2022-06-27,completed,899.82,0.0,false,2021-07-13,Tanzania,silver,joshua94@example.net,I000002517,P0309,7,325.52,beauty,899.82,false
+O0001579,R000016,2023-06-21,defective,40.42,C00102,2022-02-25,refunded,105.48,5.0,false,2019-01-15,Ethiopia,silver,lbyrd@example.net,I000004648,P0237,6,1.01,home_garden,100.206,false
+O0002000,R000022,2023-03-10,not_as_described,901.46,C00133,2023-02-13,pending,945.7,15.0,false,2021-05-25,Kenya,gold,millerroy@example.com,I000005970,P0037,1,421.25,beauty,803.845,true
+O0002000,R000022,2023-03-10,not_as_described,901.46,C00133,2023-02-13,pending,945.7,15.0,false,2021-05-25,Kenya,gold,millerroy@example.com,I000005971,P0213,2,383.94,home_garden,803.845,true
+O0002000,R000022,2023-03-10,not_as_described,901.46,C00133,2023-02-13,pending,945.7,15.0,false,2021-05-25,Kenya,gold,millerroy@example.com,I000005969,P0105,8,34.54,electronics,803.845,true
+O0002000,R000022,2023-03-10,not_as_described,901.46,C00133,2023-02-13,pending,945.7,15.0,false,2021-05-25,Kenya,gold,millerroy@example.com,I000005972,P0320,7,264.78,toys,803.845,true
+O0001416,R000082,2024-04-03,not_as_described,787.72,C00269,2023-08-09,cancelled,1990.81,20.0,false,2023-08-01,Tanzania,gold,bruce43@example.org,I000004149,P0035,2,448.57,beauty,1592.6480000000001,false
+O0000903,R000032,2023-09-16,not_as_described,512.97,C00067,2024-05-21,cancelled,994.7,10.0,false,2019-12-04,Rwanda,gold,sarah35@example.org,I000002670,P0065,9,25.58,home_garden,895.23,false
+O0000903,R000032,2023-09-16,not_as_described,512.97,C00067,2024-05-21,cancelled,994.7,10.0,false,2019-12-04,Rwanda,gold,sarah35@example.org,I000002672,P0341,2,47.46,clothing,895.23,false
+O0000903,R000032,2023-09-16,not_as_described,512.97,C00067,2024-05-21,cancelled,994.7,10.0,false,2019-12-04,Rwanda,gold,sarah35@example.org,I000002671,P0208,2,467.56,clothing,895.23,false
+O_MISSING_00004,R_GHOST_00005,2022-12-28,not_as_described,310.68,,,,,,,,,,,,,,,,,false
+O0001657,R000171,2023-06-19,duplicate_order,1443.77,C00306,2022-03-22,shipped,1067.12,15.0,false,2023-09-06,South Africa,bronze,kchavez@example.com,I000004888,P0448,9,214.45,sports,907.0519999999999,true
+O0001657,R000171,2023-06-19,duplicate_order,1443.77,C00306,2022-03-22,shipped,1067.12,15.0,false,2023-09-06,South Africa,bronze,kchavez@example.com,I000004889,P0112,6,239.91,sports,907.0519999999999,true
+O0001657,R000171,2023-06-19,duplicate_order,1443.77,C00306,2022-03-22,shipped,1067.12,15.0,false,2023-09-06,South Africa,bronze,kchavez@example.com,I000004887,P0284,5,25.9,beauty,907.0519999999999,true
+O0000430,R000048,2022-09-20,arrived_late,1361.58,C00333,2023-05-04,shipped,2260.14,10.0,false,2023-06-02,Egypt,platinum,harrisoncrystal@example.com,I000001274,P0321,2,405.36,food_drink,2034.126,false
+O0000430,R000048,2022-09-20,arrived_late,1361.58,C00333,2023-05-04,shipped,2260.14,10.0,false,2023-06-02,Egypt,platinum,harrisoncrystal@example.com,I000001275,P0457,2,272.48,electronics,2034.126,false
+O0000430,R000048,2022-09-20,arrived_late,1361.58,C00333,2023-05-04,shipped,2260.14,10.0,false,2023-06-02,Egypt,platinum,harrisoncrystal@example.com,I000001273,P0494,2,373.23,food_drink,2034.126,false
+O0000093,R000151,2023-04-27,wrong_item,153.11,C00166,2022-03-14,cancelled,735.88,15.0,false,2018-09-03,South Africa,bronze,qnelson@example.org,I000000266,P0165,4,392.32,books,625.4979999999999,false
+O0000093,R000151,2023-04-27,wrong_item,153.11,C00166,2022-03-14,cancelled,735.88,15.0,false,2018-09-03,South Africa,bronze,qnelson@example.org,I000000268,P0193,6,261.02,clothing,625.4979999999999,false
+O0000093,R000151,2023-04-27,wrong_item,153.11,C00166,2022-03-14,cancelled,735.88,15.0,false,2018-09-03,South Africa,bronze,qnelson@example.org,I000000269,P0198,6,218.02,beauty,625.4979999999999,false
+O0000093,R000151,2023-04-27,wrong_item,153.11,C00166,2022-03-14,cancelled,735.88,15.0,false,2018-09-03,South Africa,bronze,qnelson@example.org,I000000267,P0078,9,428.99,food_drink,625.4979999999999,false
+O0000899,R000173,2023-08-05,defective,1303.02,C00296,2022-07-06,pending,1469.05,0.0,false,2020-03-28,Egypt,platinum,uparrish@example.org,I000002661,P0357,4,407.94,beauty,1469.05,false
+O0000899,R000173,2023-08-05,defective,1303.02,C00296,2022-07-06,pending,1469.05,0.0,false,2020-03-28,Egypt,platinum,uparrish@example.org,I000002660,P0049,2,33.86,beauty,1469.05,false
+O0000899,R000173,2023-08-05,defective,1303.02,C00296,2022-07-06,pending,1469.05,0.0,false,2020-03-28,Egypt,platinum,uparrish@example.org,I000002662,P0455,2,307.66,sports,1469.05,false
+O0000466,R000076,2023-08-19,arrived_late,1428.14,C00342,2024-05-27,refunded,1432.04,20.0,false,2022-03-25,Ethiopia,gold,hritter@example.net,I000001377,P0087,6,451.91,electronics,1145.632,true
+O0000466,R000076,2023-08-19,arrived_late,1428.14,C00342,2024-05-27,refunded,1432.04,20.0,false,2022-03-25,Ethiopia,gold,hritter@example.net,I000001380,P0270,4,51.56,,1145.632,true
+O0000466,R000076,2023-08-19,arrived_late,1428.14,C00342,2024-05-27,refunded,1432.04,20.0,false,2022-03-25,Ethiopia,gold,hritter@example.net,I000001378,P0423,9,196.82,beauty,1145.632,true
+O0000466,R000076,2023-08-19,arrived_late,1428.14,C00342,2024-05-27,refunded,1432.04,20.0,false,2022-03-25,Ethiopia,gold,hritter@example.net,I000001379,P0081,2,23.77,food_drink,1145.632,true
+O0001813,R000274,2022-02-18,changed_mind,1328.11,C00469,2023-01-23,cancelled,2495.26,0.0,false,2020-06-29,Uganda,silver,thorntonapril@example.net,I000005354,P0091,9,86.37,toys,2495.26,false
+O0001813,R000274,2022-02-18,changed_mind,1328.11,C00469,2023-01-23,cancelled,2495.26,0.0,false,2020-06-29,Uganda,silver,thorntonapril@example.net,I000005353,P0010,7,494.2,toys,2495.26,false
+O0001813,R000274,2022-02-18,changed_mind,1328.11,C00469,2023-01-23,cancelled,2495.26,0.0,false,2020-06-29,Uganda,silver,thorntonapril@example.net,I000005355,P0479,9,287.27,beauty,2495.26,false
+O0001813,R000274,2022-02-18,changed_mind,1328.11,C00469,2023-01-23,cancelled,2495.26,0.0,false,2020-06-29,Uganda,silver,thorntonapril@example.net,I000005356,P0257,1,205.82,food_drink,2495.26,false
+O0001813,R000274,2022-02-18,changed_mind,1328.11,C00469,2023-01-23,cancelled,2495.26,0.0,false,2020-06-29,Uganda,silver,thorntonapril@example.net,I000005352,P0461,6,277.33,home_garden,2495.26,false
+O0001437,R000225,2022-09-22,arrived_late,772.34,C00315,2023-02-20,pending,689.51,10.0,false,2020-03-03,Senegal,silver,keith10@example.com,I000004206,P0116,7,299.59,electronics,620.559,true
+O0001437,R000225,2022-09-22,arrived_late,772.34,C00315,2023-02-20,pending,689.51,10.0,false,2020-03-03,Senegal,silver,keith10@example.com,I000004205,P0143,9,59.96,food_drink,620.559,true
+O0001437,R000225,2022-09-22,arrived_late,772.34,C00315,2023-02-20,pending,689.51,10.0,false,2020-03-03,Senegal,silver,keith10@example.com,I000004204,P0147,4,363.91,electronics,620.559,true
+O0000803,R000273,2022-05-20,wrong_item,711.8,C00084,2022-01-30,shipped,1267.45,0.0,false,2020-03-08,Kenya,silver,nolanjason@example.org,I000002369,P0492,7,293.08,home_garden,1267.45,false
+O0000936,R000291,2022-11-12,wrong_item,450.11,,,,,,,,,,,,,,,,,false
+O0000511,R000140,2022-05-24,defective,,C00052,2023-11-27,cancelled,687.65,25.0,false,2021-10-20,Kenya,silver,jamesherrera@example.org,I000001506,P0158,2,218.41,beauty,515.7375,false
+O0000511,R000140,2022-05-24,defective,,C00052,2023-11-27,cancelled,687.65,25.0,false,2021-10-20,Kenya,silver,jamesherrera@example.org,I000001507,P0402,1,179.65,books,515.7375,false
+O0000414,R000145,2022-07-18,defective,366.46,C00054,2024-06-13,cancelled,2127.47,5.0,false,2022-09-15,South Africa,platinum,ramosmichelle@example.net,I000001224,P0339,9,417.3,beauty,2021.0964999999997,false
+O0000414,R000145,2022-07-18,defective,366.46,C00054,2024-06-13,cancelled,2127.47,5.0,false,2022-09-15,South Africa,platinum,ramosmichelle@example.net,I000001225,P0289,4,233.96,clothing,2021.0964999999997,false
+O0000414,R000145,2022-07-18,defective,366.46,C00054,2024-06-13,cancelled,2127.47,5.0,false,2022-09-15,South Africa,platinum,ramosmichelle@example.net,I000001227,P0334,8,378.48,beauty,2021.0964999999997,false
+O0000414,R000145,2022-07-18,defective,366.46,C00054,2024-06-13,cancelled,2127.47,5.0,false,2022-09-15,South Africa,platinum,ramosmichelle@example.net,I000001226,P0220,7,193.11,sports,2021.0964999999997,false
+O0000414,R000145,2022-07-18,defective,366.46,C00054,2024-06-13,cancelled,2127.47,5.0,false,2022-09-15,South Africa,platinum,ramosmichelle@example.net,I000001223,P0272,7,336.97,beauty,2021.0964999999997,false
+O0001582,R000162,2024-02-07,wrong_item,333.28,C00425,2023-03-07,completed,961.32,15.0,false,2020-09-16,Rwanda,silver,fernandodonovan@example.org,I000004655,P0174,7,441.48,toys,817.1220000000001,false
+O0001333,R000054,2023-05-23,not_as_described,573.45,C00486,2022-03-12,shipped,1380.66,15.0,false,2023-10-21,Ethiopia,silver,edelgado@example.com,I000003907,P0316,2,378.28,beauty,1173.5610000000001,false
+O0001333,R000054,2023-05-23,not_as_described,573.45,C00486,2022-03-12,shipped,1380.66,15.0,false,2023-10-21,Ethiopia,silver,edelgado@example.com,I000003909,P0293,9,355.52,books,1173.5610000000001,false
+O0001333,R000054,2023-05-23,not_as_described,573.45,C00486,2022-03-12,shipped,1380.66,15.0,false,2023-10-21,Ethiopia,silver,edelgado@example.com,I000003910,P0279,4,456.74,toys,1173.5610000000001,false
+O0001333,R000054,2023-05-23,not_as_described,573.45,C00486,2022-03-12,shipped,1380.66,15.0,false,2023-10-21,Ethiopia,silver,edelgado@example.com,I000003908,P0287,4,251.23,beauty,1173.5610000000001,false
+O0001333,R000054,2023-05-23,not_as_described,573.45,C00486,2022-03-12,shipped,1380.66,15.0,false,2023-10-21,Ethiopia,silver,edelgado@example.com,I000003906,P0225,5,388.55,food_drink,1173.5610000000001,false
+O0000814,R000104,2023-04-08,arrived_late,946.94,C00254,2023-02-13,cancelled,2166.58,0.0,false,2020-07-19,Ghana,platinum,michelleramsey@example.com,I000002401,P0205,4,433.62,electronics,2166.58,false
+O0000814,R000104,2023-04-08,arrived_late,946.94,C00254,2023-02-13,cancelled,2166.58,0.0,false,2020-07-19,Ghana,platinum,michelleramsey@example.com,I000002402,P0314,2,38.87,beauty,2166.58,false
+O0000814,R000104,2023-04-08,arrived_late,946.94,C00254,2023-02-13,cancelled,2166.58,0.0,false,2020-07-19,Ghana,platinum,michelleramsey@example.com,I000002400,P0034,1,129.52,beauty,2166.58,false
+O0001100,R000030,2022-09-23,not_as_described,1709.29,C00183,2022-07-22,shipped,2246.77,5.0,false,2019-02-04,South Africa,silver,enorris@example.com,I000003236,P0282,3,262.36,electronics,2134.4314999999997,false
+O0001100,R000030,2022-09-23,not_as_described,1709.29,C00183,2022-07-22,shipped,2246.77,5.0,false,2019-02-04,South Africa,silver,enorris@example.com,I000003239,P0003,4,391.75,food_drink,2134.4314999999997,false
+O0001100,R000030,2022-09-23,not_as_described,1709.29,C00183,2022-07-22,shipped,2246.77,5.0,false,2019-02-04,South Africa,silver,enorris@example.com,I000003237,P0186,1,485.62,clothing,2134.4314999999997,false
+O0001100,R000030,2022-09-23,not_as_described,1709.29,C00183,2022-07-22,shipped,2246.77,5.0,false,2019-02-04,South Africa,silver,enorris@example.com,I000003240,P0471,7,251.36,sports,2134.4314999999997,false
+O0001100,R000030,2022-09-23,not_as_described,1709.29,C00183,2022-07-22,shipped,2246.77,5.0,false,2019-02-04,South Africa,silver,enorris@example.com,I000003238,P0493,9,5.31,,2134.4314999999997,false
+O0000795,R000072,2023-05-16,defective,257.07,C00344,2022-11-09,refunded,759.34,20.0,false,2020-03-01,Uganda,gold,rschroeder@example.net,I000002352,P0088,2,36.42,beauty,607.4720000000001,false
+O0000795,R000072,2023-05-16,defective,257.07,C00344,2022-11-09,refunded,759.34,20.0,false,2020-03-01,Uganda,gold,rschroeder@example.net,I000002350,P0101,5,309.64,electronics,607.4720000000001,false
+O0000795,R000072,2023-05-16,defective,257.07,C00344,2022-11-09,refunded,759.34,20.0,false,2020-03-01,Uganda,gold,rschroeder@example.net,I000002351,P0013,6,207.29,clothing,607.4720000000001,false
+O0000795,R000072,2023-05-16,defective,257.07,C00344,2022-11-09,refunded,759.34,20.0,false,2020-03-01,Uganda,gold,rschroeder@example.net,I000002353,P0388,1,188.91,books,607.4720000000001,false
+O0000795,R000072,2023-05-16,defective,257.07,C00344,2022-11-09,refunded,759.34,20.0,false,2020-03-01,Uganda,gold,rschroeder@example.net,I000002354,P0459,6,415.79,electronics,607.4720000000001,false
+O0000572,R000033,2022-11-21,wrong_item,1185.54,C00364,2023-10-02,shipped,1808.46,0.0,false,2021-11-07,Tanzania,bronze,angela18@example.org,I000001690,P0414,6,488.67,electronics,1808.46,false
+O0000572,R000033,2022-11-21,wrong_item,1185.54,C00364,2023-10-02,shipped,1808.46,0.0,false,2021-11-07,Tanzania,bronze,angela18@example.org,I000001688,P0453,6,37.61,electronics,1808.46,false
+O0000572,R000033,2022-11-21,wrong_item,1185.54,C00364,2023-10-02,shipped,1808.46,0.0,false,2021-11-07,Tanzania,bronze,angela18@example.org,I000001689,P0494,2,489.67,food_drink,1808.46,false
+O0001879,R000276,2022-06-10,defective,-346.54,C00010,2023-01-26,refunded,-692.8,5.0,true,2022-01-06,Kenya,silver,lindsay78@example.org,I000005577,P0367,4,340.5,toys,-658.16,true
+O0001879,R000276,2022-06-10,defective,-346.54,C00010,2023-01-26,refunded,-692.8,5.0,true,2022-01-06,Kenya,silver,lindsay78@example.org,I000005578,P0397,9,172.64,books,-658.16,true
+O0001879,R000276,2022-06-10,defective,-346.54,C00010,2023-01-26,refunded,-692.8,5.0,true,2022-01-06,Kenya,silver,lindsay78@example.org,I000005580,P0296,1,288.09,clothing,-658.16,true
+O0001879,R000276,2022-06-10,defective,-346.54,C00010,2023-01-26,refunded,-692.8,5.0,true,2022-01-06,Kenya,silver,lindsay78@example.org,I000005579,P0316,9,189.83,toys,-658.16,true
+O0001879,R000276,2022-06-10,defective,-346.54,C00010,2023-01-26,refunded,-692.8,5.0,true,2022-01-06,Kenya,silver,lindsay78@example.org,I000005576,P0447,5,32.58,electronics,-658.16,true
+O0000352,R000201,2022-10-13,arrived_late,,C00421,2022-06-08,completed,1044.67,5.0,false,2018-05-04,South Africa,silver,howens@example.com,I000001026,P0443,5,233.32,electronics,992.4365,false
+O0000352,R000201,2022-10-13,arrived_late,,C00421,2022-06-08,completed,1044.67,5.0,false,2018-05-04,South Africa,silver,howens@example.com,I000001028,P0305,5,212.06,food_drink,992.4365,false
+O0000352,R000201,2022-10-13,arrived_late,,C00421,2022-06-08,completed,1044.67,5.0,false,2018-05-04,South Africa,silver,howens@example.com,I000001025,P0246,6,288.78,beauty,992.4365,false
+O0000352,R000201,2022-10-13,arrived_late,,C00421,2022-06-08,completed,1044.67,5.0,false,2018-05-04,South Africa,silver,howens@example.com,I000001029,P0021,2,98.23,books,992.4365,false
+O0000352,R000201,2022-10-13,arrived_late,,C00421,2022-06-08,completed,1044.67,5.0,false,2018-05-04,South Africa,silver,howens@example.com,I000001027,P0037,1,146.91,sports,992.4365,false
+O0000299,R000220,2022-12-16,wrong_item,1239.87,C00204,2024-03-14,refunded,1437.87,25.0,false,2023-05-29,Ethiopia,bronze,lopezmichael@example.com,I000000864,P0056,6,498.58,toys,1078.4025,true
+O0000299,R000220,2022-12-16,wrong_item,1239.87,C00204,2024-03-14,refunded,1437.87,25.0,false,2023-05-29,Ethiopia,bronze,lopezmichael@example.com,I000000865,P0125,9,229.46,home_garden,1078.4025,true
+O0000299,R000220,2022-12-16,wrong_item,1239.87,C00204,2024-03-14,refunded,1437.87,25.0,false,2023-05-29,Ethiopia,bronze,lopezmichael@example.com,I000000862,P0383,5,493.72,food_drink,1078.4025,true
+O0000299,R000220,2022-12-16,wrong_item,1239.87,C00204,2024-03-14,refunded,1437.87,25.0,false,2023-05-29,Ethiopia,bronze,lopezmichael@example.com,I000000863,P0392,9,421.37,sports,1078.4025,true
+O0000299,R000220,2022-12-16,wrong_item,1239.87,C00204,2024-03-14,refunded,1437.87,25.0,false,2023-05-29,Ethiopia,bronze,lopezmichael@example.com,I000000866,P0136,4,189.04,home_garden,1078.4025,true
+O0000867,R000169,2024-06-02,not_as_described,552.96,C00235,2022-05-29,shipped,1120.13,20.0,false,2022-08-05,Nigeria,platinum,georgemiller@example.com,I000002577,P0226,3,331.75,sports,896.1040000000002,false
+O0000867,R000169,2024-06-02,not_as_described,552.96,C00235,2022-05-29,shipped,1120.13,20.0,false,2022-08-05,Nigeria,platinum,georgemiller@example.com,I000002575,P0126,4,241.56,sports,896.1040000000002,false
+O0000867,R000169,2024-06-02,not_as_described,552.96,C00235,2022-05-29,shipped,1120.13,20.0,false,2022-08-05,Nigeria,platinum,georgemiller@example.com,I000002576,P0141,6,355.19,books,896.1040000000002,false
+O0000867,R000169,2024-06-02,not_as_described,552.96,C00235,2022-05-29,shipped,1120.13,20.0,false,2022-08-05,Nigeria,platinum,georgemiller@example.com,I000002574,P0457,6,348.56,electronics,896.1040000000002,false
+O0000867,R000169,2024-06-02,not_as_described,552.96,C00235,2022-05-29,shipped,1120.13,20.0,false,2022-08-05,Nigeria,platinum,georgemiller@example.com,I000002578,P0455,5,234.53,toys,896.1040000000002,false
+O0000349,R000296,2022-04-10,duplicate_order,1444.94,C00029,2023-05-16,shipped,1508.59,0.0,false,2019-02-17,Ghana,silver,kayla51@example.com,I000001017,P0100,1,471.48,beauty,1508.59,false
+O0000349,R000296,2022-04-10,duplicate_order,1444.94,C00029,2023-05-16,shipped,1508.59,0.0,false,2019-02-17,Ghana,silver,kayla51@example.com,I000001016,P0392,3,55.11,beauty,1508.59,false
+O0000349,R000296,2022-04-10,duplicate_order,1444.94,C00029,2023-05-16,shipped,1508.59,0.0,false,2019-02-17,Ghana,silver,kayla51@example.com,I000001013,P0235,4,303.32,toys,1508.59,false
+O0000349,R000296,2022-04-10,duplicate_order,1444.94,C00029,2023-05-16,shipped,1508.59,0.0,false,2019-02-17,Ghana,silver,kayla51@example.com,I000001014,P0344,8,361.41,home_garden,1508.59,false
+O0000349,R000296,2022-04-10,duplicate_order,1444.94,C00029,2023-05-16,shipped,1508.59,0.0,false,2019-02-17,Ghana,silver,kayla51@example.com,I000001015,P0062,8,210.04,home_garden,1508.59,false
+O0001104,R000075,2024-02-21,defective,365.53,C00149,2022-02-17,cancelled,396.02,0.0,false,2020-07-19,Rwanda,platinum,amanda51@example.net,I000003250,P0272,1,14.29,electronics,396.02,false
+O0001104,R000075,2024-02-21,defective,365.53,C00149,2022-02-17,cancelled,396.02,0.0,false,2020-07-19,Rwanda,platinum,amanda51@example.net,I000003251,P0340,2,263.42,,396.02,false
+O0001104,R000075,2024-02-21,defective,365.53,C00149,2022-02-17,cancelled,396.02,0.0,false,2020-07-19,Rwanda,platinum,amanda51@example.net,I000003252,P0100,2,255.09,home_garden,396.02,false
+O0001104,R000075,2024-02-21,defective,365.53,C00149,2022-02-17,cancelled,396.02,0.0,false,2020-07-19,Rwanda,platinum,amanda51@example.net,I000003249,P0365,4,349.05,books,396.02,false
+O0001104,R000075,2024-02-21,defective,365.53,C00149,2022-02-17,cancelled,396.02,0.0,false,2020-07-19,Rwanda,platinum,amanda51@example.net,I000003248,P0260,9,170.89,books,396.02,false
+O0001279,R000204,2022-05-28,not_as_described,109.94,C00032,2023-02-20,cancelled,582.39,0.0,false,2022-09-11,Egypt,silver,meagan89@example.org,I000003761,P0485,8,447.99,clothing,582.39,false
+O0001279,R000204,2022-05-28,not_as_described,109.94,C00032,2023-02-20,cancelled,582.39,0.0,false,2022-09-11,Egypt,silver,meagan89@example.org,I000003762,P0164,4,278.19,books,582.39,false
+O0000542,R000096,2024-03-29,arrived_late,407.04,C00276,2022-01-16,completed,682.88,0.0,false,2019-03-30,Tanzania,bronze,howardkristina@example.net,I000001594,P0476,5,393.42,sports,682.88,false
+O0000598,R000120,2024-02-08,arrived_late,1888.37,C00209,2023-04-10,refunded,2449.26,5.0,false,2021-08-14,Senegal,gold,hdavis@example.com,I000001757,P0086,1,458.55,electronics,2326.797,false
+O0000598,R000120,2024-02-08,arrived_late,1888.37,C00209,2023-04-10,refunded,2449.26,5.0,false,2021-08-14,Senegal,gold,hdavis@example.com,I000001756,P0043,3,354.74,home_garden,2326.797,false
+O0000598,R000120,2024-02-08,arrived_late,1888.37,C00209,2023-04-10,refunded,2449.26,5.0,false,2021-08-14,Senegal,gold,hdavis@example.com,I000001755,P0165,6,99.72,food_drink,2326.797,false
+O0000598,R000120,2024-02-08,arrived_late,1888.37,C00209,2023-04-10,refunded,2449.26,5.0,false,2021-08-14,Senegal,gold,hdavis@example.com,I000001758,P0295,8,62.95,home_garden,2326.797,false
+O0000952,R000073,2023-05-09,defective,732.12,C00471,2022-08-05,cancelled,1617.89,20.0,false,2018-06-10,Senegal,silver,sue78@example.com,I000002834,P0169,7,190.22,beauty,1294.3120000000001,false
+O0000952,R000073,2023-05-09,defective,732.12,C00471,2022-08-05,cancelled,1617.89,20.0,false,2018-06-10,Senegal,silver,sue78@example.com,I000002835,P0275,8,325.9,sports,1294.3120000000001,false
+O0000952,R000073,2023-05-09,defective,732.12,C00471,2022-08-05,cancelled,1617.89,20.0,false,2018-06-10,Senegal,silver,sue78@example.com,I000002836,P0418,7,301.0,books,1294.3120000000001,false
+O0001450,R000207,2024-07-10,not_as_described,511.16,C00093,2022-05-24,refunded,1530.68,25.0,false,2023-03-06,Kenya,bronze,michael86@example.net,I000004244,P0252,9,367.04,electronics,1148.01,false
+O0000646,R000185,2024-05-11,duplicate_order,28.89,C00367,2023-10-14,cancelled,29.11,0.0,false,2019-02-25,Uganda,gold,bwilkerson@example.com,I000001907,P0285,4,230.44,beauty,29.11,false
+O_MISSING_00003,R_GHOST_00004,2024-04-13,arrived_late,466.29,,,,,,,,,,,,,,,,,false
+O0000459,R000071,2022-03-19,defective,638.26,C00011,2022-08-07,shipped,1640.74,10.0,false,2020-08-11,Rwanda,gold,smiller@example.net,I000001355,P0056,2,438.25,clothing,1476.666,false
+O0000945,R000093,2022-06-17,arrived_late,2122.18,C00091,2022-12-18,shipped,2274.26,10.0,false,2018-04-07,Rwanda,bronze,lori33@example.org,I000002807,P0077,4,381.58,,2046.8340000000003,true
+O0000945,R000093,2022-06-17,arrived_late,2122.18,C00091,2022-12-18,shipped,2274.26,10.0,false,2018-04-07,Rwanda,bronze,lori33@example.org,I000002810,P0343,2,364.1,sports,2046.8340000000003,true
+O0000945,R000093,2022-06-17,arrived_late,2122.18,C00091,2022-12-18,shipped,2274.26,10.0,false,2018-04-07,Rwanda,bronze,lori33@example.org,I000002808,P0278,8,265.18,home_garden,2046.8340000000003,true
+O0000945,R000093,2022-06-17,arrived_late,2122.18,C00091,2022-12-18,shipped,2274.26,10.0,false,2018-04-07,Rwanda,bronze,lori33@example.org,I000002809,P0465,5,372.17,food_drink,2046.8340000000003,true
+O0000765,R000285,2022-08-03,not_as_described,1733.01,C00298,2022-06-06,cancelled,2433.52,10.0,false,2023-02-17,Ethiopia,silver,ericolson@example.org,I000002255,P0444,3,444.19,clothing,2190.168,false
+O0000765,R000285,2022-08-03,not_as_described,1733.01,C00298,2022-06-06,cancelled,2433.52,10.0,false,2023-02-17,Ethiopia,silver,ericolson@example.org,I000002253,P0410,1,62.67,clothing,2190.168,false
+O0000765,R000285,2022-08-03,not_as_described,1733.01,C00298,2022-06-06,cancelled,2433.52,10.0,false,2023-02-17,Ethiopia,silver,ericolson@example.org,I000002254,P0175,3,41.77,toys,2190.168,false
+O0000563,R000143,2023-11-16,wrong_item,655.29,C00244,2024-01-17,refunded,874.52,25.0,false,2019-09-26,South Africa,gold,lozanojulie@example.com,I000001660,P0483,9,403.78,beauty,655.89,false
+O0000563,R000143,2023-11-16,wrong_item,655.29,C00244,2024-01-17,refunded,874.52,25.0,false,2019-09-26,South Africa,gold,lozanojulie@example.com,I000001659,P0083,3,244.11,beauty,655.89,false
+O0000563,R000143,2023-11-16,wrong_item,655.29,C00244,2024-01-17,refunded,874.52,25.0,false,2019-09-26,South Africa,gold,lozanojulie@example.com,I000001658,P0219,4,115.91,home_garden,655.89,false
+O0000563,R000143,2023-11-16,wrong_item,655.29,C00244,2024-01-17,refunded,874.52,25.0,false,2019-09-26,South Africa,gold,lozanojulie@example.com,I000001661,P0478,1,147.02,toys,655.89,false

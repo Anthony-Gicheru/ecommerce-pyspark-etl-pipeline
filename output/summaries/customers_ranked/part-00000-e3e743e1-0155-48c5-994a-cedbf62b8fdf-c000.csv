@@ -1,0 +1,493 @@
+customer_id,email,country,lifetime_net_spend,country_spend_rank
+C00132,meadowsbrittany@example.net,Egypt,27632.084999999995,1
+C00457,ghernandez@example.org,Egypt,21163.8495,2
+C00407,raymond43@example.org,Egypt,19726.252000000004,3
+C00266,rcrosby@example.org,Egypt,19382.347499999996,4
+C00296,uparrish@example.org,Egypt,17075.107500000006,5
+C00329,thompsonkendra@example.com,Egypt,16979.730000000003,6
+C00388,baldwinsherry@example.org,Egypt,16965.578,7
+C00408,fitzgeraldvictor@example.com,Egypt,16303.122499999998,8
+C00343,michaelhardin@example.com,Egypt,16081.872500000001,9
+C00057,ntucker@example.com,Egypt,15759.2075,10
+C00405,erikarush@example.com,Egypt,14551.555,11
+C00260,tblankenship@example.net,Egypt,14405.171999999999,12
+C00003,garzaanthony@example.org,Egypt,13906.295000000002,13
+C00450,hudsonjames@example.net,Egypt,13834.289,14
+C00363,moniquewilliams@example.com,Egypt,13816.352,15
+C00466,armstrongjackie@example.org,Egypt,13512.980000000001,16
+C00324,zwarren@example.com,Egypt,13403.510000000002,17
+C00191,mkim@example.org,Egypt,12368.0295,18
+C00164,kevinperkins@example.com,Egypt,11860.286,19
+C00182,andreamoore@example.com,Egypt,11667.692499999997,20
+C00481,derrick99@example.org,Egypt,11528.779999999999,21
+C00317,vincentwhitaker@example.com,Egypt,10693.027500000004,22
+C00308,moorekaren@example.org,Egypt,10514.918,23
+C00366,mariahdavis@example.org,Egypt,10228.550000000001,24
+C00347,mathewaguilar@example.org,Egypt,9947.744999999999,25
+C00058,martinaaron@example.com,Egypt,9245.297999999997,26
+C00194,keyemily@example.com,Egypt,8929.68,27
+C00467,alexanderrobert@example.com,Egypt,8746.233,28
+C00060,,Egypt,8550.999,29
+C00030,amoore@example.net,Egypt,8204.422,30
+C00139,jamessmith@example.org,Egypt,7905.365499999999,31
+C00123,patrickhernandez@example.org,Egypt,7839.99,32
+C00333,harrisoncrystal@example.com,Egypt,7580.658,33
+C00019,lydiatrujillo@example.com,Egypt,7255.421999999999,34
+C00118,juliawells@example.com,Egypt,6484.221499999998,35
+C00167,griffithleslie@example.net,Egypt,5764.198,36
+C00144,lanesarah@example.net,Egypt,5710.860000000001,37
+C00032,meagan89@example.org,Egypt,5220.8240000000005,38
+C00201,gibsonleonard@example.com,Egypt,5194.168,39
+C00384,ingramjill@example.com,Egypt,5083.35,40
+C00026,laurahenderson@example.org,Egypt,4917.111500000001,41
+C00243,andrew64@example.org,Egypt,4782.024,42
+C00316,ythompson@example.net,Egypt,4775.9655,43
+C00268,pollardmichael@example.net,Egypt,4761.920000000001,44
+C00355,stanleynancy@example.net,Egypt,4141.934999999999,45
+C00470,,Egypt,3284.4220000000005,46
+C00476,ann44@example.org,Egypt,2676.8500000000004,47
+C00109,dylanwilliams@example.com,Egypt,2438.05,48
+C00283,gsimmons@example.com,Egypt,1810.7569999999998,49
+C00160,blackjames@example.org,Egypt,1562.463,50
+C00240,danielle64@example.com,Egypt,1233.64,51
+C00335,xjohnson@example.com,Egypt,-1088.8,52
+C00126,gateskathy@example.com,Egypt,-2648.0840000000003,53
+C00033,nathanielmartin@example.net,Egypt,,54
+C00274,ramireztracey@example.org,Egypt,,54
+C00162,fbrewer@example.com,Ethiopia,34440.216,1
+C00111,jennifercruz@example.com,Ethiopia,32659.1635,2
+C00346,cody64@example.com,Ethiopia,29497.016500000005,3
+C00437,larryhiggins@example.net,Ethiopia,26151.020499999995,4
+C00080,barnold@example.net,Ethiopia,23553.2945,5
+C00192,mnavarro@example.com,Ethiopia,22552.9575,6
+C00415,davidharris@example.org,Ethiopia,20812.837499999998,7
+C00483,briangutierrez@example.net,Ethiopia,19793.337999999992,8
+C00098,michaeljones@example.net,Ethiopia,19537.21,9
+C00113,zrobinson@example.net,Ethiopia,19372.704999999998,10
+C00339,marcalvarez@example.org,Ethiopia,19147.543,11
+C00271,williamsmatthew@example.org,Ethiopia,18180.044000000005,12
+C00163,davisjeffrey@example.net,Ethiopia,17878.902500000004,13
+C00372,awest@example.org,Ethiopia,17872.639,14
+C00391,mullinsjames@example.com,Ethiopia,17762.847999999994,15
+C00298,ericolson@example.org,Ethiopia,17479.358999999997,16
+C00088,kimberly63@example.com,Ethiopia,16914.8735,17
+C00238,nolansteven@example.com,Ethiopia,16864.874499999998,18
+C00290,maria66@example.net,Ethiopia,16309.666000000005,19
+C00250,ithompson@example.net,Ethiopia,16036.706000000006,20
+C00464,silvageorge@example.net,Ethiopia,15036.589000000004,21
+C00342,hritter@example.net,Ethiopia,14808.287500000004,22
+C00486,edelgado@example.com,Ethiopia,13846.065000000002,23
+C00100,elizabeth56@example.net,Ethiopia,13613.933,24
+C00018,gabriellecameron@example.org,Ethiopia,13233.73,25
+C00487,katelynmitchell@example.com,Ethiopia,12888.122,26
+C00251,alyssa42@example.com,Ethiopia,12833.784000000001,27
+C00440,gwright@example.org,Ethiopia,12544.380000000001,28
+C00328,jonathanthompson@example.org,Ethiopia,11995.958,29
+C00302,anthony44@example.com,Ethiopia,11091.389000000005,30
+C00055,williamsyvette@example.org,Ethiopia,8727.0445,31
+C00152,ryangross@example.net,Ethiopia,8279.794,32
+C00125,abrown@example.com,Ethiopia,7799.871,33
+C00420,martinezlogan@example.org,Ethiopia,7228.4130000000005,34
+C00204,lopezmichael@example.com,Ethiopia,6728.500499999999,35
+C00484,xgarcia@example.org,Ethiopia,6637.8855,36
+C00348,kyle62@example.net,Ethiopia,6092.412499999999,37
+C00102,lbyrd@example.net,Ethiopia,5727.1635,38
+C00039,josephbrennan@example.com,Ethiopia,5587.848,39
+C00430,megan90@example.org,Ethiopia,4292.4825,40
+C00090,dwalker@example.com,Ethiopia,4209.3515,41
+C00161,wfreeman@example.org,Ethiopia,3880.9949999999994,42
+C00434,timothy64@example.com,Ethiopia,3795.998,43
+C00491,lfrench@example.net,Ethiopia,3420.099,44
+C00146,vargasmaria@example.org,Ethiopia,3130.341,45
+C00065,kwilson@example.org,Ethiopia,2803.414,46
+C00035,natasha43@example.org,Ethiopia,1956.0420000000001,47
+C00226,charlesharrington@example.com,Ethiopia,546.096,48
+C00297,caroline51@example.net,Ethiopia,-6396.54,49
+C00287,bwagner@example.org,Ghana,51246.25300000001,1
+C00170,harry08@example.org,Ghana,39565.61650000001,2
+C00254,michelleramsey@example.com,Ghana,34662.69749999999,3
+C00399,wwilliams@example.net,Ghana,29656.784999999996,4
+C00341,wagnergerald@example.org,Ghana,27903.6005,5
+C00071,sarahibarra@example.org,Ghana,25544.5435,6
+C00262,wendy11@example.org,Ghana,25435.515,7
+C00070,jonesjason@example.com,Ghana,23377.945500000005,8
+C00261,cwilson@example.org,Ghana,20663.110999999997,9
+C00472,erica49@example.com,Ghana,19626.494999999995,10
+C00212,jsanchez@example.org,Ghana,17915.364999999998,11
+C00085,gomezanita@example.com,Ghana,16935.558999999997,12
+C00179,michelle64@example.net,Ghana,16805.401,13
+C00473,susanramirez@example.com,Ghana,16146.190000000002,14
+C00177,,Ghana,14902.359000000002,15
+C00122,patricia12@example.org,Ghana,14251.870000000004,16
+C00195,hinesgregory@example.net,Ghana,14138.362499999997,17
+C00050,ujenkins@example.org,Ghana,13699.439999999999,18
+C00492,nancy04@example.net,Ghana,13231.834999999997,19
+C00029,kayla51@example.com,Ghana,12832.710000000001,20
+C00151,oyu@example.com,Ghana,12676.725999999999,21
+C00429,brittanycarpenter@example.org,Ghana,12550.524000000001,22
+C00446,jasongomez@example.org,Ghana,11024.939500000002,23
+C00196,lmoon@example.net,Ghana,10763.184,24
+C00154,lpetersen@example.com,Ghana,10661.318000000003,25
+C00488,velezchristopher@example.net,Ghana,10523.454499999998,26
+C00069,smithchristine@example.net,Ghana,10520.73,27
+C00277,alfred40@example.org,Ghana,10153.9505,28
+C00036,nataliearroyo@example.org,Ghana,9937.6475,29
+C00189,scott74@example.net,Ghana,9263.2125,30
+C00400,yhill@example.org,Ghana,8248.669999999998,31
+C00451,charles87@example.net,Ghana,8186.42,32
+C00336,newmantiffany@example.org,Ghana,7708.133999999999,33
+C00155,melissa14@example.com,Ghana,6881.122999999999,34
+C00044,briannasmith@example.net,Ghana,6622.506999999999,35
+C00247,courtneyberger@example.net,Ghana,4168.972,36
+C00198,vbailey@example.com,Ghana,3990.7279999999996,37
+C00205,nwolf@example.com,Ghana,3740.1575,38
+C00500,lopezdonald@example.com,Ghana,3602.542,39
+C00169,tina34@example.org,Ghana,2513.8899999999994,40
+C00360,mmckee@example.com,Ghana,173.42799999999966,41
+C00165,ronald85@example.com,Ghana,-2627.738,42
+C00345,mccormickdeborah@example.org,Ghana,-5277.430000000001,43
+C00031,teresa28@example.org,Kenya,35690.7175,1
+C00171,brandon08@example.com,Kenya,27136.475500000004,2
+C00233,nguyenbrian@example.com,Kenya,26789.355000000003,3
+C00133,millerroy@example.com,Kenya,22252.518000000004,4
+C00061,rileyamy@example.net,Kenya,21973.300000000007,5
+C00106,yleon@example.net,Kenya,19256.128,6
+C00378,kellysmith@example.com,Kenya,19202.676499999998,7
+C00206,sarakim@example.net,Kenya,17951.6225,8
+C00385,bradleypayne@example.net,Kenya,15745.916000000001,9
+C00095,benjamin96@example.com,Kenya,14533.220000000003,10
+C00181,josephmiller@example.org,Kenya,14320.758,11
+C00403,ejohnson@example.org,Kenya,13808.625000000002,12
+C00442,lisapeck@example.net,Kenya,13270.805000000002,13
+C00278,vfox@example.org,Kenya,13117.803,14
+C00074,sarah12@example.com,Kenya,12936.859999999993,15
+C00173,andrewstaylor@example.com,Kenya,12233.684500000003,16
+C00004,jesseguzman@example.net,Kenya,12190.9095,17
+C00394,terri77@example.com,Kenya,11913.261999999999,18
+C00127,wsmith@example.com,Kenya,11550.675000000007,19
+C00078,ccalderon@example.org,Kenya,11310.347500000002,20
+C00034,georgetracy@example.org,Kenya,11301.45,21
+C00374,srodriguez@example.org,Kenya,11101.329999999998,22
+C00456,,Kenya,11058.474999999999,23
+C00368,sandersnathaniel@example.com,Kenya,10995.791,24
+C00331,kmaldonado@example.net,Kenya,10458.858,25
+C00423,katrinaanderson@example.net,Kenya,10335.873499999998,26
+C00130,priceelizabeth@example.com,Kenya,10290.913499999999,27
+C00479,reedscott@example.com,Kenya,10110.310000000005,28
+C00293,daviscolin@example.net,Kenya,9976.7425,29
+C00497,alexisrogers@example.com,Kenya,9702.949999999999,30
+C00010,lindsay78@example.org,Kenya,9667.375000000002,31
+C00052,jamesherrera@example.org,Kenya,9070.179,32
+C00349,collinsnicholas@example.com,Kenya,8919.039999999999,33
+C00008,susanrogers@example.org,Kenya,8131.109,34
+C00418,jonesraymond@example.net,Kenya,6461.3355,35
+C00025,camposmichelle@example.org,Kenya,6426.4259999999995,36
+C00257,brenda51@example.net,Kenya,6343.762000000001,37
+C00478,kellyroberts@example.net,Kenya,6256.057500000001,38
+C00084,nolanjason@example.org,Kenya,6188.0315,39
+C00499,frobertson@example.com,Kenya,5771.850000000001,40
+C00184,halljasmine@example.net,Kenya,5489.156000000001,41
+C00409,greenjorge@example.com,Kenya,5309.253000000001,42
+C00463,tammy99@example.org,Kenya,4302.942,43
+C00396,amymorris@example.org,Kenya,4215.691999999999,44
+C00264,umatthews@example.org,Kenya,3884.161,45
+C00489,amandasharp@example.org,Kenya,3842.7300000000005,46
+C00289,russellbeasley@example.com,Kenya,3811.6224999999995,47
+C00208,jennifercollins@example.org,Kenya,3726.6800000000003,48
+C00093,michael86@example.net,Kenya,3282.3024999999993,49
+C00404,michael90@example.net,Kenya,3111.400000000001,50
+C00281,acostaregina@example.net,Kenya,1408.8315000000002,51
+C00101,angela36@example.net,Kenya,270.195,52
+C00007,helenpeterson@example.org,Kenya,-2024.8535000000002,53
+C00048,esanchez@example.com,Kenya,-2786.3585000000007,54
+C00496,francisco74@example.net,Nigeria,42903.244,1
+C00495,znelson@example.org,Nigeria,30446.907999999996,2
+C00157,frogers@example.com,Nigeria,29608.301999999996,3
+C00370,lacey20@example.com,Nigeria,28927.026000000005,4
+C00232,wallaceheather@example.org,Nigeria,25534.1635,5
+C00273,lisahall@example.org,Nigeria,24270.850500000004,6
+C00021,pfoster@example.com,Nigeria,21423.450500000003,7
+C00056,housemelinda@example.org,Nigeria,20062.642499999998,8
+C00311,reeddaniel@example.net,Nigeria,18814.212000000003,9
+C00235,georgemiller@example.com,Nigeria,18562.0445,10
+C00224,molly71@example.net,Nigeria,18123.195,11
+C00303,adam29@example.net,Nigeria,17383.487000000005,12
+C00300,lindsaybruce@example.net,Nigeria,16315.141,13
+C00314,kevinclark@example.org,Nigeria,15780.5825,14
+C00406,khines@example.org,Nigeria,15739.827500000001,15
+C00312,trose@example.org,Nigeria,15477.545500000002,16
+C00410,wendymitchell@example.com,Nigeria,14711.419500000002,17
+C00215,sarah84@example.org,Nigeria,12611.118499999999,18
+C00105,steven73@example.net,Nigeria,12603.590500000002,19
+C00444,tjimenez@example.com,Nigeria,12213.115,20
+C00252,scoffey@example.net,Nigeria,12204.621,21
+C00216,jessica99@example.net,Nigeria,11887.658,22
+C00265,fpena@example.net,Nigeria,11758.193,23
+C00431,williamsdarlene@example.net,Nigeria,10723.579999999998,24
+C00193,davissuzanne@example.net,Nigeria,10066.9,25
+C00313,randallgreene@example.org,Nigeria,8918.986499999999,26
+C00352,coxhenry@example.org,Nigeria,8759.521999999999,27
+C00393,samuel67@example.com,Nigeria,8330.179999999998,28
+C00079,kellie42@example.net,Nigeria,8126.267,29
+C00217,cgrimes@example.net,Nigeria,7886.943499999998,30
+C00124,perrymark@example.com,Nigeria,7430.9185,31
+C00326,schmidtjames@example.com,Nigeria,7085.1225,32
+C00234,ryan38@example.com,Nigeria,7032.5999999999985,33
+C00443,james27@example.net,Nigeria,6498.696999999999,34
+C00279,xwest@example.net,Nigeria,6445.9000000000015,35
+C00045,perezrebecca@example.com,Nigeria,5929.030000000001,36
+C00112,dylanwatts@example.org,Nigeria,5853.204,37
+C00249,jessica14@example.com,Nigeria,5612.6,38
+C00049,clintonhopkins@example.com,Nigeria,4856.152,39
+C00432,debra96@example.net,Nigeria,4430.197499999999,40
+C00447,troy74@example.net,Nigeria,3324.939999999999,41
+C00270,ndavis@example.net,Nigeria,2827.236,42
+C00040,sarahcampos@example.net,Nigeria,2449.14,43
+C00099,cindy14@example.net,Nigeria,933.0840000000001,44
+C00117,jrivas@example.com,Nigeria,50.56000000000001,45
+C00453,theresalong@example.com,Nigeria,,46
+C00009,wdavis@example.net,Nigeria,,46
+C00046,palmerjoshua@example.com,Nigeria,,46
+C00063,brianromero@example.org,Rwanda,31093.854000000003,1
+C00307,jennifer99@example.org,Rwanda,27033.212999999996,2
+C00413,elizabeth18@example.net,Rwanda,26892.297500000004,3
+C00398,cjackson@example.com,Rwanda,26451.375000000004,4
+C00143,stricklandfrank@example.com,Rwanda,24384.904000000002,5
+C00202,cordovarichard@example.net,Rwanda,23371.958000000002,6
+C00422,nataliedeleon@example.net,Rwanda,22709.714,7
+C00383,kellycarlos@example.org,Rwanda,22159.502999999997,8
+C00114,pwilliams@example.org,Rwanda,22119.8265,9
+C00371,ihorton@example.net,Rwanda,20621.011,10
+C00245,catherinegomez@example.net,Rwanda,19159.993500000004,11
+C00158,tonykelly@example.com,Rwanda,18507.101500000008,12
+C00067,sarah35@example.org,Rwanda,17740.864999999998,13
+C00149,amanda51@example.net,Rwanda,17084.968000000004,14
+C00376,fbrown@example.net,Rwanda,16973.296,15
+C00433,,Rwanda,16370.255999999998,16
+C00255,christopher60@example.com,Rwanda,15833.004,17
+C00285,cameronhill@example.net,Rwanda,15145.767999999996,18
+C00091,lori33@example.org,Rwanda,14856.673499999999,19
+C00066,harveyrobert@example.net,Rwanda,14738.361499999995,20
+C00042,samuel87@example.org,Rwanda,13730.851999999999,21
+C00426,stacey84@example.org,Rwanda,13329.445000000003,22
+C00340,hayeslisa@example.com,Rwanda,12410.788499999999,23
+C00425,fernandodonovan@example.org,Rwanda,11790.434999999996,24
+C00498,gregorychase@example.com,Rwanda,11323.869999999999,25
+C00077,william40@example.org,Rwanda,11282.853500000001,26
+C00441,sonia96@example.org,Rwanda,11067.639500000005,27
+C00178,kimberlyjames@example.com,Rwanda,11032.322,28
+C00041,jenniferross@example.net,Rwanda,10890.655999999999,29
+C00150,alexander67@example.org,Rwanda,10705.218499999999,30
+C00282,stephen00@example.com,Rwanda,10459.937500000002,31
+C00390,zachary87@example.com,Rwanda,9506.53,32
+C00214,michellehill@example.com,Rwanda,8518.150000000001,33
+C00286,oscar98@example.com,Rwanda,8501.77,34
+C00168,jamesrodgers@example.com,Rwanda,8469.091,35
+C00227,cindy61@example.com,Rwanda,7813.658,36
+C00005,jennifermiles@example.com,Rwanda,7461.1355,37
+C00059,sara74@example.com,Rwanda,6551.583000000001,38
+C00073,cheryl80@example.net,Rwanda,6428.2080000000005,39
+C00156,karenhudson@example.net,Rwanda,5930.164999999999,40
+C00461,richardsonemily@example.com,Rwanda,5461.5245,41
+C00258,thomasharvey@example.net,Rwanda,5316.5599999999995,42
+C00445,davisphillip@example.com,Rwanda,4973.04,43
+C00207,omartinez@example.net,Rwanda,4913.011,44
+C00219,ugibson@example.org,Rwanda,4892.9000000000015,45
+C00299,megan51@example.com,Rwanda,4820.721,46
+C00089,kristinrodriguez@example.org,Rwanda,2732.96,47
+C00011,smiller@example.net,Rwanda,1834.536,48
+C00017,frankgray@example.net,Rwanda,1229.208,49
+C00185,ojones@example.com,Rwanda,226.98,50
+C00083,russellwilliams@example.com,Rwanda,-3995.1319999999987,51
+C00053,,Senegal,32870.5935,1
+C00121,reevesjimmy@example.com,Senegal,27887.37999999999,2
+C00493,hebertmatthew@example.com,Senegal,27442.175000000003,3
+C00199,hodgemark@example.net,Senegal,22766.144000000004,4
+C00253,linda71@example.org,Senegal,22504.588499999998,5
+C00200,zroberts@example.net,Senegal,19711.1675,6
+C00482,brentstein@example.org,Senegal,19053.403,7
+C00334,bellcharles@example.com,Senegal,17520.791500000003,8
+C00023,julie69@example.com,Senegal,16437.574,9
+C00190,gbender@example.net,Senegal,15929.370499999999,10
+C00081,rodriguezsierra@example.net,Senegal,15419.5045,11
+C00435,barkereric@example.com,Senegal,14732.489000000001,12
+C00094,,Senegal,13599.251,13
+C00379,ashleylopez@example.net,Senegal,13402.21,14
+C00315,keith10@example.com,Senegal,13109.658999999998,15
+C00356,carlamoore@example.org,Senegal,12918.330999999998,16
+C00455,cporter@example.org,Senegal,11294.256000000001,17
+C00087,nicolejohnson@example.net,Senegal,11290.698,18
+C00358,tarabishop@example.net,Senegal,10667.959999999997,19
+C00137,ismith@example.org,Senegal,10072.799500000001,20
+C00291,edwardslarry@example.com,Senegal,9682.75,21
+C00209,hdavis@example.com,Senegal,9307.188,22
+C00304,vjones@example.net,Senegal,8758.597,23
+C00471,sue78@example.com,Senegal,8558.292000000001,24
+C00134,brentgray@example.org,Senegal,8162.1314999999995,25
+C00229,cbrennan@example.net,Senegal,8151.5115,26
+C00460,terickson@example.com,Senegal,7887.276,27
+C00220,ashleyhall@example.com,Senegal,6279.77,28
+C00062,brian97@example.net,Senegal,6220.935,29
+C00022,josephwright@example.net,Senegal,5601.272000000001,30
+C00417,tanner82@example.net,Senegal,5219.32,31
+C00412,rachelwallace@example.org,Senegal,4953.312000000001,32
+C00213,mlee@example.net,Senegal,4923.936000000002,33
+C00108,clarence34@example.org,Senegal,4861.7925,34
+C00096,samuel81@example.com,Senegal,4749.989,35
+C00051,brownjessica@example.org,Senegal,3995.8239999999996,36
+C00439,floressteven@example.com,Senegal,3806.916,37
+C00292,,Senegal,3298.395,38
+C00141,stevenscott@example.com,Senegal,2924.9444999999996,39
+C00197,fwalters@example.org,Senegal,2831.28,40
+C00187,rebekahserrano@example.org,Senegal,2463.48,41
+C00475,hannahburns@example.com,Senegal,2166.8999999999996,42
+C00016,lynchgeorge@example.net,Senegal,1985.5620000000001,43
+C00325,jeffrey21@example.net,Senegal,1446.6,44
+C00288,farrelldebra@example.net,Senegal,1378.44,45
+C00436,vmarshall@example.net,Senegal,377.65,46
+C00188,martinkyle@example.net,Senegal,252.9459999999999,47
+C00068,randy47@example.com,Senegal,244.60399999999981,48
+C00480,ilewis@example.com,Senegal,-9831.6,49
+C00129,tracynelson@example.com,Senegal,,50
+C00468,roberthampton@example.com,South Africa,36965.558,1
+C00462,laura09@example.com,South Africa,36387.199499999995,2
+C00166,qnelson@example.org,South Africa,33623.58849999999,3
+C00284,fjones@example.com,South Africa,25564.708499999993,4
+C00361,smurray@example.com,South Africa,24669.08,5
+C00054,ramosmichelle@example.net,South Africa,22563.0025,6
+C00242,patrickhoward@example.com,South Africa,22183.458499999993,7
+C00256,gibsonemily@example.net,South Africa,19363.721,8
+C00223,tylerjohnson@example.net,South Africa,19230.614,9
+C00351,lucasrodney@example.com,South Africa,18853.06,10
+C00038,davidalvarez@example.net,South Africa,18517.211499999994,11
+C00449,kathryn50@example.com,South Africa,18316.0305,12
+C00421,howens@example.com,South Africa,16424.3975,13
+C00037,wcabrera@example.net,South Africa,15721.086000000003,14
+C00172,danamullins@example.org,South Africa,15366.682500000003,15
+C00485,oconnelltiffany@example.org,South Africa,14035.233499999998,16
+C00306,kchavez@example.com,South Africa,13993.2795,17
+C00115,danderson@example.net,South Africa,13589.525499999998,18
+C00330,wwebster@example.net,South Africa,13523.792000000001,19
+C00321,zroberts@example.org,South Africa,13063.826,20
+C00323,christopher13@example.com,South Africa,12696.952999999998,21
+C00183,enorris@example.com,South Africa,11951.9175,22
+C00176,hernandezlisa@example.com,South Africa,11832.246500000001,23
+C00392,glennmartin@example.org,South Africa,11594.410000000002,24
+C00338,colelisa@example.net,South Africa,11567.660000000002,25
+C00082,amydavenport@example.net,South Africa,11488.048999999999,26
+C00237,dlittle@example.com,South Africa,10796.337500000001,27
+C00211,william46@example.com,South Africa,9731.26,28
+C00365,christopher24@example.com,South Africa,9110.806,29
+C00140,davidcaldwell@example.net,South Africa,9070.800000000001,30
+C00416,kristyjohnson@example.net,South Africa,8428.661499999998,31
+C00490,robertmonroe@example.org,South Africa,8241.826999999997,32
+C00362,mburch@example.net,South Africa,8098.318000000001,33
+C00294,,South Africa,6992.096000000001,34
+C00474,shellyhendrix@example.com,South Africa,6748.6990000000005,35
+C00375,david36@example.net,South Africa,6484.648,36
+C00397,donna47@example.net,South Africa,5710.938000000001,37
+C00382,qzavala@example.net,South Africa,5680.734,38
+C00064,larsonemma@example.org,South Africa,5655.1050000000005,39
+C00322,george97@example.net,South Africa,5603.467,40
+C00244,lozanojulie@example.com,South Africa,5491.44,41
+C00327,jessica23@example.org,South Africa,5225.160000000001,42
+C00369,brooksanthony@example.org,South Africa,4732.0595,43
+C00459,brittney88@example.net,South Africa,4500.825,44
+C00310,nperry@example.net,South Africa,4486.4000000000015,45
+C00387,zwelch@example.org,South Africa,3904.1399999999994,46
+C00458,sarah52@example.com,South Africa,3851.91,47
+C00241,james67@example.org,South Africa,3827.2200000000003,48
+C00386,mariacohen@example.net,South Africa,3724.5,49
+C00174,jack04@example.com,South Africa,3627.7839999999997,50
+C00147,terrykevin@example.net,South Africa,2894.997,51
+C00248,parkerscott@example.net,South Africa,2810.1279999999997,52
+C00377,chenbailey@example.net,South Africa,2312.84,53
+C00104,russellcarpenter@example.net,South Africa,2175.467,54
+C00203,sandovalamy@example.com,South Africa,1991.3709999999996,55
+C00263,paulwatson@example.net,South Africa,1419.9740000000002,56
+C00043,jeffreymorgan@example.net,South Africa,329.8399999999999,57
+C00092,raymondramirez@example.org,Tanzania,34665.932499999995,1
+C00128,acastaneda@example.net,Tanzania,30179.81799999999,2
+C00269,bruce43@example.org,Tanzania,25755.967999999993,3
+C00494,ismall@example.net,Tanzania,24252.524999999994,4
+C00014,jamesshawn@example.com,Tanzania,22784.754500000003,5
+C00159,joshua94@example.net,Tanzania,22324.857,6
+C00448,booneryan@example.com,Tanzania,20592.654999999995,7
+C00103,richard04@example.com,Tanzania,19316.51,8
+C00086,sarayoung@example.org,Tanzania,17596.7595,9
+C00097,jonathanfletcher@example.org,Tanzania,16005.738000000001,10
+C00239,charleslandry@example.net,Tanzania,14953.242500000006,11
+C00364,angela18@example.org,Tanzania,14939.848999999998,12
+C00210,hollanderic@example.net,Tanzania,14568.097499999998,13
+C00107,donnacampbell@example.net,Tanzania,12975.796,14
+C00136,karen64@example.org,Tanzania,12734.771,15
+C00353,stacey73@example.org,Tanzania,12698.085000000003,16
+C00319,stevenschristian@example.com,Tanzania,12366.18,17
+C00231,juliehamilton@example.org,Tanzania,12090.487500000001,18
+C00145,tsanders@example.org,Tanzania,11996.529999999999,19
+C00380,millsmichael@example.net,Tanzania,11841.364,20
+C00280,hayesjeffrey@example.net,Tanzania,11195.9175,21
+C00175,shortrichard@example.org,Tanzania,11013.557,22
+C00267,jeff73@example.com,Tanzania,11006.109,23
+C00259,rose31@example.net,Tanzania,10917.858000000002,24
+C00218,jreed@example.net,Tanzania,10446.554999999998,25
+C00275,lauren10@example.org,Tanzania,9967.117999999999,26
+C00350,elizabethcalderon@example.net,Tanzania,9964.1745,27
+C00419,xfox@example.com,Tanzania,8757.08,28
+C00276,howardkristina@example.net,Tanzania,6095.8910000000005,29
+C00148,hoganashlee@example.org,Tanzania,5974.17,30
+C00424,guerraapril@example.com,Tanzania,5810.292,31
+C00401,lambertrichard@example.net,Tanzania,5772.639999999999,32
+C00337,jford@example.net,Tanzania,5498.469,33
+C00131,,Tanzania,4099.583500000001,34
+C00110,gibsonolivia@example.net,Tanzania,3912.3019999999997,35
+C00320,tberry@example.net,Tanzania,3662.1099999999997,36
+C00357,jenniferwilliams@example.com,Tanzania,3222.2099999999996,37
+C00246,christinebyrd@example.net,Tanzania,2989.0589999999997,38
+C00221,floresthomas@example.com,Tanzania,2094.385,39
+C00153,christina87@example.com,Tanzania,1645.98,40
+C00411,davidfarrell@example.com,Tanzania,338.75,41
+C00469,thorntonapril@example.net,Uganda,34475.1065,1
+C00015,mitchellclark@example.com,Uganda,21850.892499999998,2
+C00225,jsmith@example.com,Uganda,20526.692500000005,3
+C00228,ofinley@example.net,Uganda,20512.929999999997,4
+C00381,myerstheodore@example.net,Uganda,19452.432,5
+C00359,pyoung@example.com,Uganda,19169.647500000003,6
+C00230,younggabrielle@example.com,Uganda,18963.742000000006,7
+C00454,kari39@example.net,Uganda,16011.502,8
+C00072,justin78@example.net,Uganda,14738.564500000004,9
+C00354,ericphillips@example.org,Uganda,14409.95,10
+C00024,jeffrey28@example.com,Uganda,13446.597,11
+C00142,catherinestuart@example.net,Uganda,13207.374999999998,12
+C00367,bwilkerson@example.com,Uganda,12764.863500000001,13
+C00414,patricia22@example.com,Uganda,11658.265999999998,14
+C00236,tyleraguilar@example.org,Uganda,11657.19599999999,15
+C00373,scottmary@example.net,Uganda,10489.325,16
+C00020,carl95@example.org,Uganda,10367.581500000004,17
+C00318,sandersjudy@example.com,Uganda,10253.539999999997,18
+C00028,tasha01@example.net,Uganda,10147.27,19
+C00309,nelsonebony@example.com,Uganda,9961.25,20
+C00180,lynchjody@example.org,Uganda,9471.488000000001,21
+C00295,elizabeth65@example.net,Uganda,8934.58,22
+C00477,zhuang@example.com,Uganda,7687.2525,23
+C00465,rhernandez@example.org,Uganda,7401.978000000001,24
+C00076,juan35@example.org,Uganda,6944.973999999999,25
+C00428,christina18@example.net,Uganda,6889.2475,26
+C00438,theresa25@example.net,Uganda,6807.964,27
+C00120,rsims@example.com,Uganda,6599.96,28
+C00006,shaneramirez@example.org,Uganda,6566.832,29
+C00301,lynchdiane@example.net,Uganda,6543.18,30
+C00402,stephaniethomas@example.net,Uganda,6206.34,31
+C00344,rschroeder@example.net,Uganda,5807.68,32
+C00135,wmurphy@example.com,Uganda,5724.372,33
+C00012,barbara10@example.net,Uganda,5085.1485,34
+C00119,maryramirez@example.net,Uganda,4806.0525,35
+C00186,ronaldstephens@example.net,Uganda,4492.980000000001,36
+C00013,kendragalloway@example.org,Uganda,4319.112499999999,37
+C00427,james84@example.org,Uganda,4293.4125,38
+C00222,ymcneil@example.net,Uganda,3424.5300000000007,39
+C00116,stephanie79@example.net,Uganda,3034.64,40
+C00389,james30@example.com,Uganda,2791.768,41
+C00002,jillrhodes@example.net,Uganda,2717.8904999999995,42
+C00001,johnsonjoshua@example.org,Uganda,2209.204,43
+C00332,michelle52@example.com,Uganda,1669.6240000000003,44
