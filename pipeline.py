@@ -307,6 +307,172 @@ enriched_orders_df = (
     )
 )
 
+# 4. aggregations and window functions
+
+# 1. Customers ranked by lifetime net spend within each country
+
+customer_lifetime_spend_df = (
+    enriched_orders_df
+    .groupBy("customer_id", "email", "country")
+    .agg(F.sum("net_amount").alias("lifetime_net_spend"))
+)
+
+country_rank_window = (
+    Window
+    .partitionBy("country")
+    .orderBy(F.col("lifetime_net_spend").desc())
+)
+
+customers_ranked_df = (
+    customer_lifetime_spend_df
+    .withColumn("country_spend_rank", F.rank().over(country_rank_window))
+)
+
+
+# 2. Seven-day rolling order count per customer
+
+orders_with_timestamp_df = (
+    orders_clean_df
+    .withColumn(
+        "order_timestamp",
+        F.col("order_date").cast("timestamp").cast("long")
+    )
+)
+
+seven_days_in_seconds = 7 * 24 * 60 * 60
+
+rolling_window = (
+    Window
+    .partitionBy("customer_id")
+    .orderBy("order_timestamp")
+    .rangeBetween(-seven_days_in_seconds, 0)
+)
+
+rolling_order_count_df = (
+    orders_with_timestamp_df
+    .withColumn(
+        "rolling_7_day_order_count",
+        F.count("order_id").over(rolling_window)
+    )
+    .select(
+        "customer_id",
+        "order_id",
+        "order_date",
+        "rolling_7_day_order_count"
+    )
+)
+
+
+# 3. Product category share of total revenue per calendar month
+
+enriched_orders_with_month_df = (
+    enriched_orders_df
+    .withColumn("order_year", F.year("order_date"))
+    .withColumn("order_month", F.month("order_date"))
+)
+
+monthly_category_revenue_df = (
+    enriched_orders_with_month_df
+    .groupBy("order_year", "order_month", "category")
+    .agg(F.sum("net_amount").alias("category_revenue"))
+)
+
+monthly_revenue_window = (
+    Window
+    .partitionBy("order_year", "order_month")
+)
+
+category_revenue_share_df = (
+    monthly_category_revenue_df
+    .withColumn(
+        "monthly_total_revenue",
+        F.sum("category_revenue").over(monthly_revenue_window)
+    )
+    .withColumn(
+        "category_revenue_share",
+        F.col("category_revenue") / F.col("monthly_total_revenue")
+    )
+)
+# 5. return analysis
+# Join returns to enriched orders and flag refund anomalies
+returns_enriched_df = (
+    returns_clean_df
+    .join(
+        enriched_orders_df,
+        on="order_id",
+        how="left"
+    )
+    .withColumn(
+        "refund_exceeds_order",
+        F.when(F.col("refund_amount") > F.col("net_amount"), True).otherwise(False)
+    )
+)
+
+# Return rate per category
+orders_per_category_df = (
+    enriched_orders_df
+    .groupBy("category")
+    .agg(F.countDistinct("order_id").alias("total_orders"))
+)
+
+returns_per_category_df = (
+    returns_enriched_df
+    .groupBy("category")
+    .agg(F.countDistinct("return_id").alias("total_returns"))
+)
+
+return_rate_by_category_df = (
+    orders_per_category_df
+    .join(
+        returns_per_category_df,
+        on="category",
+        how="left"
+    )
+    .fillna({"total_returns": 0})
+    .withColumn(
+        "return_rate",
+        F.col("total_returns") / F.col("total_orders")
+    )
+)
+
+# Return rate per customer tier
+orders_per_tier_df = (
+    enriched_orders_df
+    .groupBy("customer_tier")
+    .agg(F.countDistinct("order_id").alias("total_orders"))
+)
+
+returns_per_tier_df = (
+    returns_enriched_df
+    .groupBy("customer_tier")
+    .agg(F.countDistinct("return_id").alias("total_returns"))
+)
+
+return_rate_by_tier_df = (
+    orders_per_tier_df
+    .join(
+        returns_per_tier_df,
+        on="customer_tier",
+        how="left"
+    )
+    .fillna({"total_returns": 0})
+    .withColumn(
+        "return_rate",
+        F.col("total_returns") / F.col("total_orders")
+    )
+)
+
+# Top 10 customers by total refund amount
+top_10_refund_customers_df = (
+    returns_enriched_df
+    .groupBy("customer_id", "email", "country", "customer_tier")
+    .agg(F.sum("refund_amount").alias("total_refund_amount"))
+    .orderBy(F.col("total_refund_amount").desc())
+    .limit(10)
+)
+
+
+
 print("Clean orders:", orders_clean_df.count())
 print("Rejected orders:", rejected_orders_df.count())
 
@@ -322,6 +488,23 @@ print("Rejected returns:", rejected_returns_df.count())
 print("Orphaned order items:", orphaned_order_items_df.count())
 print("Enriched orders:", enriched_orders_df.count())
 
+print("Customer rankings:", customers_ranked_df.count())
+print("Rolling order count rows:", rolling_order_count_df.count())
+print("Category revenue share rows:", category_revenue_share_df.count())
+
+print("Returns enriched:", returns_enriched_df.count())
+print("Return rate by category rows:", return_rate_by_category_df.count())
+print("Return rate by tier rows:", return_rate_by_tier_df.count())
+print("Top refund customers:", top_10_refund_customers_df.count())
+
+returns_enriched_df.show(5)
+return_rate_by_category_df.show()
+return_rate_by_tier_df.show()
+top_10_refund_customers_df.show()
+
 enriched_orders_df.show(5)
+customers_ranked_df.show(5)
+rolling_order_count_df.show(5)
+category_revenue_share_df.show(5)
 
 spark.stop()
