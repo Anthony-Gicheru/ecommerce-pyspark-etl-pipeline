@@ -1,0 +1,5 @@
+pyspark==3.4.0
+pytest==8.2.0
+faker==24.14.0
+pandas==2.2.2
+numpy==1.26.4
