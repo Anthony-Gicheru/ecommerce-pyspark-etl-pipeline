@@ -235,7 +235,6 @@ returns_clean_casted_df = (
     )
 )
 
-
 # 2. data quality and cleaning
 
 # 1. Remove exact duplicates
@@ -275,6 +274,38 @@ returns_clean_df = (
     .filter(F.col("order_id").isNotNull())
 )
 
+# joins and enrichments
+# used anti-join to find orphaned records
+orphaned_order_items_df = (
+    order_items_clean_df
+    .join(
+        orders_clean_df.select("order_id").dropDuplicates(),
+        on="order_id",
+        how="left_anti"
+    )
+)
+# joined orders to customers
+orders_customers_df = (
+    orders_clean_df
+    .join(
+        customers_clean_df,
+        on="customer_id",
+        how="inner"
+    )
+)
+# used a left join to keep all valid orders even if matching item records are missing.
+enriched_orders_df = (
+    orders_customers_df
+    .join(
+        order_items_clean_df,
+        on="order_id",
+        how="left"
+    )
+    .withColumn(
+        "net_amount",
+        F.col("total_amount") * (1 - F.col("discount_pct") / 100)
+    )
+)
 
 print("Clean orders:", orders_clean_df.count())
 print("Rejected orders:", rejected_orders_df.count())
@@ -287,5 +318,10 @@ print("Rejected order items:", rejected_order_items_df.count())
 
 print("Clean returns:", returns_clean_df.count())
 print("Rejected returns:", rejected_returns_df.count())
+
+print("Orphaned order items:", orphaned_order_items_df.count())
+print("Enriched orders:", enriched_orders_df.count())
+
+enriched_orders_df.show(5)
 
 spark.stop()
